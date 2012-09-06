@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/threads/create.json?
+    body:
+      encoding: US-ASCII
+      string: forum=stipple&title=1346971439.4654331&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 06 Sep 2012 22:43:59 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:31698126
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469714394654331/latest.rss",
+        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346971439.4654331",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T22:43:59",
+        "slug": "13469714394654331", "isClosed": false, "posts": 0, "userSubscription":
+        false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
+        "833794655", "isDeleted": false}}'
+    http_version: '1.1'
+  recorded_at: Thu, 06 Sep 2012 22:44:00 GMT
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/posts/create.json?
+    body:
+      encoding: US-ASCII
+      string: thread=833794655&message=test&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 06 Sep 2012 22:44:00 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:31698126
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
+        "forum": "stipple", "parent": null, "author": {"username": "mcarey_stipple",
+        "about": "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
+        "rep": 1.2324929999999998, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2324929999999998, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test", "createdAt": "2012-09-06T22:44:00", "id": "642502148", "thread": "833794655",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}}'
+    http_version: '1.1'
+  recorded_at: Thu, 06 Sep 2012 22:44:00 GMT
+recorded_with: VCR 2.2.4

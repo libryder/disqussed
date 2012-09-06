@@ -1,16 +1,14 @@
 module Disqussed
   class Posts
-    ENDPOINT = 'posts'
+    @@endpoint = 'posts'
 
     class << self
       def create(message = nil, opts = {})
-        raise "Cannot create post without message" unless message
-
         opts[:message] = message
 
         opts.slice(:api_key, :access_token, :thread, :author_email, :author_name, :message)
 
-        Disqussed::Api.post(ENDPOINT, 'create', opts)
+        Disqussed::Api.post(@@endpoint, 'create', opts)
       end
 
       def list(opts = {})
@@ -18,7 +16,7 @@ module Disqussed
           :related, :limit, :offset, :include, :order
         )
 
-        Disqussed::Api.get(ENDPOINT, 'list', opts)
+        Disqussed::Api.get(@@endpoint, 'list', opts)
       end
     end
   end

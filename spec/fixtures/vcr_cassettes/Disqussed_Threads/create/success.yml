@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/threads/create.json?
+    body:
+      encoding: US-ASCII
+      string: forum=stipple&title=1346971446.3984692&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 06 Sep 2012 22:44:06 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:31698126
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469714463984692/latest.rss",
+        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346971446.3984692",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T22:44:06",
+        "slug": "13469714463984692", "isClosed": false, "posts": 0, "userSubscription":
+        false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
+        "833794745", "isDeleted": false}}'
+    http_version: '1.1'
+  recorded_at: Thu, 06 Sep 2012 22:44:06 GMT
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/threads/remove.json?
+    body:
+      encoding: US-ASCII
+      string: thread=833794745&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 06 Sep 2012 22:44:07 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:31698126
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 0, "response": []}'
+    http_version: '1.1'
+  recorded_at: Thu, 06 Sep 2012 22:44:07 GMT
+recorded_with: VCR 2.2.4

@@ -1,19 +1,19 @@
 ---
 http_interactions:
 - request:
-    method: get
-    uri: https://disqus.com/api/3.0/posts/list.json?&api_key=
+    method: post
+    uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: ''
+      string: message=&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X
     headers: {}
   response:
     status:
-      code: 403
-      message: FORBIDDEN
+      code: 400
+      message: BAD REQUEST
     headers:
       date:
-      - Thu, 06 Sep 2012 21:09:42 GMT
+      - Thu, 06 Sep 2012 22:52:33 GMT
       server:
       - Apache
       vary:
@@ -28,7 +28,7 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 5, "response": "Invalid API key"}'
+      string: ! '{"code": 2, "response": "Missing required argument: ''message''"}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 21:09:42 GMT
+  recorded_at: Thu, 06 Sep 2012 22:52:33 GMT
 recorded_with: VCR 2.2.4
