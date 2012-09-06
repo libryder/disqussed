@@ -28,32 +28,35 @@ by going to http://disqus.com/api/applications and choosing your application.
 #### Create
 
 Required - forum, title
+
 Options - none
 
-Disqussed::Threads.create(forum, title)
+    Disqussed::Threads.create(forum, title)
 
 #### Remove
 
 Required - thread
+
 Options - none
 
-Disqussed::Threads.remove(thread)
+    Disqussed::Threads.remove(thread)
 
 ### Posts
 
 #### Create
 
 Required - message
+
 Options - thread, author_email, author_name,
 
-Disqussed::Post.create("message", { :thread => thread }).
+    Disqussed::Post.create("message", { :thread => thread }).
 
 #### List
 
 Required - none
 Options - category, thread, forum, since, related, limit, offset, include, order
 
-Disqussed::Post.list({ :thread => thread })
+    Disqussed::Post.list({ :thread => thread })
 
 ## Contributing
 
