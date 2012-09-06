@@ -33,6 +33,23 @@ Options - none
 
     Disqussed::Threads.create(forum, title)
 
+#### Details
+
+Required - thread
+
+Options - none
+
+    Disqussed::Threads.details(thread)
+
+#### Post Count
+
+Required - thread
+
+Options - none
+
+    Disqussed::Threads.post_count(thread)
+
+
 #### Remove
 
 Required - thread
