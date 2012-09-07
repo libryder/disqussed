@@ -8,7 +8,10 @@ require 'disqussed/posts'
 module Disqussed
   @defaults = {
     :api_key => "",
+    :secret_key => "", # only required if sso is set to true
+    :remote_domain => "", # only required if sso is set to true
     :access_token => "",
+    :sso => false,
     :developer => false
   }
 
