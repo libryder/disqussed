@@ -10,6 +10,8 @@ require "disqussed"
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :fakeweb
+  c.filter_sensitive_data('<API_KEY>') { Disqussed::defaults[:api_key] }
+  c.filter_sensitive_data('<ACCESS_TOKEN>') { Disqussed::defaults[:access_token] }
   c.allow_http_connections_when_no_cassette = false
 end
 

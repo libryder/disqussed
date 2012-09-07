@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=stipple&title=1346971446.3984692&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: forum=stipple&title=1346975932.77162&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:44:06 GMT
+      - Thu, 06 Sep 2012 23:58:53 GMT
       server:
       - Apache
       vary:
@@ -33,20 +33,20 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469714463984692/latest.rss",
-        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346971446.3984692",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T22:44:06",
-        "slug": "13469714463984692", "isClosed": false, "posts": 0, "userSubscription":
+      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/134697593277162/latest.rss",
+        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346975932.77162",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T23:58:53",
+        "slug": "134697593277162", "isClosed": false, "posts": 0, "userSubscription":
         false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
-        "833794745", "isDeleted": false}}'
+        "833853850", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:44:06 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:53 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/threads/remove.json?
     body:
       encoding: US-ASCII
-      string: thread=833794745&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: thread=833853850&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -54,7 +54,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:44:07 GMT
+      - Thu, 06 Sep 2012 23:58:53 GMT
       server:
       - Apache
       vary:
@@ -76,5 +76,5 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"code": 0, "response": []}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:44:07 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:53 GMT
 recorded_with: VCR 2.2.4

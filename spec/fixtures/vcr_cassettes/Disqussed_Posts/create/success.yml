@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=stipple&title=1346971439.4654331&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: forum=stipple&title=1346975920.0050108&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:43:59 GMT
+      - Thu, 06 Sep 2012 23:58:40 GMT
       server:
       - Apache
       vary:
@@ -33,20 +33,20 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469714394654331/latest.rss",
-        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346971439.4654331",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T22:43:59",
-        "slug": "13469714394654331", "isClosed": false, "posts": 0, "userSubscription":
+      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469759200050108/latest.rss",
+        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346975920.0050108",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T23:58:40",
+        "slug": "13469759200050108", "isClosed": false, "posts": 0, "userSubscription":
         false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
-        "833794655", "isDeleted": false}}'
+        "833853676", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:44:00 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:40 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=833794655&message=test&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: thread=833853676&message=test&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -54,7 +54,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:44:00 GMT
+      - Thu, 06 Sep 2012 23:58:41 GMT
       server:
       - Apache
       vary:
@@ -77,9 +77,9 @@ http_interactions:
       string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
         "forum": "stipple", "parent": null, "author": {"username": "mcarey_stipple",
         "about": "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
-        "rep": 1.2324929999999998, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "rep": 1.238397, "isFollowing": false, "isFollowedBy": false, "profileUrl":
         "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.2324929999999998, "location": "", "isPrimary": true, "isAnonymous":
+        "reputation": 1.238397, "location": "", "isPrimary": true, "isAnonymous":
         false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
@@ -87,9 +87,9 @@ http_interactions:
         "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test", "createdAt": "2012-09-06T22:44:00", "id": "642502148", "thread": "833794655",
+        "test", "createdAt": "2012-09-06T23:58:41", "id": "642561479", "thread": "833853676",
         "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:44:00 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:41 GMT
 recorded_with: VCR 2.2.4

@@ -37,7 +37,7 @@ describe Disqussed::Threads do
       end
 
       it "returns a count of the posts" do
-        @details["response"]["posts"].should == 2
+        @details["response"]["posts"].should == 3
       end
     end
   end
@@ -57,7 +57,7 @@ describe Disqussed::Threads do
       end
 
       it "returns a count of the posts" do
-        @count.should == 3
+        @count.should == 4
       end
     end
   end

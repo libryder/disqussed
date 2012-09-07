@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=808&message=no%20privileges&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X
+      string: thread=808&message=no%20privileges&api_key=<API_KEY>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Thu, 06 Sep 2012 22:52:32 GMT
+      - Thu, 06 Sep 2012 23:59:39 GMT
       server:
       - Apache
       vary:
@@ -31,5 +31,5 @@ http_interactions:
       string: ! '{"code": 12, "response": "This application cannot create posts on
         the chosen forum"}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:52:32 GMT
+  recorded_at: Thu, 06 Sep 2012 23:59:39 GMT
 recorded_with: VCR 2.2.4

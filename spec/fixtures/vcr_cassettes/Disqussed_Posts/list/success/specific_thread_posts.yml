@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=stipple&title=1346971744.223958&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: forum=stipple&title=1346975922.23047&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:49:04 GMT
+      - Thu, 06 Sep 2012 23:58:42 GMT
       server:
       - Apache
       vary:
@@ -33,20 +33,56 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/1346971744223958/latest.rss",
-        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346971744.223958",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T22:49:04",
-        "slug": "1346971744223958", "isClosed": false, "posts": 0, "userSubscription":
+      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/134697592223047/latest.rss",
+        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346975922.23047",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T23:58:42",
+        "slug": "134697592223047", "isClosed": false, "posts": 0, "userSubscription":
         false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
-        "833798563", "isDeleted": false}}'
+        "833853717", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:49:04 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:42 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=833798563&message=test&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
+      string: thread=833853717&message=test&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
+    headers: {}
+  response:
+    status:
+      code: 400
+      message: BAD REQUEST
+    headers:
+      date:
+      - Thu, 06 Sep 2012 23:58:43 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:31698126
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 2, "response": "You have already made this comment."}'
+    http_version: '1.1'
+  recorded_at: Thu, 06 Sep 2012 23:58:43 GMT
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/posts/create.json?
+    body:
+      encoding: US-ASCII
+      string: thread=833853717&message=test%202&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
     headers: {}
   response:
     status:
@@ -54,7 +90,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:49:05 GMT
+      - Thu, 06 Sep 2012 23:58:43 GMT
       server:
       - Apache
       vary:
@@ -77,9 +113,9 @@ http_interactions:
       string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
         "forum": "stipple", "parent": null, "author": {"username": "mcarey_stipple",
         "about": "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
-        "rep": 1.2339689999999999, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "rep": 1.238766, "isFollowing": false, "isFollowedBy": false, "profileUrl":
         "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.2339689999999999, "location": "", "isPrimary": true, "isAnonymous":
+        "reputation": 1.238766, "location": "", "isPrimary": true, "isAnonymous":
         false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
@@ -87,66 +123,15 @@ http_interactions:
         "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test", "createdAt": "2012-09-06T22:49:05", "id": "642505193", "thread": "833798563",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}}'
-    http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:49:05 GMT
-- request:
-    method: post
-    uri: https://disqus.com/api/3.0/posts/create.json?
-    body:
-      encoding: US-ASCII
-      string: thread=833798563&message=test%202&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X&access_token=671388dfed0144e59ebfe9fe401bb832
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      date:
-      - Thu, 06 Sep 2012 22:49:06 GMT
-      server:
-      - Apache
-      vary:
-      - Cookie,Accept-Encoding
-      x-user:
-      - loginas:None:31698126
-      p3p:
-      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
-      set-cookie:
-      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
-        Domain=.disqus.com; Max-Age=2592000; Path=/
-      connection:
-      - close
-      transfer-encoding:
-      - chunked
-      content-type:
-      - application/json
-    body:
-      encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
-        "forum": "stipple", "parent": null, "author": {"username": "mcarey_stipple",
-        "about": "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
-        "rep": 1.2343379999999999, "isFollowing": false, "isFollowedBy": false, "profileUrl":
-        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.2343379999999999, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test 2", "createdAt": "2012-09-06T22:49:06", "id": "642505204", "thread":
-        "833798563", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "test 2", "createdAt": "2012-09-06T23:58:43", "id": "642561506", "thread":
+        "833853717", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
         "message": "<p>test 2</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:49:06 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:44 GMT
 - request:
     method: get
-    uri: https://disqus.com/api/3.0/posts/list.json?&forum=stipple&thread=833798563&api_key=DwwALtvEas5hYiPZN77Va80fD74tPzxJ8uCj1Iatdon3XkcA7GIbL7Ty7hSbaM0X
+    uri: https://disqus.com/api/3.0/posts/list.json?&forum=stipple&thread=833853717&api_key=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -157,7 +142,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 22:49:06 GMT
+      - Thu, 06 Sep 2012 23:58:44 GMT
       server:
       - Apache
       vary:
@@ -177,10 +162,175 @@ http_interactions:
         "code": 0, "response": [{"isJuliaFlagged": true, "isFlagged": false, "forum":
         "stipple", "parent": null, "author": {"username": "mcarey_stipple", "about":
         "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
-        "rep": 1.234707, "profileUrl": "http://disqus.com/mcarey_stipple/", "emailHash":
-        "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.234707, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "31698126", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test3", "createdAt": "2012-09-06T23:37:28", "id": "642545315", "thread":
+        "833836518", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test3</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test2", "createdAt": "2012-09-06T23:37:27", "id": "642545298", "thread":
+        "833836518", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test2</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test1", "createdAt": "2012-09-06T23:37:26", "id": "642545285", "thread":
+        "833836518", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test1</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test", "createdAt": "2012-09-06T23:33:34", "id": "642542126", "thread": "833833312",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "stipple", "parent": null, "author": {"username":
+        "mcarey_stipple", "about": "", "name": "mcarey_stipple", "url": "", "joinedAt":
+        "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test2", "createdAt": "2012-09-06T23:33:30", "id": "642542083", "thread":
+        "833833312", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test2</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test1", "createdAt": "2012-09-06T23:33:29", "id": "642542073", "thread":
+        "833833312", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test1</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test2", "createdAt": "2012-09-06T23:32:14", "id": "642541027", "thread":
+        "833832534", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test2</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test1", "createdAt": "2012-09-06T23:32:14", "id": "642541015", "thread":
+        "833832534", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test1</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test", "createdAt": "2012-09-06T23:32:13", "id": "642541004", "thread": "833832534",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "stipple", "parent": null, "author": {"username":
+        "mcarey_stipple", "about": "", "name": "mcarey_stipple", "url": "", "joinedAt":
+        "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test 2", "createdAt": "2012-09-06T22:49:06", "id": "642505204", "thread":
+        "833798563", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>test 2</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
+        null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
+        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
+        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test", "createdAt": "2012-09-06T22:49:05", "id": "642505193", "thread": "833798563",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "stipple", "parent": null, "author": {"username":
+        "mcarey_stipple", "about": "", "name": "mcarey_stipple", "url": "", "joinedAt":
+        "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
@@ -192,9 +342,9 @@ http_interactions:
         "message": "<p>test 2</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
         null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
-        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.234707, "profileUrl":
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
         "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.234707, "location": "", "isPrimary": true, "isAnonymous":
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
         false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
@@ -207,10 +357,10 @@ http_interactions:
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
         true, "isFlagged": false, "forum": "stipple", "parent": null, "author": {"username":
         "mcarey_stipple", "about": "", "name": "mcarey_stipple", "url": "", "joinedAt":
-        "2012-09-06T00:11:31", "rep": 1.234707, "profileUrl": "http://disqus.com/mcarey_stipple/",
-        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.234707, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "31698126", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
@@ -222,9 +372,9 @@ http_interactions:
         "message": "<p>test 2</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "stipple", "parent":
         null, "author": {"username": "mcarey_stipple", "about": "", "name": "mcarey_stipple",
-        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.234707, "profileUrl":
+        "url": "", "joinedAt": "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl":
         "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.234707, "location": "", "isPrimary": true, "isAnonymous":
+        "reputation": 1.2391349999999999, "location": "", "isPrimary": true, "isAnonymous":
         false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
@@ -237,10 +387,10 @@ http_interactions:
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
         true, "isFlagged": false, "forum": "stipple", "parent": null, "author": {"username":
         "mcarey_stipple", "about": "", "name": "mcarey_stipple", "url": "", "joinedAt":
-        "2012-09-06T00:11:31", "rep": 1.234707, "profileUrl": "http://disqus.com/mcarey_stipple/",
-        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.234707, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "31698126", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
+        "2012-09-06T00:11:31", "rep": 1.2391349999999999, "profileUrl": "http://disqus.com/mcarey_stipple/",
+        "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9", "reputation": 1.2391349999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31698126",
+        "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
         "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
@@ -252,5 +402,5 @@ http_interactions:
         "message": "<p>marmaduke</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}]}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 22:49:07 GMT
+  recorded_at: Thu, 06 Sep 2012 23:58:44 GMT
 recorded_with: VCR 2.2.4
