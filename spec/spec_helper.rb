@@ -3,6 +3,7 @@ require "bundler"
 require "vcr"
 require "fakeweb"
 require "multi_json"
+require "cgi"
 
 $:.push File.expand_path("../lib", __FILE__)
 require "disqussed"
@@ -13,10 +14,21 @@ VCR.configure do |c|
   c.filter_sensitive_data('<API_KEY>') { Disqussed::defaults[:api_key] }
   c.filter_sensitive_data('<SECRET_KEY>') { Disqussed::defaults[:secret_key] }
   c.filter_sensitive_data('<ACCESS_TOKEN>') { Disqussed::defaults[:access_token] }
+
+  # For post requests
   c.filter_sensitive_data('<AUTH_S3>') do |interaction|
-    matches = interaction.request.body.split("&").select{ |s| s =~ /remote_auth\=/ }
-    p matches.first.gsub("remote_auth=","") unless matches.empty?
+    params = CGI::parse(interaction.request.body)
+
+    CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
   end
+
+  # For get requests
+  c.filter_sensitive_data('<AUTH_S3>') do |interaction|
+    params = CGI::parse(interaction.request.uri)
+
+    CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
+  end
+
   c.allow_http_connections_when_no_cassette = false
 end
 
