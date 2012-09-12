@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: message=missing%20thread&api_secret=<SECRET_KEY>&remote_auth=eyJ1c2VybmFtZSI6IlRlc3RlciIsImlkIjoiMSIsImVtYWlsIjoickByLmNvbSJ9%201018bc3a99c8d1307b73d8552bf89eec9db423c8%201347483485
+      string: message=missing%20thread&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Wed, 12 Sep 2012 20:58:06 GMT
+      - Wed, 12 Sep 2012 22:30:32 GMT
       server:
       - Apache
       vary:
@@ -23,17 +23,17 @@ http_interactions:
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
       set-cookie:
-      - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347396968/images/noavatar32.png|0";
+      - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|0";
         Domain=.disqus.com; Max-Age=2592000; Path=/
-      content-length:
-      - '62'
       connection:
       - close
+      transfer-encoding:
+      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
       string: ! '{"code": 2, "response": "Missing required argument: ''thread''"}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 20:58:06 GMT
+  recorded_at: Wed, 12 Sep 2012 22:30:33 GMT
 recorded_with: VCR 2.2.4

@@ -9,7 +9,7 @@ module Disqussed
     @@api_version = '3.0'
 
     class << self
-      def post(endpoint, action, opts = {}, authenticate_as_self = false, user = {})
+      def request(method, endpoint, action, opts = {}, authenticate_as_self = false, user = {})
         opts[:api_key] ||= Disqussed::defaults[:api_key]
         throw "Missing API Key" if opts[:api_key].nil?
 
@@ -29,30 +29,11 @@ module Disqussed
           opts[:remote_auth] = remote_auth_s3(user)
         end
 
-        HTTParty.post([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :body => opts })
-      end
-
-      def get(endpoint, action, opts = {}, authenticate_as_self = false, user = {})
-        opts[:api_key] ||= Disqussed::defaults[:api_key]
-        throw "Missing API Key" if opts[:api_key].nil?
-
-        if authenticate_as_self
-          if Disqussed::defaults[:sso]
-            opts.delete :api_key
-            opts[:api_secret] = Disqussed::defaults[:secret_key]
-          else
-            opts[:access_token] ||= Disqussed::defaults[:access_token]
-          end
-        elsif Disqussed::defaults[:sso]
-          user.slice(:id, :username, :email, :avatar, :url)
-
-          opts.delete :api_key
-          opts[:api_secret] = Disqussed::defaults[:secret_key]
-
-          opts[:remote_auth] = remote_auth_s3(user)
+        if method === "post"
+          HTTParty.post([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :body => opts })
+        elsif method === "get"
+          HTTParty.get([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :query => opts })
         end
-
-        HTTParty.get([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :query => opts })
       end
 
       def remote_auth_s3(data)

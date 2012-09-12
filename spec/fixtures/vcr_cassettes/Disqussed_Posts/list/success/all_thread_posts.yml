@@ -13,277 +13,228 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:14:10 GMT
+      - Wed, 12 Sep 2012 22:30:36 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
-      content-length:
-      - '48241'
       connection:
       - close
+      transfer-encoding:
+      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"cursor": {"prev": null, "hasNext": true, "next": "1347488030569825:0:0",
-        "hasPrev": false, "total": null, "id": "1347488030569825:0:0", "more": true},
+      string: ! '{"cursor": {"prev": null, "hasNext": true, "next": "1347489016686367:0:0",
+        "hasPrev": false, "total": null, "id": "1347489016686367:0:0", "more": true},
         "code": 0, "response": [{"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "avpixlat", "parent": 648322838, "author": {"username": "Erikdenhelige", "about":
-        "", "name": "Erikdenhelige", "url": "", "joinedAt": "2011-07-26T13:11:05",
-        "rep": 1.646069, "profileUrl": "http://disqus.com/Erikdenhelige/", "emailHash":
-        "2081b8b8a9789c809fac21338eab15fb", "reputation": 1.646069, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "14527069", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=2081b8b8a9789c809fac21338eab15fb",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=2081b8b8a9789c809fac21338eab15fb"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=2081b8b8a9789c809fac21338eab15fb",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=2081b8b8a9789c809fac21338eab15fb"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=2081b8b8a9789c809fac21338eab15fb",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=2081b8b8a9789c809fac21338eab15fb"}},
+        "worldstar", "parent": null, "author": {"username": "MaNNydope", "about":
+        "", "name": "MaNNydope", "url": "", "joinedAt": "2011-11-06T00:39:58", "rep":
+        1.4840549999999999, "profileUrl": "http://disqus.com/MaNNydope/", "emailHash":
+        "ad43dac59f28df1558f8f3d8bf2ffd4c", "reputation": 1.4840549999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "18758659", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/MaNNydope.jpg", "cache":
+        "https://securecdn.disqus.com/uploads/users/1875/8659/avatar32.jpg?1325800594"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/MaNNydope.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1875/8659/avatar92.jpg?1325800594",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/MaNNydope.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1875/8659/avatar92.jpg?1325800594"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "\u00a0Identitetskort funkar i hela EU f\u00f6r de flesta EU-medborgare. En
-        est kan exempelvis \u00e5ka till b\u00e5de UK, Rum\u00e4nien och Bulgarien
-        med enbart ID-kort.\u00a0 Redan innan Estland gick med i Schengen kunde de
-        \u00e4ven resa till Schengenl\u00e4nder p\u00e5 enbart sitt ID-kort.\n\nDet
-        \u00e4r Sverige som \u00e4r efterblivet och har best\u00e4mt att just v\u00e5ra
-        nationella identitetskort inte g\u00e4ller utanf\u00f6r Schengen.", "createdAt":
-        "2012-09-12T22:13:53", "id": "648330196", "thread": "841681854", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>\u00a0Identitetskort
-        funkar i hela EU f\u00f6r de flesta EU-medborgare. En est kan exempelvis \u00e5ka
-        till b\u00e5de UK, Rum\u00e4nien och Bulgarien med enbart ID-kort.\u00a0 Redan
-        innan Estland gick med i Schengen kunde de \u00e4ven resa till Schengenl\u00e4nder
-        p\u00e5 enbart sitt ID-kort.</p>\n\n<p>Det \u00e4r Sverige som \u00e4r efterblivet
-        och har best\u00e4mt att just v\u00e5ra nationella identitetskort inte g\u00e4ller
-        utanf\u00f6r Schengen.</p>", "isSpam": false, "isHighlighted": false, "userScore":
-        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "motherjones", "parent":
-        648056477, "author": {"username": "motherjones-1ca6324bfda630d3b69d784bb6032660",
-        "about": "", "name": "n1cholas", "url": "", "joinedAt": "2012-03-30T00:25:12",
-        "rep": 1.8781529999999997, "profileUrl": "http://disqus.com/motherjones-1ca6324bfda630d3b69d784bb6032660/",
-        "emailHash": "eb4626259e5ad5904b0b3ed9791a173c", "reputation": 1.8781529999999997,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "24196926",
-        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/motherjones-1ca6324bfda630d3b69d784bb6032660.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2419/6926/avatar32.jpg?1347487975"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/motherjones-1ca6324bfda630d3b69d784bb6032660.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2419/6926/avatar92.jpg?1347487975",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/motherjones-1ca6324bfda630d3b69d784bb6032660.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2419/6926/avatar92.jpg?1347487975"}}},
+        "antuawn holla at him bitch ass nigga\u00a0 ", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346271", "thread": "839623129", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>antuawn holla at him bitch ass nigga\u00a0
+        </p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "avclub", "parent": 648315249, "author":
+        {"username": "avclub-1bc92b99fd45cc2e89907ad2770c2746", "about": "", "name":
+        "RicheyEdwardsandthe Cruisers", "url": "/users/richeyedwardsandthe-cruisers,120101/",
+        "joinedAt": "2012-06-09T10:46:09", "rep": 1.2419249999999999, "profileUrl":
+        "http://disqus.com/avclub-1bc92b99fd45cc2e89907ad2770c2746/", "emailHash":
+        "6961afe5cd65ccf1f3e9c52fbb06225b", "reputation": 1.2419249999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "27241907", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/avclub-1bc92b99fd45cc2e89907ad2770c2746.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2724/1907/avatar32.jpg?1345765045"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/avclub-1bc92b99fd45cc2e89907ad2770c2746.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2724/1907/avatar92.jpg?1345765045",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/avclub-1bc92b99fd45cc2e89907ad2770c2746.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2724/1907/avatar92.jpg?1345765045"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "You''re an idiot.", "createdAt": "2012-09-12T22:13:52", "id": "648330193",
-        "thread": "841467961", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>You''re an idiot.</p>", "isSpam": false, "isHighlighted":
+        "She''s banned from the Chateau Marmont for not paying her cigarette bill!",
+        "createdAt": "2012-09-12T22:30:18", "id": "648346269", "thread": "841704513",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>She''s
+        banned from the Chateau Marmont for not paying her cigarette bill!</p>", "isSpam":
+        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
+        false, "forum": "thehill-v4", "parent": null, "author": {"username": "sftommy",
+        "about": "", "name": "sftommy", "url": "", "joinedAt": "2011-12-07T22:30:24",
+        "rep": 1.9609270000000001, "profileUrl": "http://disqus.com/sftommy/", "emailHash":
+        "00f0f670aca35cf5ee846c5fc1e76b97", "reputation": 1.9609270000000001, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "19921328", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/sftommy.jpg", "cache":
+        "https://securecdn.disqus.com/uploads/users/1992/1328/avatar32.jpg?1331245965"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/sftommy.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1992/1328/avatar92.jpg?1331245965",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/sftommy.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1992/1328/avatar92.jpg?1331245965"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "GOP is panicked, they win with War and Fear. \u00a0This year President Obama
+        is giving America Peace and Return to Prosperity.\nRomney is panicked. \u00a0Desperately
+        so, given his lack of forethought here.", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346268", "thread": "840981790", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>GOP is panicked, they win with War and
+        Fear. \u00a0This year President Obama is giving America Peace and Return to
+        Prosperity.<br>Romney is panicked. \u00a0Desperately so, given his lack of
+        forethought here.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "jpost", "parent":
+        648331563, "author": {"username": "Dov_Forest_Hills", "about": "", "name":
+        "Dov_Forest_Hills", "url": "", "joinedAt": "2011-09-27T03:27:29", "rep": 1.4920359999999999,
+        "profileUrl": "http://disqus.com/Dov_Forest_Hills/", "emailHash": "360ff6625c5afdf3193db6fb98f683dd",
+        "reputation": 1.4920359999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "17274343", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=360ff6625c5afdf3193db6fb98f683dd",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=360ff6625c5afdf3193db6fb98f683dd"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=360ff6625c5afdf3193db6fb98f683dd",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=360ff6625c5afdf3193db6fb98f683dd"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=360ff6625c5afdf3193db6fb98f683dd",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=360ff6625c5afdf3193db6fb98f683dd"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "People need to be educated about Mohammad.  Christians tend to think he was
+        a Christ-like figure who taught love and peace like their god.", "createdAt":
+        "2012-09-12T22:30:18", "id": "648346267", "thread": "841730529", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>People need
+        to be educated about Mohammad.  Christians tend to think he was a Christ-like
+        figure who taught love and peace like their god.</p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "komorkomania", "parent": 648075738, "author": {"name": "Mibo6666", "url":
-        "", "profileUrl": "http://disqus.com/guest/1626a26190b76c691fa526466fb84776/",
-        "emailHash": "1626a26190b76c691fa526466fb84776", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=1626a26190b76c691fa526466fb84776",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=1626a26190b76c691fa526466fb84776"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=1626a26190b76c691fa526466fb84776",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=1626a26190b76c691fa526466fb84776"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=1626a26190b76c691fa526466fb84776",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=1626a26190b76c691fa526466fb84776"},
-        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "A moja Strojka byla jakos dobra decyzja...i
-        w sumie teraz jedyna logiczna bo nic innego nie ma a windowa phonem sie brzydze......
-        co nie zmienia faktu, ze apple stoi w miejscu ...udowodnilo to IOSe 6, beznadziejnym
-        Mountain Lionem, Kiepskimi drogimi i jedynie 10% wwydajniejszymi laptopami,
-        odgrzewanym ipadem....z nowatorska retina a na koniec prezentuje iphona....ktory
-        nawet nie posiada wszystkich technicznych nowinek ktore juz ma konkurencja...no
-        i lte bez lte :p Apple sie konczy..... no i jak mozna tak powiekszyc ekran?
-        W taki sposob? Zenada.....", "createdAt": "2012-09-12T22:13:52", "id": "648330192",
-        "thread": "841441301", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>A moja Strojka byla jakos dobra decyzja...i w sumie teraz
-        jedyna logiczna bo nic innego nie ma a windowa phonem sie brzydze...... co
-        nie zmienia faktu, ze apple stoi w miejscu ...udowodnilo to IOSe 6, beznadziejnym
-        Mountain Lionem, Kiepskimi drogimi i jedynie 10% wwydajniejszymi laptopami,
-        odgrzewanym ipadem....z nowatorska retina a na koniec prezentuje iphona....ktory
-        nawet nie posiada wszystkich technicznych nowinek ktore juz ma konkurencja...no
-        i lte bez lte :p Apple sie konczy..... no i jak mozna tak powiekszyc ekran?
-        W taki sposob? Zenada.....</p>", "isSpam": false, "isHighlighted": false,
-        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "jonathanpelto",
-        "parent": null, "author": {"name": "Windham Guest", "url": "", "profileUrl":
-        "http://disqus.com/guest/5f921d8d71454a3bc0adf21d1f45bfd6/", "emailHash":
-        "5f921d8d71454a3bc0adf21d1f45bfd6", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=5f921d8d71454a3bc0adf21d1f45bfd6"},
-        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "That was definitely a petition worth signing!\nIt
-        would be great to present this to the State Board of Ed, and then to say,
-        We are coordingating a state-wide Opt-Out of Standardized tests.\nTeachers
-        have always tested students (that''s what school is all about)--and, guess
-        what?  The tests are often individualized; focused on the work at hand (unitl
-        final, cumulative exams); adjusted to the child''s grade level; and used with
-        scruple immediately by the teacher.  Some wonks maintain that computers will
-        soon be doing all that, but I''ll take the teacher anyday.\nEven animals--rodents--do
-        not thrive with the most interactive computer.  I am starting to think that
-        the test-creators and the software inventors are leaving their humanity behind
-        in their quest for ever more screen time for us all.", "createdAt": "2012-09-12T22:13:52",
-        "id": "648330190", "thread": "841664807", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>That was definitely a petition worth signing!<br>It
-        would be great to present this to the State Board of Ed, and then to say,
-        We are coordingating a state-wide Opt-Out of Standardized tests.<br>Teachers
-        have always tested students (that''s what school is all about)--and, guess
-        what?  The tests are often individualized; focused on the work at hand (unitl
-        final, cumulative exams); adjusted to the child''s grade level; and used with
-        scruple immediately by the teacher.  Some wonks maintain that computers will
-        soon be doing all that, but I''ll take the teacher anyday.<br>Even animals--rodents--do
-        not thrive with the most interactive computer.  I am starting to think that
-        the test-creators and the software inventors are leaving their humanity behind
-        in their quest for ever more screen time for us all.</p>", "isSpam": false,
+        "miamiherald", "parent": 647979044, "author": {"username": "yahoo-6Y7JC3H5LYZ2THL7RLKZB2MYE4",
+        "about": "", "name": "Micky", "url": "http://pulse.yahoo.com/_6Y7JC3H5LYZ2THL7RLKZB2MYE4",
+        "joinedAt": "2011-09-13T12:04:33", "rep": 1.3375279999999998, "profileUrl":
+        "http://disqus.com/yahoo-6Y7JC3H5LYZ2THL7RLKZB2MYE4/", "emailHash": "d41d8cd98f00b204e9800998ecf8427e",
+        "reputation": 1.3375279999999998, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "16730942", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/yahoo-6Y7JC3H5LYZ2THL7RLKZB2MYE4.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1673/942/avatar32.jpg?1347489019"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/yahoo-6Y7JC3H5LYZ2THL7RLKZB2MYE4.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1673/942/avatar92.jpg?1347489019",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/yahoo-6Y7JC3H5LYZ2THL7RLKZB2MYE4.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1673/942/avatar92.jpg?1347489019"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Moron MITT says Russia is our #1 enemy clueless!", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346264", "thread": "841404060", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Moron MITT says Russia is our #1 enemy
+        clueless!</p>", "isSpam": false, "isHighlighted": false, "userScore": 0},
+        {"isJuliaFlagged": true, "isFlagged": false, "forum": "glennbeck", "parent":
+        null, "author": {"username": "facebook-663335790", "about": "", "name": "Pat
+        Calhoun", "url": "http://www.facebook.com/pat.calhoun.7771", "joinedAt": "2012-09-12T22:30:07",
+        "rep": 1.232124, "profileUrl": "http://disqus.com/facebook-663335790/", "emailHash":
+        "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.232124, "location": "",
+        "isPrimary": true, "isAnonymous": false, "id": "32060813", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/facebook-663335790.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3206/813/avatar32.jpg?1347489007"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-663335790.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3206/813/avatar92.jpg?1347489007",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-663335790.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3206/813/avatar92.jpg?1347489007"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Puleeeeeze get to Directv ASAP! We love The Five but we MISS YOU!", "createdAt":
+        "2012-09-12T22:30:18", "id": "648346261", "thread": "841540075", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Puleeeeeze get
+        to Directv ASAP! We love The Five but we MISS YOU!</p>", "isSpam": false,
         "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "grada360", "parent": null, "author": {"username": "grada360-f97ed00a494ade4efc8f8493f706719d",
-        "about": "", "name": "Armando", "url": "http://comunidad.grada360.com/perfil.php?user=Armando",
-        "joinedAt": "2012-09-05T13:19:30", "rep": 1.233231, "profileUrl": "http://disqus.com/grada360-f97ed00a494ade4efc8f8493f706719d/",
-        "emailHash": "06dedfaa80b7ecf2530229835f5d1daf", "reputation": 1.233231, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "31667367", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/grada360-f97ed00a494ade4efc8f8493f706719d.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3166/7367/avatar32.jpg?1347487986"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/grada360-f97ed00a494ade4efc8f8493f706719d.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3166/7367/avatar92.jpg?1347487986",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/grada360-f97ed00a494ade4efc8f8493f706719d.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3166/7367/avatar92.jpg?1347487986"}}},
+        false, "forum": "cucirca", "parent": null, "author": {"name": "molly", "url":
+        "", "profileUrl": "http://disqus.com/guest/161faed38f49534578ac2530a790b1b6/",
+        "emailHash": "161faed38f49534578ac2530a790b1b6", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=161faed38f49534578ac2530a790b1b6",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=161faed38f49534578ac2530a790b1b6"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=161faed38f49534578ac2530a790b1b6",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=161faed38f49534578ac2530a790b1b6"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=161faed38f49534578ac2530a790b1b6",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=161faed38f49534578ac2530a790b1b6"},
+        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
+        "dislikes": 0, "raw_message": "\"i know you want to live in a bat cave but
+        meet me halfway..\" I love Arizona \u2665", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346263", "thread": "149525425", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>\"i know you want to live in a bat cave
+        but meet me halfway..\" I love Arizona \u2665</p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "aljazeera4", "parent": null, "author": {"username": "apollo1924", "about":
+        "rus_democrat_antipuKin", "name": "\u0410pollo", "url": "https://twitter.com/apollo1924",
+        "joinedAt": "2012-06-27T03:44:11", "rep": 1.638307, "profileUrl": "http://disqus.com/apollo1924/",
+        "emailHash": "fb0c3468a1bfb10cb908ff7a4e1a078e", "reputation": 1.638307, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "27963759", "avatar": {"small":
+        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=fb0c3468a1bfb10cb908ff7a4e1a078e"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Fernaaando Tooorres, lalalala la la, Fernando Tooorres, lalalala la la,\u00a0
-        Fernaaando Tooorres, lalala lala la!!!!", "createdAt": "2012-09-12T22:13:52",
-        "id": "648330187", "thread": "840987695", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Fernaaando Tooorres, lalalala la la, Fernando
-        Tooorres, lalalala la la,\u00a0 Fernaaando Tooorres, lalala lala la!!!!</p>",
+        "\u0639\u0645\u0631 \u0627\u0644\u062c\u0639\u0628\u0631\u064a \u200f@OmarJaabari
+        \nSky News Arabia: Activists report explosions from three car bombs in Rokn
+        al-Deen neighborhood in #Damascus #Syria \n-----------------------------------------------------------\nOh,
+        these ''damn car bombs'' in Damascus nightmare for ASSad''s generals and officers,
+        now there''re no quiet nights and no safe places for them in Syria.", "createdAt":
+        "2012-09-12T22:30:18", "id": "648346259", "thread": "799474942", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>\u0639\u0645\u0631
+        \u0627\u0644\u062c\u0639\u0628\u0631\u064a \u200f@OmarJaabari <br>Sky News
+        Arabia: Activists report explosions from three car bombs in Rokn al-Deen neighborhood
+        in #Damascus #Syria <br>-----------------------------------------------------------<br>Oh,
+        these ''damn car bombs'' in Damascus nightmare for ASSad''s generals and officers,
+        now there''re no quiet nights and no safe places for them in Syria.</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "witn", "parent": null, "author": {"username":
-        "google-839d82c288a1cc8a15e978f7695afd3d", "about": "", "name": "vance davenport",
-        "url": "", "joinedAt": "2012-03-28T20:44:08", "rep": 1.852222, "profileUrl":
-        "http://disqus.com/google-839d82c288a1cc8a15e978f7695afd3d/", "emailHash":
-        "839d82c288a1cc8a15e978f7695afd3d", "reputation": 1.852222, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "24144677", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=839d82c288a1cc8a15e978f7695afd3d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=839d82c288a1cc8a15e978f7695afd3d"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=839d82c288a1cc8a15e978f7695afd3d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=839d82c288a1cc8a15e978f7695afd3d"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=839d82c288a1cc8a15e978f7695afd3d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=839d82c288a1cc8a15e978f7695afd3d"}},
+        true, "isFlagged": false, "forum": "myfoxphoenix", "parent": null, "author":
+        {"username": "money777", "about": "", "name": "money777", "url": "", "joinedAt":
+        "2011-01-16T01:18:10", "rep": 2.4540489999999999, "profileUrl": "http://disqus.com/money777/",
+        "emailHash": "9ba73d9eae0cb1ac375e42ec20033f83", "reputation": 2.4540489999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "6464247",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/money777.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/646/4247/avatar32.jpg?1322002179"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/money777.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/646/4247/avatar92.jpg?1322002179",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/money777.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/646/4247/avatar92.jpg?1322002179"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Shoots down pinnochobamas theory of Americans being safer. Anyway,I wonder
-        if that Al Qaeda flag is still hanging on OUR Embassy????  What a joke this
-        pinnochioblowmo is for more apologizing.", "createdAt": "2012-09-12T22:13:52",
-        "id": "648330188", "thread": "841023980", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Shoots down pinnochobamas theory of Americans
-        being safer. Anyway,I wonder if that Al Qaeda flag is still hanging on OUR
-        Embassy????  What a joke this pinnochioblowmo is for more apologizing.</p>",
+        "No nobody better be racial profiling.", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346257", "thread": "841306433", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>No nobody better be racial profiling.</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "breitbartproduction", "parent": 648309537,
-        "author": {"username": "bbdev-ca502e496635c352b3c33f898f6cba8c", "about":
-        "", "name": "Anonimus", "url": "", "joinedAt": "2012-07-23T17:42:43", "rep":
-        1.289061, "profileUrl": "http://disqus.com/bbdev-ca502e496635c352b3c33f898f6cba8c/",
-        "emailHash": "8f1b00399973bea690ec3ccbf90b32df", "reputation": 1.289061, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "29446945", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=8f1b00399973bea690ec3ccbf90b32df",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=8f1b00399973bea690ec3ccbf90b32df"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8f1b00399973bea690ec3ccbf90b32df",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8f1b00399973bea690ec3ccbf90b32df"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8f1b00399973bea690ec3ccbf90b32df",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8f1b00399973bea690ec3ccbf90b32df"}},
+        true, "isFlagged": false, "forum": "sohhdotcom", "parent": 647958509, "author":
+        {"username": "google-b4c82cd66407628afef5bb4a89bbad43", "about": "", "name":
+        "max summers", "url": "", "joinedAt": "2012-08-18T05:37:54", "rep": 1.3082989999999999,
+        "profileUrl": "http://disqus.com/google-b4c82cd66407628afef5bb4a89bbad43/",
+        "emailHash": "b4c82cd66407628afef5bb4a89bbad43", "reputation": 1.3082989999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "30738291",
+        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b4c82cd66407628afef5bb4a89bbad43",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b4c82cd66407628afef5bb4a89bbad43"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b4c82cd66407628afef5bb4a89bbad43",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b4c82cd66407628afef5bb4a89bbad43"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b4c82cd66407628afef5bb4a89bbad43",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b4c82cd66407628afef5bb4a89bbad43"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Exactly. ", "createdAt": "2012-09-12T22:13:52", "id": "648330185", "thread":
-        "841637840", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>Exactly. </p>", "isSpam": false, "isHighlighted": false, "userScore":
-        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "slashfilm", "parent":
-        null, "author": {"username": "cap_n_jack", "about": "", "name": "cap_n_jack",
-        "url": "", "joinedAt": "2011-01-12T02:21:41", "rep": 2.807607, "profileUrl":
-        "http://disqus.com/cap_n_jack/", "emailHash": "960438e14d92fa64d62b5f2bbfff9531",
-        "reputation": 2.807607, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "6385603", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/cap_n_jack.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/638/5603/avatar32.jpg?1294800074"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/cap_n_jack.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/638/5603/avatar92.jpg?1294800074",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/cap_n_jack.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/638/5603/avatar92.jpg?1294800074"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Just as a note, the last entry on the first page has a misprint. I would
-        assume you mean \"Miss Marvel\" or at least some character who is not DC.",
-        "createdAt": "2012-09-12T22:13:52", "id": "648330186", "thread": "841619503",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Just
-        as a note, the last entry on the first page has a misprint. I would assume
-        you mean \"Miss Marvel\" or at least some character who is not DC.</p>", "isSpam":
-        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "engadget2", "parent": null, "author": {"username": "twitter-98048312",
-        "about": "", "name": "maegos", "url": "http://twitter.com/maegos", "joinedAt":
-        "2012-03-31T03:25:29", "rep": 1.294821, "profileUrl": "http://disqus.com/twitter-98048312/",
-        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.294821, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "24239650", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/twitter-98048312.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2423/9650/avatar32.jpg?1347488033"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-98048312.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2423/9650/avatar92.jpg?1347488033",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-98048312.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2423/9650/avatar92.jpg?1347488033"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "yeah, throwing your phone on a pillow to charge is sooooo complicated....",
-        "createdAt": "2012-09-12T22:13:52", "id": "648330183", "thread": "841692573",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>yeah,
-        throwing your phone on a pillow to charge is sooooo complicated....</p>",
+        "talk about proud groupie status.", "createdAt": "2012-09-12T22:30:18", "id":
+        "648346258", "thread": "841180243", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>talk about proud groupie status.</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "ign-videos", "parent": null, "author":
-        {"username": "ign-e907004384367b6d2c88db252865ae37", "about": "", "name":
-        "AverageChuckNY", "url": "http://people.ign.com/averagechuckny", "joinedAt":
-        "2011-04-26T16:06:29", "rep": 1.4982099999999998, "profileUrl": "http://disqus.com/ign-e907004384367b6d2c88db252865ae37/",
-        "emailHash": "84f6afa90644b49591cd7c55628b27f6", "reputation": 1.4982099999999998,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "9590517",
-        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/ign-e907004384367b6d2c88db252865ae37.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/959/517/avatar32.jpg?1347488032"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/ign-e907004384367b6d2c88db252865ae37.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/959/517/avatar92.jpg?1347488032",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/ign-e907004384367b6d2c88db252865ae37.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/959/517/avatar92.jpg?1347488032"}}},
+        true, "isFlagged": false, "forum": "worldstar", "parent": null, "author":
+        {"username": "twitter-486164263", "about": "", "name": "Ras Tafari", "url":
+        "http://twitter.com/omgbasedgoody", "joinedAt": "2012-03-09T14:56:23", "rep":
+        2.2155179999999999, "profileUrl": "http://disqus.com/twitter-486164263/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 2.2155179999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "23369671",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/twitter-486164263.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2336/9671/avatar32.jpg?1347487911"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-486164263.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2336/9671/avatar92.jpg?1347487911",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-486164263.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2336/9671/avatar92.jpg?1347487911"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "\"Needs more ads.\" - Xbox Live rep", "createdAt": "2012-09-12T22:13:52",
-        "id": "648330184", "thread": "841672471", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>\"Needs more ads.\" - Xbox Live rep</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "worldstar", "parent": 648313656, "author":
-        {"username": "twitter-371428971", "about": "", "name": "Lovell Taylor", "url":
-        "http://twitter.com/WaffleTaylor", "joinedAt": "2012-05-26T05:13:02", "rep":
-        1.240351, "profileUrl": "http://disqus.com/twitter-371428971/", "emailHash":
-        "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.240351, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "26653444", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/twitter-371428971.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2665/3444/avatar32.jpg?1347488033"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-371428971.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2665/3444/avatar92.jpg?1347488033",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-371428971.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2665/3444/avatar92.jpg?1347488033"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "i was thinkin the same thing xD (props)", "createdAt": "2012-09-12T22:13:52",
-        "id": "648330181", "thread": "840934346", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>i was thinkin the same thing xD (props)</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "ign-top", "parent": 646416247, "author":
-        {"username": "ign-ea656f37b37ea0c96779c973d30e3ede", "about": "", "name":
-        "YoungTeeth", "url": "http://people.ign.com/youngteeth", "joinedAt": "2011-07-07T07:28:23",
-        "rep": 1.30925, "profileUrl": "http://disqus.com/ign-ea656f37b37ea0c96779c973d30e3ede/",
-        "emailHash": "8f8a3aecdbce74ab7d0a6d8366f42c06", "reputation": 1.30925, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "13592616", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/ign-ea656f37b37ea0c96779c973d30e3ede.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1359/2616/avatar32.jpg?1347487517"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/ign-ea656f37b37ea0c96779c973d30e3ede.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1359/2616/avatar92.jpg?1347487517",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/ign-ea656f37b37ea0c96779c973d30e3ede.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1359/2616/avatar92.jpg?1347487517"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "valkyria chronicles is great, eternal sonata had the worst dialogue i''ve
-        seen in any RPG this generation.", "createdAt": "2012-09-12T22:13:51", "id":
-        "648330180", "thread": "799213610", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>valkyria chronicles is great, eternal sonata
-        had the worst dialogue i''ve seen in any RPG this generation.</p>", "isSpam":
-        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "cnn", "parent": 648327299, "author": {"username": "cnn-b7fd44fb3fa69af8564c0558b1",
-        "about": "", "name": "celh", "url": "#", "joinedAt": "2009-11-24T23:06:28",
-        "rep": 4.0693650000000003, "profileUrl": "http://disqus.com/cnn-b7fd44fb3fa69af8564c0558b1/",
-        "emailHash": "b07269f7f157257929cbdcf3a8821a29", "reputation": 4.0693650000000003,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "1256203",
+        "Westside get the money", "createdAt": "2012-09-12T22:30:18", "id": "648346255",
+        "thread": "841712081", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>Westside get the money</p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "cnn", "parent": 648343873, "author": {"username": "cnn-9902eadfa4e79bc6ec1cac8011",
+        "about": "", "name": "ProfLogie", "url": "#", "joinedAt": "2011-07-26T21:49:06",
+        "rep": 1.2607119999999998, "profileUrl": "http://disqus.com/cnn-9902eadfa4e79bc6ec1cac8011/",
+        "emailHash": "79d859619750d67950d1f1f8b5f7c9c8", "reputation": 1.2607119999999998,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "14549534",
         "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337",
         "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
@@ -291,53 +242,171 @@ http_interactions:
         "permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
         "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "I am so glad to hear another person \u00a0speak out about the way she spoke
-        that day.. her disdain for the common folk was blatant..\n", "createdAt":
-        "2012-09-12T22:13:51", "id": "648330178", "thread": "841067504", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>I am so glad
-        to hear another person \u00a0speak out about the way she spoke that day..
-        her disdain for the common folk was blatant..<br></p>", "isSpam": false, "isHighlighted":
+        "With the GOPs votes", "createdAt": "2012-09-12T22:30:18", "id": "648346265",
+        "thread": "840967502", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>With the GOPs votes</p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "washtimes", "parent": 647273173, "author": {"username": "M40", "about": "",
-        "name": "M40", "url": "", "joinedAt": "2010-12-15T23:23:10", "rep": 1.5490339999999998,
-        "profileUrl": "http://disqus.com/M40/", "emailHash": "f6ab6f6ecf28cdbb2c891ea69c18908e",
-        "reputation": 1.5490339999999998, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "5931894", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f6ab6f6ecf28cdbb2c891ea69c18908e"}},
+        "usmagazine", "parent": 648200055, "author": {"name": "Angelica", "url": "",
+        "profileUrl": "http://disqus.com/guest/79dfdf868119a4984d1899f26a93501b/",
+        "emailHash": "79dfdf868119a4984d1899f26a93501b", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=79dfdf868119a4984d1899f26a93501b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=79dfdf868119a4984d1899f26a93501b"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=79dfdf868119a4984d1899f26a93501b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=79dfdf868119a4984d1899f26a93501b"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=79dfdf868119a4984d1899f26a93501b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=79dfdf868119a4984d1899f26a93501b"},
+        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
+        "dislikes": 0, "raw_message": "Nadirah is that really you??? Ive never heard
+        you say anything nice,..I''m proud of you", "createdAt": "2012-09-12T22:30:18",
+        "id": "648346253", "thread": "841547641", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Nadirah is that really you??? Ive never
+        heard you say anything nice,..I''m proud of you</p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "swingsurgeon", "parent": 648120763, "author": {"username": "80steve55", "about":
+        "Roll Tide!!!", "name": "Steve Smith", "url": "http://www.youtube.com/user/smith7771000?feature=mhum",
+        "joinedAt": "2010-07-15T23:43:05", "rep": 4.0928140000000006, "profileUrl":
+        "http://disqus.com/80steve55/", "emailHash": "a940dadb315d11062593ea1e8be831f2",
+        "reputation": 4.0928140000000006, "location": "http://www.youtube.com/user/smith7771000?feature=mhum",
+        "isPrimary": true, "isAnonymous": false, "id": "3656729", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/80steve55.jpg", "cache":
+        "https://securecdn.disqus.com/uploads/users/365/6729/avatar32.jpg?1344483710"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/80steve55.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/365/6729/avatar92.jpg?1344483710",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/80steve55.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/365/6729/avatar92.jpg?1344483710"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "The fact that promotion and tenure is based on adherence to bogus data and
-        poor scientific practice does go to show something, but it''s NOT showing
-        consensus. It shows that political and FISCAL support have become more important
-        than facts and sound science. \n\nThese days, I see more junk science than
-        actual science produced from ''scientists'' in our universities. That goes
-        WAY beyond just the ''climate'' issue. \n\nFact is, everyone is trying to
-        produce studies that suggest that everyday items and practices are dangerous.
-        This alarms ignorant politicians who then cough up obscene amounts of taxpayer
-        dollars. \n\nScience and universities have become big business, and largely
-        accountable to nobody but select politicians. That is a dangerous situation.",
-        "createdAt": "2012-09-12T22:13:51", "id": "648330179", "thread": "833841269",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>The
-        fact that promotion and tenure is based on adherence to bogus data and poor
-        scientific practice does go to show something, but it''s NOT showing consensus.
-        It shows that political and FISCAL support have become more important than
-        facts and sound science. </p>\n\n<p>These days, I see more junk science than
-        actual science produced from ''scientists'' in our universities. That goes
-        WAY beyond just the ''climate'' issue. </p>\n\n<p>Fact is, everyone is trying
-        to produce studies that suggest that everyday items and practices are dangerous.
-        This alarms ignorant politicians who then cough up obscene amounts of taxpayer
-        dollars. </p>\n\n<p>Science and universities have become big business, and
-        largely accountable to nobody but select politicians. That is a dangerous
-        situation.</p>", "isSpam": false, "isHighlighted": false, "userScore": 0},
-        {"isJuliaFlagged": true, "isFlagged": false, "forum": "cnn", "parent": null,
-        "author": {"username": "cnn-4de09812a483d7c8c40506e566", "about": "", "name":
-        "Djangi", "url": "#", "joinedAt": "2011-10-13T22:01:33", "rep": -0.035244999999999971,
-        "profileUrl": "http://disqus.com/cnn-4de09812a483d7c8c40506e566/", "emailHash":
-        "d9fcd8b01d5515c3771280eab45fb1f3", "reputation": -0.035244999999999971, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "17895102", "avatar": {"small":
+        "First we need to make sure we are on the same page as to what 12 o''clock
+        is (see Doc''s post below for a down the line view).\nIf you are talking about
+        the shaft from a face on view 1 or 2 o''clock is fine if you can control it
+        and get that far without your arms collapsing or cocking your wrists.\nI do
+        better with ball striking if I don''t get that high, and I have seen no difference
+        in power either way.\nThe drawback to not going very high is that the shaft
+        has less chance to get pushed back to a 12 o''clock position near the top
+        so most of the time I only get to between 11 and 12. If I make an absolutely
+        perfect back swing (which is rare for me) the shaft will always be in line
+        to be at 12 no matter how high I go. As long as the palms are always perpendicular
+        to the ground the shaft has to be at 12 o''clock from a down the line view.\nIn
+        short I would say to try to keep the palms perpendicular to the ground throughout
+        the swing (even though you probably won''t). Try to not turn any more than
+        when the left arm reaches the toe line (even though you probably won''t).
+        And don''t try to get the club any higher than your personal flexibility allows
+        without intentionally cocking your wrists and/or bending your left elbow.\n\nPower
+        comes from body timing and the release and I have about the same power pretty
+        much no matter what I do,as long as I hit the ball solidly.", "createdAt":
+        "2012-09-12T22:30:17", "id": "648346251", "thread": "840317659", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>First we need
+        to make sure we are on the same page as to what 12 o''clock is (see Doc''s
+        post below for a down the line view).<br>If you are talking about the shaft
+        from a face on view 1 or 2 o''clock is fine if you can control it and get
+        that far without your arms collapsing or cocking your wrists.<br>I do better
+        with ball striking if I don''t get that high, and I have seen no difference
+        in power either way.<br>The drawback to not going very high is that the shaft
+        has less chance to get pushed back to a 12 o''clock position near the top
+        so most of the time I only get to between 11 and 12. If I make an absolutely
+        perfect back swing (which is rare for me) the shaft will always be in line
+        to be at 12 no matter how high I go. As long as the palms are always perpendicular
+        to the ground the shaft has to be at 12 o''clock from a down the line view.<br>In
+        short I would say to try to keep the palms perpendicular to the ground throughout
+        the swing (even though you probably won''t). Try to not turn any more than
+        when the left arm reaches the toe line (even though you probably won''t).
+        And don''t try to get the club any higher than your personal flexibility allows
+        without intentionally cocking your wrists and/or bending your left elbow.</p>\n\n<p>Power
+        comes from body timing and the release and I have about the same power pretty
+        much no matter what I do,as long as I hit the ball solidly.</p>", "isSpam":
+        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
+        false, "forum": "gossipcop", "parent": 648328241, "author": {"name": "Kim",
+        "url": "", "profileUrl": "http://disqus.com/guest/89fcbe5666088f9cedeadb3e1bd61e5d/",
+        "emailHash": "89fcbe5666088f9cedeadb3e1bd61e5d", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=89fcbe5666088f9cedeadb3e1bd61e5d"},
+        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
+        "dislikes": 0, "raw_message": "Maybe they are on stand by waiting to see how
+        this is going to pan out. They probably don''t know any more then the rest
+        of us if they''re talking or not.", "createdAt": "2012-09-12T22:30:17", "id":
+        "648346250", "thread": "841662579", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Maybe they are on stand by waiting to see
+        how this is going to pan out. They probably don''t know any more then the
+        rest of us if they''re talking or not.</p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "stateimpactoh", "parent": null, "author": {"name": "oldmomma", "url": "",
+        "profileUrl": "http://disqus.com/guest/dadd66c7bd2290d69a55e266f3081034/",
+        "emailHash": "dadd66c7bd2290d69a55e266f3081034", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=dadd66c7bd2290d69a55e266f3081034",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=dadd66c7bd2290d69a55e266f3081034"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=dadd66c7bd2290d69a55e266f3081034",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=dadd66c7bd2290d69a55e266f3081034"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=dadd66c7bd2290d69a55e266f3081034",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=dadd66c7bd2290d69a55e266f3081034"},
+        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
+        "dislikes": 0, "raw_message": "While change was necessary, there were changes
+        that SHOULD have been made but weren''t.  The first would be the TOTAL elimination
+        of the 35/88% pay out...STRS is the ONLY system of the 5 in the state to have
+        this payout.  Second, WHY were the recommendations for ACTIVE teachers granted
+        over a period of years, while retirees \"take it on the chin\" immediately?   For
+        many of the older retirees (30,000 to be exact) their FAS was LESS than $30k...which
+        means that with the COLA elimination for 1 yr., and subsequent drop from 3%
+        to 2%, those folks will be living below the poverty level.  Is THAT the promise
+        STRS made to those retirees all those many years ago? Is that how a retirement
+        system and ORSC should  treat college educated professionals who devoted their
+        lives to public service?    I think not and STRS and the ORSC could have and
+        should have done right by those individuals.  And since we''re talking about
+        shared sacrifice, WHY did the STRS Bd. reinstate performance bonuses for the
+        investment staff?  Some of those employees will be making 6 figure salaries!  How
+        can salaries like that be justified, while the \"stakeholders\" in the system
+        are living @ the poverty level?!\nFinally, where were all of the retired teacher
+        organizations when all of this was going down?  OEA-R, ORTA....NEVER stood
+        up for retirees!  ......makes me wonder WHO is the puppet...and WHO is the
+        puppteer.", "createdAt": "2012-09-12T22:30:17", "id": "648346249", "thread":
+        "841709954", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>While change was necessary, there were changes that SHOULD
+        have been made but weren''t.  The first would be the TOTAL elimination of
+        the 35/88% pay out...STRS is the ONLY system of the 5 in the state to have
+        this payout.  Second, WHY were the recommendations for ACTIVE teachers granted
+        over a period of years, while retirees \"take it on the chin\" immediately?   For
+        many of the older retirees (30,000 to be exact) their FAS was LESS than $30k...which
+        means that with the COLA elimination for 1 yr., and subsequent drop from 3%
+        to 2%, those folks will be living below the poverty level.  Is THAT the promise
+        STRS made to those retirees all those many years ago? Is that how a retirement
+        system and ORSC should  treat college educated professionals who devoted their
+        lives to public service?    I think not and STRS and the ORSC could have and
+        should have done right by those individuals.  And since we''re talking about
+        shared sacrifice, WHY did the STRS Bd. reinstate performance bonuses for the
+        investment staff?  Some of those employees will be making 6 figure salaries!  How
+        can salaries like that be justified, while the \"stakeholders\" in the system
+        are living @ the poverty level?!<br>Finally, where were all of the retired
+        teacher organizations when all of this was going down?  OEA-R, ORTA....NEVER
+        stood up for retirees!  ......makes me wonder WHO is the puppet...and WHO
+        is the puppteer.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "soyentrepreneur",
+        "parent": null, "author": {"name": "Mizael Ch\u00e1vez", "url": "", "profileUrl":
+        "http://disqus.com/guest/c16b91adfc564c2f1e104f0358696ba7/", "emailHash":
+        "c16b91adfc564c2f1e104f0358696ba7", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c16b91adfc564c2f1e104f0358696ba7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c16b91adfc564c2f1e104f0358696ba7"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c16b91adfc564c2f1e104f0358696ba7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c16b91adfc564c2f1e104f0358696ba7"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c16b91adfc564c2f1e104f0358696ba7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c16b91adfc564c2f1e104f0358696ba7"},
+        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
+        "dislikes": 0, "raw_message": "ES CIERTO \u00a0me parecen excelentes estas
+        recomendaciones, yo las aplico diariamente y realizo mas proyectos de lo que
+        esperaba, no es\u00a0f\u00e1cil\u00a0pero hay que\u00a0enfocarse\u00a0y resolver
+        los problemas como vengan, no dejarlos para ma\u00f1ana.\nwww.audioyvideoshop.com\n",
+        "createdAt": "2012-09-12T22:30:17", "id": "648346247", "thread": "840037436",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>ES
+        CIERTO \u00a0me parecen excelentes estas recomendaciones, yo las aplico diariamente
+        y realizo mas proyectos de lo que esperaba, no es\u00a0f\u00e1cil\u00a0pero
+        hay que\u00a0enfocarse\u00a0y resolver los problemas como vengan, no dejarlos
+        para ma\u00f1ana.<br><a href=\"http://www.audioyvideoshop.com\" rel=\"nofollow\">www.audioyvideoshop.com</a><br></p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "cnn", "parent": 648323028, "author": {"username":
+        "cnn-68940a846339864688fa547439", "about": "", "name": "Maculare", "url":
+        "#", "joinedAt": "2012-09-03T18:38:23", "rep": 1.219938, "profileUrl": "http://disqus.com/cnn-68940a846339864688fa547439/",
+        "emailHash": "4c9a1949d695e5c08ea4f8781fb6d8ba", "reputation": 1.219938, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "31573423", "avatar": {"small":
         {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337",
         "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337"},
         "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
@@ -345,195 +414,135 @@ http_interactions:
         "permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
         "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Well deserved Mr. D''ambass ador. Chicken coming to roost. Had you heard
-        that?", "createdAt": "2012-09-12T22:13:51", "id": "648330176", "thread": "840967502",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Well
-        deserved Mr. D''ambass ador. Chicken coming to roost. Had you heard that?</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "realclearpolitics", "parent": null, "author":
-        {"username": "realclear-e7af60d00f3dadf1f03a3bdbb2bc6364", "about": "", "name":
-        "JeffreyDurbin", "url": "", "joinedAt": "2012-07-09T18:55:47", "rep": 1.2326889999999999,
-        "profileUrl": "http://disqus.com/realclear-e7af60d00f3dadf1f03a3bdbb2bc6364/",
-        "emailHash": "370b7f427e291c8cfc16f757f0880264", "reputation": 1.2326889999999999,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "28677459",
-        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=370b7f427e291c8cfc16f757f0880264",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=370b7f427e291c8cfc16f757f0880264"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=370b7f427e291c8cfc16f757f0880264",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=370b7f427e291c8cfc16f757f0880264"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=370b7f427e291c8cfc16f757f0880264",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=370b7f427e291c8cfc16f757f0880264"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Mr President, You Built This!", "createdAt": "2012-09-12T22:13:51", "id":
-        "648330175", "thread": "841538234", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Mr President, You Built This!</p>", "isSpam":
-        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "mlbam", "parent": 648320809, "author": {"username": "mlbam-6d5a96720076e32ee998d40396557450",
-        "about": "", "name": "ATLGIANT54", "url": "http://mlb.mlb.com/mlb/community/profile/index.jsp?ipid=34613638",
-        "joinedAt": "2011-06-24T21:17:02", "rep": 3.7284810000000004, "profileUrl":
-        "http://disqus.com/mlbam-6d5a96720076e32ee998d40396557450/", "emailHash":
-        "b1e1f804f2bf5579088f70893051fb7b", "reputation": 3.7284810000000004, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "13013295", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/mlbam-6d5a96720076e32ee998d40396557450.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1301/3295/avatar32.jpg?1347486662"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/mlbam-6d5a96720076e32ee998d40396557450.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1301/3295/avatar92.jpg?1347486662",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/mlbam-6d5a96720076e32ee998d40396557450.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1301/3295/avatar92.jpg?1347486662"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "and jusitified.", "createdAt": "2012-09-12T22:13:51", "id": "648330174",
-        "thread": "840608965", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>and jusitified.</p>", "isSpam": false, "isHighlighted":
+        "poofloogie - poor pathetic obamatron - keep yelping loser", "createdAt":
+        "2012-09-12T22:30:17", "id": "648346245", "thread": "840967502", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>poofloogie -
+        poor pathetic obamatron - keep yelping loser</p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "rawstory", "parent": null, "author": {"username": "google-4c908af02c09a87934203ea7598aae69",
-        "about": "", "name": "Harry Mellons", "url": "", "joinedAt": "2012-07-20T06:45:53",
-        "rep": 1.28928, "profileUrl": "http://disqus.com/google-4c908af02c09a87934203ea7598aae69/",
-        "emailHash": "4c908af02c09a87934203ea7598aae69", "reputation": 1.28928, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "29273767", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/17/935/avatar32.jpg?1344992523",
-        "cache": "https://securecdn.disqus.com/uploads/forums/17/935/avatar32.jpg?1344992523"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/17/935/avatar92.jpg?1344992523",
-        "cache": "https://securecdn.disqus.com/uploads/forums/17/935/avatar92.jpg?1344992523"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/17/935/avatar92.jpg?1344992523",
-        "cache": "https://securecdn.disqus.com/uploads/forums/17/935/avatar92.jpg?1344992523"}},
+        "thehill-v4", "parent": null, "author": {"username": "twitter-16959669", "about":
+        "", "name": "gotalife", "url": "http://twitter.com/gotalife", "joinedAt":
+        "2012-05-02T01:22:26", "rep": 1.1309269999999998, "profileUrl": "http://disqus.com/twitter-16959669/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.1309269999999998,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "25579241",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/twitter-16959669.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2557/9241/avatar32.jpg?1347423515"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-16959669.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2557/9241/avatar92.jpg?1347423515",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-16959669.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2557/9241/avatar92.jpg?1347423515"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Second Amendment Remedies?", "createdAt": "2012-09-12T22:13:51", "id": "648330173",
-        "thread": "841668105", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>Second Amendment Remedies?</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "jaidefinichon", "parent": 648326439, "author": {"username": "RainbowLesbian",
-        "about": "", "name": "RainbowLesbos", "url": "http://rainbowlesbos.tumblr.com/",
-        "joinedAt": "2012-02-06T06:44:35", "rep": 2.5054069999999999, "profileUrl":
-        "http://disqus.com/RainbowLesbian/", "emailHash": "ba7ea180735170384a146babad969de0",
-        "reputation": 2.5054069999999999, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "22024237", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/RainbowLesbian.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2202/4237/avatar32.jpg?1328519587"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/RainbowLesbian.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2202/4237/avatar92.jpg?1328519587",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/RainbowLesbian.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2202/4237/avatar92.jpg?1328519587"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "no te preocupes... de todos modos tu mam\u00e1 no me pescar\u00eda... le
-        gustan los chicos rudos y rockeros ;)", "createdAt": "2012-09-12T22:13:51",
-        "id": "648330171", "thread": "841725836", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>no te preocupes... de todos modos tu mam\u00e1
-        no me pescar\u00eda... le gustan los chicos rudos y rockeros ;)</p>", "isSpam":
+        "romney needs to apologize now. ", "createdAt": "2012-09-12T22:30:17", "id":
+        "648346243", "thread": "841530623", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>romney needs to apologize now. </p>", "isSpam":
         false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "nikkeindex", "parent": null, "author": {"username": "disqus_K5Vn7s773v",
-        "about": "", "name": "oskar", "url": "", "joinedAt": "2012-09-10T18:19:38",
-        "rep": 1.2324929999999998, "profileUrl": "http://disqus.com/disqus_K5Vn7s773v/",
-        "emailHash": "e39a756cde2cd93bc6b8bfd459a558da", "reputation": 1.2324929999999998,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31928981",
-        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e39a756cde2cd93bc6b8bfd459a558da"}},
+        false, "forum": "thedailycaller", "parent": 648121421, "author": {"username":
+        "1Indioviejo1", "about": "", "name": "1Indioviejo1", "url": "", "joinedAt":
+        "2009-06-26T20:29:27", "rep": 1.5421390000000001, "profileUrl": "http://disqus.com/1Indioviejo1/",
+        "emailHash": "86522c7c4ce5860e436bc05adc445692", "reputation": 1.5421390000000001,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "425150", "avatar":
+        {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=86522c7c4ce5860e436bc05adc445692",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=86522c7c4ce5860e436bc05adc445692"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=86522c7c4ce5860e436bc05adc445692",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=86522c7c4ce5860e436bc05adc445692"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=86522c7c4ce5860e436bc05adc445692",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=86522c7c4ce5860e436bc05adc445692"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Nikke har du anv\u00e4nt flashback eller dylikt om n\u00e5got, och d\u00e5
-        om n\u00e5gon person som kunnat upplevts som or\u00e4ttvist? Eller helt enkelt
-        kanske i eget namn, dock p\u00e5 ett s\u00e5 subtilt s\u00e4tt att det \u00e4r
-        l\u00e4ttare att hantera n\u00e4stan \u00f6verdrivet struntprat p\u00e5 flashback.
-        hmm", "createdAt": "2012-09-12T22:13:51", "id": "648330172", "thread": "680929402",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Nikke
-        har du anv\u00e4nt flashback eller dylikt om n\u00e5got, och d\u00e5 om n\u00e5gon
-        person som kunnat upplevts som or\u00e4ttvist? Eller helt enkelt kanske i
-        eget namn, dock p\u00e5 ett s\u00e5 subtilt s\u00e4tt att det \u00e4r l\u00e4ttare
-        att hantera n\u00e4stan \u00f6verdrivet struntprat p\u00e5 flashback. hmm</p>",
+        "Sharp!\u00a0\u00a0 A bit of sarcasm here,\"Obama is a\u00a0very intelligent
+        guy who deliberates policy decisions...\"\u00a0\u00a0\u00a0 You are a very
+        funny guy.", "createdAt": "2012-09-12T22:30:17", "id": "648346241", "thread":
+        "841371409", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>Sharp!\u00a0\u00a0 A bit of sarcasm here,\"Obama is a\u00a0very
+        intelligent guy who deliberates policy decisions...\"\u00a0\u00a0\u00a0 You
+        are a very funny guy.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "dbno", "parent":
+        648342944, "author": {"username": "Sjimpanse", "about": "", "name": "Sjimpanse",
+        "url": "", "joinedAt": "2011-12-01T14:13:56", "rep": 1.566918, "profileUrl":
+        "http://disqus.com/Sjimpanse/", "emailHash": "eb195f5dbd699778aa3ef68d9b8de6e9",
+        "reputation": 1.566918, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "19675915", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=eb195f5dbd699778aa3ef68d9b8de6e9"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "G\u00e5r velst i Cava i de kretsene", "createdAt": "2012-09-12T22:30:17",
+        "id": "648346239", "thread": "841078062", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>G\u00e5r velst i Cava i de kretsene</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "charismamagazine", "parent": 648286354,
-        "author": {"username": "disqus_NThlRc2IQ0", "about": "", "name": "afchief",
-        "url": "", "joinedAt": "2012-07-15T11:20:00", "rep": 1.2932549999999998, "profileUrl":
-        "http://disqus.com/disqus_NThlRc2IQ0/", "emailHash": "d687b4aa158e558264bd1231b8c60252",
-        "reputation": 1.2932549999999998, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "29012482", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=d687b4aa158e558264bd1231b8c60252",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=d687b4aa158e558264bd1231b8c60252"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d687b4aa158e558264bd1231b8c60252",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d687b4aa158e558264bd1231b8c60252"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d687b4aa158e558264bd1231b8c60252",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d687b4aa158e558264bd1231b8c60252"}},
+        true, "isFlagged": false, "forum": "newsday", "parent": null, "author": {"username":
+        "newsday-a519d6c8cba5f376d0846871513fc337", "about": "", "name": "freecountry",
+        "url": "", "joinedAt": "2011-12-10T18:47:11", "rep": 1.2292449999999999, "profileUrl":
+        "http://disqus.com/newsday-a519d6c8cba5f376d0846871513fc337/", "emailHash":
+        "1aa00b806b17907a1cbcae9cd11a99fc", "reputation": 1.2292449999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "20022196", "avatar": {"small":
+        {"permalink": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar32.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar32.jpg?1281549414"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar92.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar92.jpg?1281549414"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar92.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/61/5811/avatar92.jpg?1281549414"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Read Romans 13", "createdAt": "2012-09-12T22:13:51", "id": "648330170", "thread":
-        "841275890", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>Read Romans 13</p>", "isSpam": false, "isHighlighted": false,
-        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "micheledeangeliscom",
-        "parent": null, "author": {"name": "Zorz", "url": "", "profileUrl": "http://disqus.com/guest/70e3c8d973f58e2442f9e404aa32be6c/",
-        "emailHash": "70e3c8d973f58e2442f9e404aa32be6c", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=70e3c8d973f58e2442f9e404aa32be6c"},
-        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "penso che l''aumento di utenti di g+ sia anche
-        dovuto al fatto che se crei un nuovo account di gmail te ne dovrebbe creare
-        in automatico anche uno di g+, e ogni nuovo telefono android va registrato
-        ad un account google, quindi al crescere delle vendite dei telefoni android,
-        cresce il numero di utenti g+", "createdAt": "2012-09-12T22:13:51", "id":
-        "648330168", "thread": "841654691", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>penso che l''aumento di utenti di g+ sia
-        anche dovuto al fatto che se crei un nuovo account di gmail te ne dovrebbe
-        creare in automatico anche uno di g+, e ogni nuovo telefono android va registrato
-        ad un account google, quindi al crescere delle vendite dei telefoni android,
-        cresce il numero di utenti g+</p>", "isSpam": false, "isHighlighted": false,
-        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "cheaper",
-        "parent": null, "author": {"username": "twitter-19349069", "about": "", "name":
-        "Lisa Eirene", "url": "http://twitter.com/LisaEirene", "joinedAt": "2010-06-10T17:16:59",
-        "rep": 1.345245, "profileUrl": "http://disqus.com/twitter-19349069/", "emailHash":
-        "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.345245, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "3304228", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/twitter-19349069.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/330/4228/avatar32.jpg?1345572370"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-19349069.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/330/4228/avatar92.jpg?1345572370",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-19349069.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/330/4228/avatar92.jpg?1345572370"}}},
+        "Catalano, Constanza, Coscetta, Parlante...is like an episode of the Sopranos.\u00a0
+        ", "createdAt": "2012-09-12T22:30:17", "id": "648346240", "thread": "841412997",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Catalano,
+        Constanza, Coscetta, Parlante...is like an episode of the Sopranos.\u00a0
+        </p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "worldstar", "parent": null, "author":
+        {"username": "LionPeltLoinCloth", "about": "", "name": "LionPeltLoinCloth",
+        "url": "", "joinedAt": "2012-05-05T01:05:52", "rep": 1.366797, "profileUrl":
+        "http://disqus.com/LionPeltLoinCloth/", "emailHash": "8a291f5ad23567b49eebe450ee0663b0",
+        "reputation": 1.366797, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "25716817", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/LionPeltLoinCloth.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2571/6817/avatar32.jpg?1341338947"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/LionPeltLoinCloth.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2571/6817/avatar92.jpg?1341338947",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/LionPeltLoinCloth.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2571/6817/avatar92.jpg?1341338947"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "I will have to check that Sierra Nevada out. They aren''t my favorite brew
-        but in a pinch it will do. I loathe pumpkin beer. So don''t get it. Yuck.",
-        "createdAt": "2012-09-12T22:13:50", "id": "648330169", "thread": "840565857",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>I
-        will have to check that Sierra Nevada out. They aren''t my favorite brew but
-        in a pinch it will do. I loathe pumpkin beer. So don''t get it. Yuck.</p>",
+        "\"I got diamond bicuspids on the exterior cover of my housing structure.\"\nYou
+        gotta laugh at something like that", "createdAt": "2012-09-12T22:30:17", "id":
+        "648346237", "thread": "841670330", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>\"I got diamond bicuspids on the exterior
+        cover of my housing structure.\"<br>You gotta laugh at something like that</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "nationfoxnews", "parent": null, "author":
-        {"username": "PVMan1", "about": "", "name": "PVMan1", "url": "", "joinedAt":
-        "2011-07-16T17:19:12", "rep": 1.3645039999999999, "profileUrl": "http://disqus.com/PVMan1/",
-        "emailHash": "5da6ba22db1e6456482571892dbefa5e", "reputation": 1.3645039999999999,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "14076434",
-        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/PVMan1.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1407/6434/avatar32.jpg?1346802532"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/PVMan1.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1407/6434/avatar92.jpg?1346802532",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/PVMan1.jpg", "cache":
-        "https://securecdn.disqus.com/uploads/users/1407/6434/avatar92.jpg?1346802532"}}},
+        true, "isFlagged": false, "forum": "cnn", "parent": 648282444, "author": {"username":
+        "cnn-fd0d527b97c3db966210f5152c", "about": "", "name": "Futurecop208", "url":
+        "#", "joinedAt": "2012-07-24T16:25:39", "rep": 1.30935, "profileUrl": "http://disqus.com/cnn-fd0d527b97c3db966210f5152c/",
+        "emailHash": "f4db49d9fc1a99e503d397fb2268100f", "reputation": 1.30935, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "29508101", "avatar": {"small":
+        {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Wow...look at all the lefties comin'' out to circle the wagons! This is entertaining
-        to watch!! ", "createdAt": "2012-09-12T22:13:50", "id": "648330166", "thread":
-        "841254165", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>Wow...look at all the lefties comin'' out to circle the wagons!
-        This is entertaining to watch!! </p>", "isSpam": false, "isHighlighted": false,
-        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "peoplecom",
-        "parent": null, "author": {"name": "guest", "url": "", "profileUrl": "http://disqus.com/guest/acec3209d2270cff868b1a8071846bbe/",
-        "emailHash": "acec3209d2270cff868b1a8071846bbe", "avatar": {"small": {"permalink":
-        "https://securecdn.disqus.com/uploads/forums/73/1948/avatar32.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/73/1948/avatar32.jpg?1281549414"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/73/1948/avatar92.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/73/1948/avatar92.jpg?1281549414"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/73/1948/avatar92.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/73/1948/avatar92.jpg?1281549414"},
-        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "PPL Come on she is a royal now.alot of ppl
-        she smiling at, shaking hands, and taking pictures for.. im i the only one
-        not shocked that she can go through many outfits in one day! but whatever
-        helps to get your articles up in this section lol", "createdAt": "2012-09-12T22:13:50",
-        "id": "648330165", "thread": "841354578", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>PPL Come on she is a royal now.alot of
-        ppl she smiling at, shaking hands, and taking pictures for.. im i the only
-        one not shocked that she can go through many outfits in one day! but whatever
-        helps to get your articles up in this section lol</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}]}'
+        "and what the heck does that have anything at all in the least bit to do with
+        the fact that he made an illegal turn?", "createdAt": "2012-09-12T22:30:16",
+        "id": "648346234", "thread": "840511377", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>and what the heck does that have anything
+        at all in the least bit to do with the fact that he made an illegal turn?</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "cnn", "parent": 648337975, "author": {"username":
+        "cnn-57792eece0da82689a14537009", "about": "", "name": "helix10461", "url":
+        "#", "joinedAt": "2010-08-13T19:14:20", "rep": 1.171764, "profileUrl": "http://disqus.com/cnn-57792eece0da82689a14537009/",
+        "emailHash": "4267704b3a910a5c999787e5365358a4", "reputation": 1.171764, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "3916940", "avatar": {"small":
+        {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
+        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "I could care less if they make a movie against any religion.\u00a0 Don''t
+        these people have day time jobs and know that there is no god. ", "createdAt":
+        "2012-09-12T22:30:16", "id": "648346233", "thread": "841609760", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>I could care
+        less if they make a movie against any religion.\u00a0 Don''t these people
+        have day time jobs and know that there is no god. </p>", "isSpam": false,
+        "isHighlighted": false, "userScore": 0}]}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:14:11 GMT
+  recorded_at: Wed, 12 Sep 2012 22:30:36 GMT
 recorded_with: VCR 2.2.4

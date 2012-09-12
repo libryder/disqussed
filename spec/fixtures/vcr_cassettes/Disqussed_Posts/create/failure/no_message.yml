@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: message=&api_secret=<SECRET_KEY>&remote_auth=e30%3D%20f819fed4262b792a959dc604591243642d7f1a70%201347483484
+      string: message=&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Wed, 12 Sep 2012 20:58:05 GMT
+      - Wed, 12 Sep 2012 22:30:33 GMT
       server:
       - Apache
       vary:
@@ -30,5 +30,5 @@ http_interactions:
       encoding: US-ASCII
       string: ! '{"code": 2, "response": "Missing required argument: ''message''"}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 20:58:05 GMT
+  recorded_at: Wed, 12 Sep 2012 22:30:33 GMT
 recorded_with: VCR 2.2.4

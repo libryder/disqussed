@@ -12,7 +12,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :body => { :api_key => Disqussed::defaults[:api_key] })
 
-      Disqussed::Api.post('endpoint', 'action')
+      Disqussed::Api.request('post', 'endpoint', 'action')
     end
 
     it "overrides the api_key" do
@@ -21,7 +21,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :body => { :api_key => "google" })
 
-      Disqussed::Api.post('endpoint', 'action', { :api_key => "google" })
+      Disqussed::Api.request('post', 'endpoint', 'action', { :api_key => "google" })
     end
 
     it "passes on options" do
@@ -30,7 +30,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :body => { :api_key => Disqussed::defaults[:api_key], :pants => "none" })
 
-      Disqussed::Api.post('endpoint', 'action', { :pants => "none" })
+      Disqussed::Api.request('post', 'endpoint', 'action', { :pants => "none" })
     end
 
     it "authenticates as the access_token user" do
@@ -40,7 +40,7 @@ describe Disqussed::Api do
               :body => { :api_key => Disqussed::defaults[:api_key],
                          :access_token => Disqussed::defaults[:access_token] })
 
-      Disqussed::Api.post('endpoint', 'action', {}, true)
+      Disqussed::Api.request('post', 'endpoint', 'action', {}, true)
     end
   end
 
@@ -51,7 +51,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :query => { :api_key => Disqussed::defaults[:api_key] })
 
-      Disqussed::Api.get('endpoint', 'action')
+      Disqussed::Api.request('get', 'endpoint', 'action')
     end
 
     it "overrides the api_key" do
@@ -60,7 +60,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :query => { :api_key => "google" })
 
-      Disqussed::Api.get('endpoint', 'action', { :api_key => "google" })
+      Disqussed::Api.request('get', 'endpoint', 'action', { :api_key => "google" })
     end
 
     it "passes on options" do
@@ -69,7 +69,7 @@ describe Disqussed::Api do
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :query => { :api_key => Disqussed::defaults[:api_key], :pants => "none" })
 
-      Disqussed::Api.get('endpoint', 'action', { :pants => "none" })
+      Disqussed::Api.request('get', 'endpoint', 'action', { :pants => "none" })
     end
 
     it "authenticates as the access_token user" do
@@ -79,7 +79,7 @@ describe Disqussed::Api do
               :query => { :api_key => Disqussed::defaults[:api_key],
                          :access_token => Disqussed::defaults[:access_token] })
 
-      Disqussed::Api.get('endpoint', 'action', {}, true)
+      Disqussed::Api.request('get', 'endpoint', 'action', {}, true)
     end
   end
 

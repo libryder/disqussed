@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=stipple-development&title=1347483471.479371&api_secret=<SECRET_KEY>
+      string: forum=<FORUM_NAME>&title=1347489047.782944&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 20:57:51 GMT
+      - Wed, 12 Sep 2012 22:30:48 GMT
       server:
       - Apache
       vary:
@@ -23,7 +23,7 @@ http_interactions:
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
       set-cookie:
-      - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347396968/images/noavatar32.png|1";
+      - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|1";
         Domain=.disqus.com; Max-Age=2592000; Path=/
       connection:
       - close
@@ -33,20 +33,20 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://stipple-development.disqus.com/1347483471479371/latest.rss",
-        "reactions": 0, "author": "24478449", "forum": "stipple-development", "title":
-        "1347483471.479371", "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt":
-        "2012-09-12T20:57:52", "slug": "1347483471479371", "isClosed": false, "posts":
-        0, "userSubscription": false, "link": null, "likes": 0, "message": "", "category":
-        "1748258", "ipAddress": "208.80.69.2", "id": "841672881", "isDeleted": false}}'
+      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/1347489047782944/latest.rss",
+        "reactions": 0, "author": "24478449", "forum": "<FORUM_NAME>", "title": "1347489047.782944",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-12T22:30:48",
+        "slug": "1347489047782944", "isClosed": false, "posts": 0, "userSubscription":
+        false, "link": null, "likes": 0, "message": "", "category": "1748258", "ipAddress":
+        "208.80.69.2", "id": "841751150", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 20:57:52 GMT
+  recorded_at: Wed, 12 Sep 2012 22:30:48 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/threads/remove.json?
     body:
       encoding: US-ASCII
-      string: thread=841672881&api_secret=<SECRET_KEY>
+      string: thread=841751150&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -54,7 +54,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 20:57:53 GMT
+      - Wed, 12 Sep 2012 22:30:48 GMT
       server:
       - Apache
       vary:
@@ -64,17 +64,17 @@ http_interactions:
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
       set-cookie:
-      - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347396968/images/noavatar32.png|1";
+      - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|1";
         Domain=.disqus.com; Max-Age=2592000; Path=/
-      content-length:
-      - '27'
       connection:
       - close
+      transfer-encoding:
+      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
       string: ! '{"code": 0, "response": []}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 20:57:53 GMT
+  recorded_at: Wed, 12 Sep 2012 22:30:48 GMT
 recorded_with: VCR 2.2.4

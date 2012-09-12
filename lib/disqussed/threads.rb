@@ -9,7 +9,7 @@ module Disqussed
 
         opts.slice(:api_key, :access_token, :forum, :title)
 
-        Disqussed::Api.post(@@endpoint, 'create', opts, true)
+        Disqussed::Api.request('post', @@endpoint, 'create', opts, true)
       end
 
       def details(thread = nil)
@@ -18,7 +18,7 @@ module Disqussed
 
         opts.slice(:api_key, :access_token, :thread)
 
-        Disqussed::Api.get(@@endpoint, 'details', opts, true)
+        Disqussed::Api.request('get', @@endpoint, 'details', opts, true)
       end
 
       def post_count(thread = nil)
@@ -27,7 +27,7 @@ module Disqussed
 
         opts.slice(:api_key, :access_token, :thread)
 
-        details = Disqussed::Api.get(@@endpoint, 'details', opts, true)
+        details = Disqussed::Api.request('get', @@endpoint, 'details', opts, true)
 
         details["response"]["posts"]
       end
@@ -38,7 +38,7 @@ module Disqussed
 
         opts.slice(:api_key, :access_token, :thread)
 
-        Disqussed::Api.post(@@endpoint, 'remove', opts, true)
+        Disqussed::Api.request('post', @@endpoint, 'remove', opts, true)
       end
     end
   end
