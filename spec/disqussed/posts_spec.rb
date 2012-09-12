@@ -1,6 +1,12 @@
 require File.expand_path(File.join(File.dirname(__FILE__), '..', 'spec_helper'))
 
 describe Disqussed::Posts do
+  before :each do
+    Disqussed::defaults[:sso] = true
+
+    @user = { :username => "Tester", :id => "1", :email => "r@r.com" }
+  end
+
   describe "create" do
     describe "failure" do
       context "no message" do
@@ -23,7 +29,7 @@ describe Disqussed::Posts do
         use_vcr_cassette
 
         before :each do
-          @resp = Disqussed::Posts.create("missing thread")
+          @resp = Disqussed::Posts.create("missing thread", {}, @user)
         end
 
         it "returns with a 400 HTTP status code" do
@@ -46,8 +52,8 @@ describe Disqussed::Posts do
           @resp.code.should == 400
         end
 
-        it "returns with a response code 12" do
-          @resp['code'].should == 12
+        it "returns with a response code 2" do
+          @resp['code'].should == 2
         end
       end
     end
@@ -56,8 +62,8 @@ describe Disqussed::Posts do
       use_vcr_cassette
 
       before :each do
-        @thread = Disqussed::Threads.create("stipple", Time.now.to_f)
-        @resp = Disqussed::Posts.create("test", { :thread => @thread['response']['id'] })
+        @thread = Disqussed::Threads.create(nil, Time.now.to_f)
+        @resp = Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
       end
 
       it "returns with a 200 HTTP Status code" do
@@ -69,7 +75,7 @@ describe Disqussed::Posts do
   describe "list" do
     describe "success" do
       context "all thread posts" do
-        use_vcr_cassette
+        use_vcr_cassette :match_requests_on => [:host, :path]
 
         before :each do
           @resp = Disqussed::Posts.list
@@ -85,13 +91,13 @@ describe Disqussed::Posts do
       end
 
       context "specific thread posts" do
-        use_vcr_cassette
+        use_vcr_cassette :match_requests_on => [:host, :path]
 
         before :each do
-          @thread = Disqussed::Threads.create("stipple", Time.now.to_f)
-          Disqussed::Posts.create("test", { :thread => @thread['response']['id'] })
-          Disqussed::Posts.create("test 2", { :thread => @thread['response']['id'] })
-          @resp = Disqussed::Posts.list({:forum => "stipple", :thread => @thread['response']['id']})
+          @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f)
+          Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
+          Disqussed::Posts.create("test 2", { :thread => @thread['response']['id'] }, @user)
+          @resp = Disqussed::Posts.list({:forum => Disqussed::defaults[:forum], :thread => @thread['response']['id']})
         end
 
         it "returns a list of posts" do

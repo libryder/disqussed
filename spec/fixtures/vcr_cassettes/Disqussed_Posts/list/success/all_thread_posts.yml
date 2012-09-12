@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://disqus.com/api/3.0/posts/list.json?&api_key=<API_KEY>
+    uri: https://disqus.com/api/3.0/posts/list.json?&api_secret=<SECRET_KEY>&remote_auth=e30%3D%20c9e7d07206d0d064737d778012a582abfd8955e9%201347484514
     body:
       encoding: US-ASCII
       string: ''
@@ -13,537 +13,654 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 23:58:41 GMT
+      - Wed, 12 Sep 2012 21:15:14 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      content-length:
+      - '59359'
       connection:
       - close
-      transfer-encoding:
-      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"cursor": {"prev": null, "hasNext": true, "next": "1346975907215644:0:0",
-        "hasPrev": false, "total": null, "id": "1346975907215644:0:0", "more": true},
+      string: ! '{"cursor": {"prev": null, "hasNext": true, "next": "1347484482205394:0:0",
+        "hasPrev": false, "total": null, "id": "1347484482205394:0:0", "more": true},
         "code": 0, "response": [{"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "tomandlorenzo", "parent": 642480827, "author": {"username": "sleepycat",
-        "about": "", "name": "sleepycat", "url": "", "joinedAt": "2011-06-23T02:15:56",
-        "rep": 1.358325, "profileUrl": "http://disqus.com/sleepycat/", "emailHash":
-        "250d779f89f40c2379fe700d08df40c6", "reputation": 1.358325, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "12918640", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/sleepycat.jpg", "cache":
-        "https://securecdn.disqus.com/uploads/users/1291/8640/avatar32.jpg?1308796008"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/sleepycat.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1291/8640/avatar92.jpg?1308796008",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/sleepycat.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1291/8640/avatar92.jpg?1308796008"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Congrats!!! Pases out the bubbly for round 5", "createdAt": "2012-09-06T23:58:30",
-        "id": "642561376", "thread": "833735440", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Congrats!!! Pases out the bubbly for round
-        5</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "jaidefinichon", "parent": 642560506, "author":
-        {"username": "raton_de_laboratorio", "about": "", "name": "Rata qla", "url":
-        "http://www.disney.com/", "joinedAt": "2012-09-05T21:53:59", "rep": 1.44198,
-        "profileUrl": "http://disqus.com/raton_de_laboratorio/", "emailHash": "573855476caa8c3d611d42f279b9f439",
-        "reputation": 1.44198, "location": "", "isPrimary": true, "isAnonymous": false,
-        "id": "31692708", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/raton_de_laboratorio.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3169/2708/avatar32.jpg?1346882150"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/raton_de_laboratorio.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3169/2708/avatar92.jpg?1346882150",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/raton_de_laboratorio.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3169/2708/avatar92.jpg?1346882150"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "en el chino tambi\u00e9n? pense que eran los japos no m\u00e1s", "createdAt":
-        "2012-09-06T23:58:30", "id": "642561374", "thread": "833848570", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>en el chino
-        tambi\u00e9n? pense que eran los japos no m\u00e1s</p>", "isSpam": false,
-        "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "unve", "parent": null, "author": {"name": "el guaro", "url":
-        "", "profileUrl": "http://disqus.com/guest/bfba0d0947d37d5acf2a80d8a9a2811d/",
-        "emailHash": "bfba0d0947d37d5acf2a80d8a9a2811d", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=bfba0d0947d37d5acf2a80d8a9a2811d"},
+        "apnitv", "parent": null, "author": {"name": "Heena", "url": "", "profileUrl":
+        "http://disqus.com/guest/d481e318b41d9f380d2ac34e1be5656b/", "emailHash":
+        "d481e318b41d9f380d2ac34e1be5656b", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=d481e318b41d9f380d2ac34e1be5656b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=d481e318b41d9f380d2ac34e1be5656b"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d481e318b41d9f380d2ac34e1be5656b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d481e318b41d9f380d2ac34e1be5656b"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d481e318b41d9f380d2ac34e1be5656b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=d481e318b41d9f380d2ac34e1be5656b"},
         "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "eso es para q vean si votan x capriles ese
-        es su modelo y vean q d\u00b4lima y ojeda ya lo estan desenmascarando arriba
-        chavez", "createdAt": "2012-09-06T23:58:30", "id": "642561375", "thread":
-        "833810735", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>eso es para q vean si votan x capriles ese es su modelo y vean
-        q d\u00b4lima y ojeda ya lo estan desenmascarando arriba chavez</p>", "isSpam":
-        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "gossipcop", "parent": 642559884, "author": {"name": "guest",
-        "url": "", "profileUrl": "http://disqus.com/guest/4382cdbd48a16edac104dfafa2da0a25/",
-        "emailHash": "4382cdbd48a16edac104dfafa2da0a25", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4382cdbd48a16edac104dfafa2da0a25",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4382cdbd48a16edac104dfafa2da0a25"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4382cdbd48a16edac104dfafa2da0a25",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4382cdbd48a16edac104dfafa2da0a25"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4382cdbd48a16edac104dfafa2da0a25",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4382cdbd48a16edac104dfafa2da0a25"},
+        "dislikes": 0, "raw_message": "Ekta ka poor is mad y don''t u join politics
+        ekta tumara har serial mein itna fake hota hai aur lead heroin ko tum criminal
+        banadeati ho Jo tum harea serial mein hota hai who real lyf mein kabhi nahi
+        hota so plz tum apnea serial banaane ka kaam bann karo n get lost ", "createdAt":
+        "2012-09-12T21:14:44", "id": "648267396", "thread": "841438699", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Ekta ka poor
+        is mad y don''t u join politics ekta tumara har serial mein itna fake hota
+        hai aur lead heroin ko tum criminal banadeati ho Jo tum harea serial mein
+        hota hai who real lyf mein kabhi nahi hota so plz tum apnea serial banaane
+        ka kaam bann karo n get lost </p>", "isSpam": false, "isHighlighted": false,
+        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "rvw",
+        "parent": null, "author": {"name": "drewdogg6998", "url": "", "profileUrl":
+        "http://disqus.com/guest/f5ecb1d4c1776e36df83273ce38ab075/", "emailHash":
+        "f5ecb1d4c1776e36df83273ce38ab075", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5ecb1d4c1776e36df83273ce38ab075"},
         "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "no no no not an affair but FEELINGS you cant
-        see feelings", "createdAt": "2012-09-06T23:58:30", "id": "642561373", "thread":
-        "833640343", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>no no no not an affair but FEELINGS you cant see feelings</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "thewashingtonexaminer", "parent": null,
-        "author": {"username": "Gas_Passer", "about": "", "name": "Gas_Passer", "url":
-        "", "joinedAt": "2010-11-24T02:10:18", "rep": 2.3411299999999997, "profileUrl":
-        "http://disqus.com/Gas_Passer/", "emailHash": "e551267be10ed8cb63c0cb865355475f",
-        "reputation": 2.3411299999999997, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "5541267", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/Gas_Passer.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/554/1267/avatar32.jpg?1332738970"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/Gas_Passer.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/554/1267/avatar92.jpg?1332738970",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/Gas_Passer.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/554/1267/avatar92.jpg?1332738970"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Watch tonight, when Obama tells lie after lie how the dummycrats cheer and
-        cheer louder with each lie Obama tells tonight.\u00a0\u00a0 ", "createdAt":
-        "2012-09-06T23:58:29", "id": "642561371", "thread": "833465963", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Watch tonight,
-        when Obama tells lie after lie how the dummycrats cheer and cheer louder with
-        each lie Obama tells tonight.\u00a0\u00a0 </p>", "isSpam": false, "isHighlighted":
+        "dislikes": 0, "raw_message": "Well all the 3d haters give me your 3d devices
+        ill put em to good use.I too was skeptical but after watching transformers
+        in imax 3d i was sold. sure watch 2d movies is awesome but a new dimension
+        on that is amazing. I bought my first passive 3d tv this year and since been
+        getting free glasses from the theaters. And gaming is even better. Sure youll
+        have a 8/10 flop to try to make a true 3d movie but those 2 movies youll remember
+        how they blew your mind :) Like anything its a personal opinion and I know
+        it will stay theaters make too much to toss it and im happy with it 100% ",
+        "createdAt": "2012-09-12T21:14:44", "id": "648267393", "thread": "702357371",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Well
+        all the 3d haters give me your 3d devices ill put em to good use.I too was
+        skeptical but after watching transformers in imax 3d i was sold. sure watch
+        2d movies is awesome but a new dimension on that is amazing. I bought my first
+        passive 3d tv this year and since been getting free glasses from the theaters.
+        And gaming is even better. Sure youll have a 8/10 flop to try to make a true
+        3d movie but those 2 movies youll remember how they blew your mind :) Like
+        anything its a personal opinion and I know it will stay theaters make too
+        much to toss it and im happy with it 100% </p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "weaselzippers", "parent": 642556882, "author": {"username": "disqus_RLlO6W6138",
-        "about": "", "name": "cabrerski", "url": "", "joinedAt": "2012-09-03T23:43:39",
-        "rep": 1.324684, "profileUrl": "http://disqus.com/disqus_RLlO6W6138/", "emailHash":
-        "1bdffae965d5c026a2cf81bafa01d65b", "reputation": 1.324684, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "31586411", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/disqus_RLlO6W6138.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3158/6411/avatar32.jpg?1346793864"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/disqus_RLlO6W6138.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3158/6411/avatar92.jpg?1346793864",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/disqus_RLlO6W6138.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3158/6411/avatar92.jpg?1346793864"}}},
+        "glavnoe", "parent": 648080956, "author": {"username": "IDALGO", "about":
+        "", "name": "IDALGO", "url": "", "joinedAt": "2011-11-28T10:46:40", "rep":
+        0.93361099999999964, "profileUrl": "http://disqus.com/IDALGO/", "emailHash":
+        "c7a1acec30fe910508e7c452283ce1a3", "reputation": 0.93361099999999964, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "19557369", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/IDALGO.jpg", "cache": "https://securecdn.disqus.com/uploads/users/1955/7369/avatar32.jpg?1342451042"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/IDALGO.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1955/7369/avatar92.jpg?1342451042",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/IDALGO.jpg", "cache":
+        "https://securecdn.disqus.com/uploads/users/1955/7369/avatar92.jpg?1342451042"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "TEA Party law is US law.  It''s just enforced.", "createdAt": "2012-09-06T23:58:29",
-        "id": "642561370", "thread": "833823352", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>TEA Party law is US law.  It''s just enforced.</p>",
+        "\u00a0\u0421\u043e\u0433\u043b\u0430\u0441\u0435\u043d, \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435
+        \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e \u0434\u0432\u0438\u0436\u0435\u0442\u0441\u044f
+        \u043a \u0432\u044b\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044e, \u043a\u0440\u0430\u0445\u0443
+        \u0438 \u0445\u0430\u043e\u0441\u0443. \n\n\u0412 \u0421\u0428\u0410 \u0437\u0430\u043f\u0440\u0435\u0442\u044f\u0442
+        \u0441\u043b\u043e\u0432\u0430 \"\u043c\u0430\u043c\u0430\" \u0438 \"\u043f\u0430\u043f\u0430\"\n23.01.2011\n\n\n                         \n                         \n                         \n                         C
+        \u0444\u0435\u0432\u0440\u0430\u043b\u044f \u0432 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438
+        \u0413\u043e\u0441\u0434\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0430
+        \n\u0421\u0428\u0410 \u0432\u044b\u0432\u043e\u0434\u044f\u0442 \u0438\u0437
+        \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u043e\u0442\u0430
+        \u0441\u043b\u043e\u0432\u0430 \"\u043c\u0430\u043c\u0430\" \u0438 \"\u043f\u0430\u043f\u0430\".
+        \u041f\u0440\u0438 \u043f\u043e\u0434\u0430\u0447\u0435 \n\u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0439
+        \u043d\u0430 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435
+        \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432,
+        \u0432 \u0430\u043d\u043a\u0435\u0442\u0430\u0445 \u043e\u0442\u043d\u044b\u043d\u0435
+        \u0431\u0443\u0434\u0435\u0442 \n\u0437\u043d\u0430\u0447\u0438\u0442\u044c\u0441\u044f
+        \"\u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u043d\u043e\u043c\u0435\u0440
+        1\" \u0438 \"\u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u043d\u043e\u043c\u0435\u0440
+        2\".\n\n\u0413\u043e\u0441\u0434\u0435\u043f \u0440\u0430\u0437\u044a\u044f\u0441\u043d\u0438\u043b,
+        \u0447\u0442\u043e \u043f\u0440\u0435\u0436\u043d\u044f\u044f \u0433\u0435\u043d\u0434\u0435\u0440\u043d\u0430\u044f
+        \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f
+        \"\u043e\u0442\u0435\u0446\" \u0438 \"\u043c\u0430\u0442\u044c\" \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0440\u0435\u0447\u0438\u0442
+        \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u043c \u0440\u0435\u0430\u043b\u0438\u044f\u043c.\n\n\u0412\n
+        \u0421\u0428\u0410 \u043e\u0434\u043d\u043e\u043f\u043e\u043b\u0430\u044f
+        \u0441\u0435\u043c\u044c\u044f \u043f\u0440\u043e\u0447\u043d\u043e \u0437\u0430\u0441\u0442\u043e\u043b\u0431\u0438\u043b\u0430
+        \u0441\u0432\u043e\u0438 \u043f\u0440\u0430\u0432\u0430, \u0438 \u0446\u0435\u043b\u043e\u0435
+        \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435 \n\u044e\u043d\u044b\u0445
+        \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0446\u0435\u0432 \u043d\u0435
+        \u0434\u043e\u043b\u0436\u043d\u043e \u0447\u0443\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c
+        \u0441\u0435\u0431\u044f \u0443\u0449\u0435\u0440\u0431\u043d\u044b\u043c\u0438
+        \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u0442\u043e\u043c\u0443,
+        \u0447\u0442\u043e\n \u0443 \u043d\u0438\u0445 \"\u0434\u0432\u0430 \u043f\u0430\u043f\u044b\".
+        \u041a\u0430\u043a \u0443 \u0441\u0443\u0440\u0440\u043e\u0433\u0430\u0442\u043d\u043e\u0433\u043e
+        \u0440\u0435\u0431\u0435\u043d\u043a\u0430 \u0431\u0440\u0438\u0442\u0430\u043d\u0446\u0430
+        \u042d\u043b\u0442\u043e\u043d\u0430 \u0414\u0436\u043e\u043d\u0430 \u0438
+        \n\u0435\u0433\u043e \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0430, \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e
+        \u043f\u0430\u0440\u0430 \u043f\u0440\u043e\u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043b\u0430
+        \u043c\u0438\u0440\u0443 \u043d\u0430 \u0434\u043d\u044f\u0445. http://tvgid.ua/news/23012011/35827/\n\n",
+        "createdAt": "2012-09-12T21:14:44", "id": "648267391", "thread": "841148962",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>\u00a0\u0421\u043e\u0433\u043b\u0430\u0441\u0435\u043d,
+        \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u043e\u0435 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u043e
+        \u0434\u0432\u0438\u0436\u0435\u0442\u0441\u044f \u043a \u0432\u044b\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044e,
+        \u043a\u0440\u0430\u0445\u0443 \u0438 \u0445\u0430\u043e\u0441\u0443. </p>\n\n<p>\u0412
+        \u0421\u0428\u0410 \u0437\u0430\u043f\u0440\u0435\u0442\u044f\u0442 \u0441\u043b\u043e\u0432\u0430
+        \"\u043c\u0430\u043c\u0430\" \u0438 \"\u043f\u0430\u043f\u0430\"<br>23.01.2011</p>\n\n<p>                         C
+        \u0444\u0435\u0432\u0440\u0430\u043b\u044f \u0432 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0438
+        \u0413\u043e\u0441\u0434\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0430
+        <br>\u0421\u0428\u0410 \u0432\u044b\u0432\u043e\u0434\u044f\u0442 \u0438\u0437
+        \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043e\u0440\u043e\u0442\u0430
+        \u0441\u043b\u043e\u0432\u0430 \"\u043c\u0430\u043c\u0430\" \u0438 \"\u043f\u0430\u043f\u0430\".
+        \u041f\u0440\u0438 \u043f\u043e\u0434\u0430\u0447\u0435 <br>\u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u0439
+        \u043d\u0430 \u043e\u0444\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u0435
+        \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0434\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u043e\u0432,
+        \u0432 \u0430\u043d\u043a\u0435\u0442\u0430\u0445 \u043e\u0442\u043d\u044b\u043d\u0435
+        \u0431\u0443\u0434\u0435\u0442 <br>\u0437\u043d\u0430\u0447\u0438\u0442\u044c\u0441\u044f
+        \"\u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u043d\u043e\u043c\u0435\u0440
+        1\" \u0438 \"\u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044c \u043d\u043e\u043c\u0435\u0440
+        2\".</p>\n\n<p>\u0413\u043e\u0441\u0434\u0435\u043f \u0440\u0430\u0437\u044a\u044f\u0441\u043d\u0438\u043b,
+        \u0447\u0442\u043e \u043f\u0440\u0435\u0436\u043d\u044f\u044f \u0433\u0435\u043d\u0434\u0435\u0440\u043d\u0430\u044f
+        \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f
+        \"\u043e\u0442\u0435\u0446\" \u0438 \"\u043c\u0430\u0442\u044c\" \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0440\u0435\u0447\u0438\u0442
+        \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u043c \u0440\u0435\u0430\u043b\u0438\u044f\u043c.</p>\n\n<p>\u0412<br>
+        \u0421\u0428\u0410 \u043e\u0434\u043d\u043e\u043f\u043e\u043b\u0430\u044f
+        \u0441\u0435\u043c\u044c\u044f \u043f\u0440\u043e\u0447\u043d\u043e \u0437\u0430\u0441\u0442\u043e\u043b\u0431\u0438\u043b\u0430
+        \u0441\u0432\u043e\u0438 \u043f\u0440\u0430\u0432\u0430, \u0438 \u0446\u0435\u043b\u043e\u0435
+        \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0435 <br>\u044e\u043d\u044b\u0445
+        \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0446\u0435\u0432 \u043d\u0435
+        \u0434\u043e\u043b\u0436\u043d\u043e \u0447\u0443\u0432\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c
+        \u0441\u0435\u0431\u044f \u0443\u0449\u0435\u0440\u0431\u043d\u044b\u043c\u0438
+        \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u0442\u043e\u043c\u0443,
+        \u0447\u0442\u043e<br> \u0443 \u043d\u0438\u0445 \"\u0434\u0432\u0430 \u043f\u0430\u043f\u044b\".
+        \u041a\u0430\u043a \u0443 \u0441\u0443\u0440\u0440\u043e\u0433\u0430\u0442\u043d\u043e\u0433\u043e
+        \u0440\u0435\u0431\u0435\u043d\u043a\u0430 \u0431\u0440\u0438\u0442\u0430\u043d\u0446\u0430
+        \u042d\u043b\u0442\u043e\u043d\u0430 \u0414\u0436\u043e\u043d\u0430 \u0438
+        <br>\u0435\u0433\u043e \u043f\u0430\u0440\u0442\u043d\u0435\u0440\u0430, \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e
+        \u043f\u0430\u0440\u0430 \u043f\u0440\u043e\u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043b\u0430
+        \u043c\u0438\u0440\u0443 \u043d\u0430 \u0434\u043d\u044f\u0445. <a href=\"http://tvgid.ua/news/23012011/35827/\"
+        rel=\"nofollow\">http://tvgid.ua/news/23012011/...</a></p>\n\n<p></p>", "isSpam":
+        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
+        false, "forum": "engadget2", "parent": null, "author": {"username": "facebook-603551881",
+        "about": "", "name": "Matt Evans", "url": "http://www.facebook.com/profile.php?id=603551881",
+        "joinedAt": "2012-09-12T21:14:41", "rep": 1.232124, "profileUrl": "http://disqus.com/facebook-603551881/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.232124, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "32056905", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/facebook-603551881.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3205/6905/avatar32.jpg?1347484481"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-603551881.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3205/6905/avatar92.jpg?1347484481",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-603551881.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/3205/6905/avatar92.jpg?1347484481"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "\u00a0So whats the iphone 5 got that the iphone 4s have not ? here it is  1st
+        is the processer, iphone5 has the a6 quad.(the iphone 4s has the a5 processer.)
+        2nd is the size 4 in instead of (3.5in) 3rd is 4gLTE and DC-HSDPA and Rev.
+        B and GLONASS 4th is simcard size,,i5 has nano\n 5th is front camera 1.2MP
+        photos,720p HD video,Backside illumination \nsensor,Take still photos while
+        recording video and Face \ndetection,Improved video stabilisation while the
+        i4 has VGA-resolution \nphotos,VGA-resolution video. 6th is diffrent earpods
+        that cost \u00a325 7th the \"Lightning\" pin adapter 8th battery is a little
+        better than the iphone4s by an extra hour on wifi, but neither is as good
+        as the iphone4 battery.  nothing technically new there in any other phone
+        out there now, outdated before release ?", "createdAt": "2012-09-12T21:14:44",
+        "id": "648267389", "thread": "841213123", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>\u00a0So whats the iphone 5 got that the
+        iphone 4s have not ? here it is  1st is the processer, iphone5 has the a6
+        quad.(the iphone 4s has the a5 processer.) 2nd is the size 4 in instead of
+        (3.5in) 3rd is 4gLTE and DC-HSDPA and Rev. B and GLONASS 4th is simcard size,,i5
+        has nano<br> 5th is front camera 1.2MP photos,720p HD video,Backside illumination
+        <br>sensor,Take still photos while recording video and Face <br>detection,Improved
+        video stabilisation while the i4 has VGA-resolution <br>photos,VGA-resolution
+        video. 6th is diffrent earpods that cost \u00a325 7th the \"Lightning\" pin
+        adapter 8th battery is a little better than the iphone4s by an extra hour
+        on wifi, but neither is as good as the iphone4 battery.  nothing technically
+        new there in any other phone out there now, outdated before release ?</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
         true, "isFlagged": false, "forum": "nationfoxnews", "parent": null, "author":
-        {"username": "fox-news-f482e382b3d9fb9802f43a811601127d", "about": "", "name":
-        "kennyworld", "url": "", "joinedAt": "2011-03-01T16:20:28", "rep": 2.8144039999999997,
-        "profileUrl": "http://disqus.com/fox-news-f482e382b3d9fb9802f43a811601127d/",
-        "emailHash": "6227baca6c1ad99ccabf23e471bd1af4", "reputation": 2.8144039999999997,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "7721473",
-        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=6227baca6c1ad99ccabf23e471bd1af4"}},
+        {"username": "1fordtech1", "about": "", "name": "1fordtech1", "url": "", "joinedAt":
+        "2011-01-20T11:50:45", "rep": 5.5405709999999999, "profileUrl": "http://disqus.com/1fordtech1/",
+        "emailHash": "4c1299b3da3299bcc01882433da8a581", "reputation": 5.5405709999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "6542957",
+        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4c1299b3da3299bcc01882433da8a581",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4c1299b3da3299bcc01882433da8a581"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c1299b3da3299bcc01882433da8a581",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c1299b3da3299bcc01882433da8a581"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c1299b3da3299bcc01882433da8a581",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c1299b3da3299bcc01882433da8a581"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "With 100% tax rates they can -- We are almost there with state - federal
-        income taxes -- sales taxes , fees on and on --not much left after that .",
-        "createdAt": "2012-09-06T23:58:29", "id": "642561368", "thread": "833370271",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>With
-        100% tax rates they can -- We are almost there with state - federal income
-        taxes -- sales taxes , fees on and on --not much left after that .</p>", "isSpam":
-        false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "cnn", "parent": 642559854, "author": {"username": "cnnhack",
-        "about": "", "name": "cnnhack", "url": "", "joinedAt": "2012-06-28T21:00:41",
-        "rep": 1.179738, "profileUrl": "http://disqus.com/cnnhack/", "emailHash":
-        "1ad60a0130939f4f94d6a29afafa9c43", "reputation": 1.179738, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "28042014", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337",
-        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar32.jpg?1327959337"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
-        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337",
-        "cache": "https://securecdn.disqus.com/uploads/forums/19/3157/avatar92.jpg?1327959337"}},
+        "If you dont love your country or what it stands for we dont want you to stand
+        with us to pledge allegiance. We much rather would know what you are and the
+        people we dont want to associate with or invite to be our leaders or representatives.
+        Thanks for showing us who you really are. \n", "createdAt": "2012-09-12T21:14:44",
+        "id": "648267386", "thread": "841322967", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>If you dont love your country or what it
+        stands for we dont want you to stand with us to pledge allegiance. We much
+        rather would know what you are and the people we dont want to associate with
+        or invite to be our leaders or representatives. Thanks for showing us who
+        you really are. <br></p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "cabelosesonhos",
+        "parent": 647835043, "author": {"username": "marlonbrunoreis", "about": "",
+        "name": "Marlon Bruno", "url": "http://cabelosesonhos.blogspot.com/", "joinedAt":
+        "2011-01-15T14:40:51", "rep": 1.7882309999999999, "profileUrl": "http://disqus.com/marlonbrunoreis/",
+        "emailHash": "50ca5ffb2c8bd71a2186542f5b43e96a", "reputation": 1.7882309999999999,
+        "location": "Belo Horizonte, MG", "isPrimary": true, "isAnonymous": false,
+        "id": "6456412", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/marlonbrunoreis.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/645/6412/avatar32.jpg?1295111371"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/marlonbrunoreis.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/645/6412/avatar92.jpg?1295111371",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/marlonbrunoreis.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/645/6412/avatar92.jpg?1295111371"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Yeah - as per usual he won''t actually do any of those things but he will
-        say he will do them", "createdAt": "2012-09-06T23:58:29", "id": "642561369",
-        "thread": "832811883", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>Yeah - as per usual he won''t actually do any of those things
-        but he will say he will do them</p>", "isSpam": false, "isHighlighted": false,
-        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "cowboybyte",
-        "parent": null, "author": {"username": "Irburwick", "about": "", "name": "Ilene",
-        "url": "", "joinedAt": "2012-06-07T23:56:01", "rep": 1.3707349999999998, "profileUrl":
-        "http://disqus.com/Irburwick/", "emailHash": "7d7dc3c324be935f93ad6b612cebc526",
-        "reputation": 1.3707349999999998, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "27187384", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=7d7dc3c324be935f93ad6b612cebc526",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=7d7dc3c324be935f93ad6b612cebc526"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7d7dc3c324be935f93ad6b612cebc526",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7d7dc3c324be935f93ad6b612cebc526"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7d7dc3c324be935f93ad6b612cebc526",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7d7dc3c324be935f93ad6b612cebc526"}},
+        "Lorrayne,\n\nsim. Para com a plastica.", "createdAt": "2012-09-12T21:14:44",
+        "id": "648267390", "thread": "841076651", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Lorrayne,</p>\n\n<p>sim. Para com a plastica.</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "calgarysun", "parent": null, "author":
+        {"username": "54pacingpolly", "about": "proud albertan live in calgary ",
+        "name": "pacing polly", "url": "http://ca.ca1203yahoo.com/mc/welcome?gx=18.tn",
+        "joinedAt": "2011-12-21T13:13:30", "rep": 2.1542669999999999, "profileUrl":
+        "http://disqus.com/54pacingpolly/", "emailHash": "b61ba5d916bcb0dc0c7ef84dc46593bc",
+        "reputation": 2.1542669999999999, "location": "calgary", "isPrimary": true,
+        "isAnonymous": false, "id": "20400663", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=b61ba5d916bcb0dc0c7ef84dc46593bc"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "There are going to be 15,000 of media and 5,000 of the obats.", "createdAt":
-        "2012-09-06T23:58:29", "id": "642561367", "thread": "831170500", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>There are going
-        to be 15,000 of media and 5,000 of the obats.</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "nationfoxnews", "parent": 642542008, "author": {"username": "fox-news-mc_escher",
-        "about": "", "name": "mc_escher", "url": "", "joinedAt": "2010-09-14T04:18:53",
-        "rep": 1.1226670000000003, "profileUrl": "http://disqus.com/fox-news-mc_escher/",
-        "emailHash": "c0763eed46dcbf78d2b97cb302ed4ae6", "reputation": 1.1226670000000003,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "4332876",
-        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=c0763eed46dcbf78d2b97cb302ed4ae6"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "<b>No it wouldn''t. Not even close. You just don''t understand how big the
-        numbers are. The only way to fix the problem is to slash the size of the Federal
-        government, and we''d STILL need to fix SS and Medicare/Medicaid before they
-        blew up on us.</b>\n\n", "createdAt": "2012-09-06T23:58:29", "id": "642561366",
-        "thread": "833788637", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p><b>No it wouldn''t. Not even close. You just don''t understand
-        how big the numbers are. The only way to fix the problem is to slash the size
-        of the Federal government, and we''d STILL need to fix SS and Medicare/Medicaid
-        before they blew up on us.</b></p>\n\n<p></p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "playxbla", "parent": null, "author": {"username": "twitter-14584466", "about":
-        "", "name": "Buster Wolf", "url": "http://twitter.com/Navarin", "joinedAt":
-        "2010-03-11T20:52:58", "rep": 1.9705619999999999, "profileUrl": "http://disqus.com/twitter-14584466/",
-        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.9705619999999999,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "2220304",
-        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/twitter-14584466.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/222/304/avatar32.jpg?1346463600"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-14584466.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/222/304/avatar92.jpg?1346463600",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-14584466.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/222/304/avatar92.jpg?1346463600"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "There was an eleventh winner, me. You just can''t see my entry because it''s
-        just THAT ninja!\n\nAnd there was a problem uploading the video to the website.
-        Still, thanks guys!", "createdAt": "2012-09-06T23:58:29", "id": "642561365",
-        "thread": "833724595", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>There was an eleventh winner, me. You just can''t see my
-        entry because it''s just THAT ninja!</p>\n\n<p>And there was a problem uploading
-        the video to the website. Still, thanks guys!</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "jaidefinichon", "parent": 642560960, "author": {"username": "twitter-286957987",
-        "about": "", "name": "Doctor Dencil", "url": "http://twitter.com/TontoCTM",
-        "joinedAt": "2011-10-23T22:55:12", "rep": 1.322845, "profileUrl": "http://disqus.com/twitter-286957987/",
-        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.322845, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "18271807", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/twitter-286957987.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1827/1807/avatar32.jpg?1346206208"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-286957987.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1827/1807/avatar92.jpg?1346206208",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-286957987.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/1827/1807/avatar92.jpg?1346206208"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "\u00a0me estan dando ganas de cagar en la ducha con sus comentarios", "createdAt":
-        "2012-09-06T23:58:29", "id": "642561363", "thread": "833848570", "numReports":
-        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>\u00a0me estan
-        dando ganas de cagar en la ducha con sus comentarios</p>", "isSpam": false,
+        "good cause..I do believe I went to school with Kathy Taylor..or more like
+        was pals with her brother Ian..regards..your doing a good thing..", "createdAt":
+        "2012-09-12T21:14:44", "id": "648267385", "thread": "841617615", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>good cause..I
+        do believe I went to school with Kathy Taylor..or more like was pals with
+        her brother Ian..regards..your doing a good thing..</p>", "isSpam": false,
         "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "clickondetroit", "parent": null, "author": {"username": "johnnybegood1",
-        "about": "", "name": "johnnybegood1", "url": "", "joinedAt": "2009-07-16T03:49:32",
-        "rep": 2.0482049999999998, "profileUrl": "http://disqus.com/johnnybegood1/",
-        "emailHash": "7ac37876ff2b08cfdfe2277a10070800", "reputation": 2.0482049999999998,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "490505", "avatar":
-        {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=7ac37876ff2b08cfdfe2277a10070800",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=7ac37876ff2b08cfdfe2277a10070800"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7ac37876ff2b08cfdfe2277a10070800",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7ac37876ff2b08cfdfe2277a10070800"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7ac37876ff2b08cfdfe2277a10070800",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=7ac37876ff2b08cfdfe2277a10070800"}},
+        false, "forum": "iphoneitalia-com", "parent": 648119359, "author": {"username":
+        "franco63", "about": "", "name": "franco63", "url": "", "joinedAt": "2011-07-26T05:45:21",
+        "rep": 1.2683309999999999, "profileUrl": "http://disqus.com/franco63/", "emailHash":
+        "e3479c2318f9a995a6c1d4d1feab94a0", "reputation": 1.2683309999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "14515202", "avatar": {"small":
+        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=e3479c2318f9a995a6c1d4d1feab94a0"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Hurry up, seat a solid jury. Give him a fair trial , l and then get his lying
-        carcass back in prison ASAP.", "createdAt": "2012-09-06T23:58:29", "id": "642561364",
-        "thread": "833777897", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>Hurry up, seat a solid jury. Give him a fair trial , l and
-        then get his lying carcass back in prison ASAP.</p>", "isSpam": false, "isHighlighted":
+        "La colpa \u00e8 dei cinesi che lo assemblano che, miseri loro malgrado  per
+        due soldi \"fanno la spia\"!", "createdAt": "2012-09-12T21:14:44", "id": "648267388",
+        "thread": "841501678", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>La colpa \u00e8 dei cinesi che lo assemblano che, miseri
+        loro malgrado  per due soldi \"fanno la spia\"!</p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "freedomoutpost", "parent": null, "author": {"name": "swan", "url": "", "profileUrl":
-        "http://disqus.com/guest/35967fd239099ed7a2ecfb7da894c654/", "emailHash":
-        "35967fd239099ed7a2ecfb7da894c654", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=35967fd239099ed7a2ecfb7da894c654",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=35967fd239099ed7a2ecfb7da894c654"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=35967fd239099ed7a2ecfb7da894c654",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=35967fd239099ed7a2ecfb7da894c654"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=35967fd239099ed7a2ecfb7da894c654",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=35967fd239099ed7a2ecfb7da894c654"},
+        "journaldemontreal", "parent": null, "author": {"username": "Jeune_vaillant",
+        "about": "", "name": "Jeune_vaillant", "url": "", "joinedAt": "2012-09-07T01:15:53",
+        "rep": 1.2566029999999999, "profileUrl": "http://disqus.com/Jeune_vaillant/",
+        "emailHash": "458d84a8bd9a669740fbac4e9a2f16fe", "reputation": 1.2566029999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "31758732",
+        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=458d84a8bd9a669740fbac4e9a2f16fe"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Quel mauvais investissement (d\u00e9pense).\u00a0 J''ai retourn\u00e9 mon
+        Iphone 4 apr\u00e8s 3 semaines.\u00a0 Bien des gadgets, mais on fait mieux...\u00a0",
+        "createdAt": "2012-09-12T21:14:44", "id": "648267384", "thread": "841569619",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Quel
+        mauvais investissement (d\u00e9pense).\u00a0 J''ai retourn\u00e9 mon Iphone
+        4 apr\u00e8s 3 semaines.\u00a0 Bien des gadgets, mais on fait mieux...\u00a0</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "theatlantic", "parent": null, "author":
+        {"username": "LaurieInSeattle", "about": "", "name": "LaurieInSeattle", "url":
+        "", "joinedAt": "2010-05-31T23:10:43", "rep": 1.390978, "profileUrl": "http://disqus.com/LaurieInSeattle/",
+        "emailHash": "45ff9d7bb46435a1f8b8303087fd1910", "reputation": 1.390978, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "3206789", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/LaurieInSeattle.jpg", "cache":
+        "https://securecdn.disqus.com/uploads/users/320/6789/avatar32.jpg?1275347613"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/LaurieInSeattle.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/320/6789/avatar92.jpg?1275347613",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/LaurieInSeattle.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/320/6789/avatar92.jpg?1275347613"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Romney''s \"Sarah Palin makes the Gabby Giffords shooting all about her\"
+        moment. \u00a0 ", "createdAt": "2012-09-12T21:14:44", "id": "648267382", "thread":
+        "841465302", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>Romney''s \"Sarah Palin makes the Gabby Giffords shooting all
+        about her\" moment. \u00a0 </p>", "isSpam": false, "isHighlighted": false,
+        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "local2soo",
+        "parent": null, "author": {"username": "facebook-603270645", "about": "",
+        "name": "Frank Cuglietta", "url": "http://www.facebook.com/people/Frank-Cuglietta/603270645",
+        "joinedAt": "2011-05-06T16:30:53", "rep": 1.319159, "profileUrl": "http://disqus.com/facebook-603270645/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.319159, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "10045823", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/facebook-603270645.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1004/5823/avatar32.jpg?1347484484"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-603270645.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1004/5823/avatar92.jpg?1347484484",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-603270645.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1004/5823/avatar92.jpg?1347484484"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "eveyone should go across the river boycott the stations here\n", "createdAt":
+        "2012-09-12T21:14:44", "id": "648267381", "thread": "841492546", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>eveyone should
+        go across the river boycott the stations here<br></p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "avclub", "parent": 648198262, "author": {"username": "avclub-f345f54f435875e6cde8db7a3534a8d8",
+        "about": "", "name": "The Rural Juror", "url": "/users/the-rural-juror,90321/",
+        "joinedAt": "2011-08-23T04:36:55", "rep": 1.4425939999999999, "profileUrl":
+        "http://disqus.com/avclub-f345f54f435875e6cde8db7a3534a8d8/", "emailHash":
+        "5e6b9de9d67101c446886a5f46e9a02f", "reputation": 1.4425939999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "15912376", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/avclub-f345f54f435875e6cde8db7a3534a8d8.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1591/2376/avatar32.jpg?1347484484"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/avclub-f345f54f435875e6cde8db7a3534a8d8.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1591/2376/avatar92.jpg?1347484484",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/avclub-f345f54f435875e6cde8db7a3534a8d8.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1591/2376/avatar92.jpg?1347484484"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "\"\nHe exits to take the call. The audience realizes that they are relieved,
+        like when the refrigerator you didn''t even notice was buzzing finally stops.\"",
+        "createdAt": "2012-09-12T21:14:43", "id": "648267377", "thread": "841624078",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>\"<br>He
+        exits to take the call. The audience realizes that they are relieved, like
+        when the refrigerator you didn''t even notice was buzzing finally stops.\"</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "avclub", "parent": null, "author": {"username":
+        "avclub-54b9060039a6d5ecfbae83f82a76be29", "about": "", "name": "SCRATCH Acid",
+        "url": "/users/scratch-acid,108513/", "joinedAt": "2012-02-02T00:17:03", "rep":
+        1.6913199999999999, "profileUrl": "http://disqus.com/avclub-54b9060039a6d5ecfbae83f82a76be29/",
+        "emailHash": "7f310df1f4257cc6d7d3b603b42e8bde", "reputation": 1.6913199999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "21850710",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/avclub-54b9060039a6d5ecfbae83f82a76be29.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2185/710/avatar32.jpg?1347484285"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/avclub-54b9060039a6d5ecfbae83f82a76be29.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2185/710/avatar92.jpg?1347484285",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/avclub-54b9060039a6d5ecfbae83f82a76be29.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2185/710/avatar92.jpg?1347484285"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Beavis: \"It''s like Christians? Later, dude.\"", "createdAt": "2012-09-12T21:14:43",
+        "id": "648267374", "thread": "841674599", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Beavis: \"It''s like Christians? Later,
+        dude.\"</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "worldstar", "parent": 648266144, "author":
+        {"username": "whiteyrulez", "about": "", "name": "whiteyrulez", "url": "",
+        "joinedAt": "2012-09-04T20:22:10", "rep": 1.2446349999999999, "profileUrl":
+        "http://disqus.com/whiteyrulez/", "emailHash": "4eef7159910fa1041fc232a64d33b98a",
+        "reputation": 1.2446349999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "31633011", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar32.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar32.jpg?1281549414"},
+        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar92.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar92.jpg?1281549414"},
+        "permalink": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar92.jpg?1281549414",
+        "cache": "https://securecdn.disqus.com/uploads/forums/108/6167/avatar92.jpg?1281549414"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "you should learn the gender role act like a lady", "createdAt": "2012-09-12T21:14:43",
+        "id": "648267376", "thread": "841626005", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>you should learn the gender role act like
+        a lady</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "mediaite", "parent": 648251208, "author":
+        {"username": "facebook-100004068879817", "about": "", "name": "Memo Demo",
+        "url": "http://www.facebook.com/memo.demo.771", "joinedAt": "2012-07-20T12:14:11",
+        "rep": 1.256208, "profileUrl": "http://disqus.com/facebook-100004068879817/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.256208, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "29283529", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/facebook-100004068879817.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2928/3529/avatar32.jpg?1347482332"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-100004068879817.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2928/3529/avatar92.jpg?1347482332",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-100004068879817.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2928/3529/avatar92.jpg?1347482332"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Remember when the left was against the \"war on terror\"? Those were the
+        days.\nFace the facts...you libs and prog-pigs will happily sell your non-existent
+        principles and souls down the river if it means a Dem can stay in the White
+        House.", "createdAt": "2012-09-12T21:14:43", "id": "648267375", "thread":
+        "841645888", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>Remember when the left was against the \"war on terror\"? Those
+        were the days.<br>Face the facts...you libs and prog-pigs will happily sell
+        your non-existent principles and souls down the river if it means a Dem can
+        stay in the White House.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "alternet", "parent":
+        648049367, "author": {"username": "TexasBill", "about": "", "name": "TexasBill",
+        "url": "", "joinedAt": "2011-06-13T09:06:31", "rep": 1.35534, "profileUrl":
+        "http://disqus.com/TexasBill/", "emailHash": "88b63f12f8da92dfe242bd9249152838",
+        "reputation": 1.35534, "location": "", "isPrimary": true, "isAnonymous": false,
+        "id": "12353791", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=88b63f12f8da92dfe242bd9249152838",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=88b63f12f8da92dfe242bd9249152838"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=88b63f12f8da92dfe242bd9249152838",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=88b63f12f8da92dfe242bd9249152838"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=88b63f12f8da92dfe242bd9249152838",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=88b63f12f8da92dfe242bd9249152838"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "GM was doing development work on the Volt prior to its failure. In fact,
+        it was the only real development project they had going. It was nearly \"feature-frozen\"
+        (i.e., very close to its final form) in 2009.", "createdAt": "2012-09-12T21:14:43",
+        "id": "648267371", "thread": "841488535", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>GM was doing development work on the Volt
+        prior to its failure. In fact, it was the only real development project they
+        had going. It was nearly \"feature-frozen\" (i.e., very close to its final
+        form) in 2009.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "ign-articles",
+        "parent": null, "author": {"username": "ign-7a2292a551103fe2ec0d86cea5a4f663",
+        "about": "", "name": "ascoldasice", "url": "http://people.ign.com/ascoldasice",
+        "joinedAt": "2011-09-16T06:40:17", "rep": 1.278637, "profileUrl": "http://disqus.com/ign-7a2292a551103fe2ec0d86cea5a4f663/",
+        "emailHash": "76ab06f174c40766a74c7e8e4ba0c302", "reputation": 1.278637, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "16850089", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/ign-7a2292a551103fe2ec0d86cea5a4f663.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1685/89/avatar32.jpg?1347484484"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/ign-7a2292a551103fe2ec0d86cea5a4f663.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1685/89/avatar92.jpg?1347484484",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/ign-7a2292a551103fe2ec0d86cea5a4f663.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1685/89/avatar92.jpg?1347484484"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Too bad there werent any hidden ninjas at the premier of the dark knight
+        rises in aurora colorodo", "createdAt": "2012-09-12T21:14:43", "id": "648267372",
+        "thread": "841513217", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>Too bad there werent any hidden ninjas at the premier of
+        the dark knight rises in aurora colorodo</p>", "isSpam": false, "isHighlighted":
+        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
+        "oregoncatalyst", "parent": null, "author": {"username": "facebook-100000261837832",
+        "about": "", "name": "Brian Kelly B Bizzle", "url": "http://www.facebook.com/profile.php?id=100000261837832",
+        "joinedAt": "2012-06-01T18:51:42", "rep": 1.25749, "profileUrl": "http://disqus.com/facebook-100000261837832/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.25749, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "26912868", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/facebook-100000261837832.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2691/2868/avatar32.jpg?1347484483"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-100000261837832.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2691/2868/avatar92.jpg?1347484483",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-100000261837832.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2691/2868/avatar92.jpg?1347484483"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        " Marijuana prohibition has been a complete and utter failure.\n\n\n The latest
+        Rasmussen polls a few months back had shown that at least fifty-six percent
+        of American voters want marijuana completely legalized nationwide. That percentage
+        continues to grow steadily on a daily basis.\n\n\n Americans living in states
+        with marijuana legalization initiatives on their state ballots need to go
+        out and VOTE YES! We shall prevail this year in at least one of the three
+        states going for it, if not more or all of them! Once this happens, the rest
+        of the states will follow suit. It all boils down to economics, and when these
+        states receive  a huge surplus of state tax revenue, that will be the end
+        of prohibition!. Soon after the federal government will legalize marijuana
+        completely nationwide.\n\n\n Marijuana Legalization Nationwide is an inevitable
+        reality that''s approaching  MUCH sooner than prohibitionists think, and there
+        is NOTHING they can do to stop it! \n\n\n\n Legalize Nationwide and Support
+        All Marijuana Legalization efforts!     ", "createdAt": "2012-09-12T21:14:43",
+        "id": "648267370", "thread": "839906317", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p> Marijuana prohibition has been a complete
+        and utter failure.</p>\n\n<p> The latest Rasmussen polls a few months back
+        had shown that at least fifty-six percent of American voters want marijuana
+        completely legalized nationwide. That percentage continues to grow steadily
+        on a daily basis.</p>\n\n<p> Americans living in states with marijuana legalization
+        initiatives on their state ballots need to go out and VOTE YES! We shall prevail
+        this year in at least one of the three states going for it, if not more or
+        all of them! Once this happens, the rest of the states will follow suit. It
+        all boils down to economics, and when these states receive  a huge surplus
+        of state tax revenue, that will be the end of prohibition!. Soon after the
+        federal government will legalize marijuana completely nationwide.</p>\n\n<p>
+        Marijuana Legalization Nationwide is an inevitable reality that''s approaching  MUCH
+        sooner than prohibitionists think, and there is NOTHING they can do to stop
+        it! </p>\n\n<p> Legalize Nationwide and Support All Marijuana Legalization
+        efforts!     </p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "engadget2", "parent":
+        648184373, "author": {"username": "openid-53165", "about": "", "name": "Frank",
+        "url": "http://openid-provider.appspot.com/FrankCMaier@googlemail.com", "joinedAt":
+        "2010-12-21T14:02:53", "rep": 1.7064649999999999, "profileUrl": "http://disqus.com/openid-53165/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.7064649999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "6021754",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/openid-53165.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/602/1754/avatar32.jpg?1347484483"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/openid-53165.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/602/1754/avatar92.jpg?1347484483",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/openid-53165.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/602/1754/avatar92.jpg?1347484483"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "The casing of the iPhone 5 is great, the overall look is ugly in my opinion.
+        It''s too tall and the top and bottom margins look even more disturbing than
+        on the iPhone 4S. But I like the the side and the back, it''s sleek, simple
+        and not glossy.\n\nThe processor should be adequate and competive to current
+        high end Android Smartphones.\n\nBut what''s really changed between the iPhone
+        4S and iPhone 5? What''s a must have feature? Siri was one, even if it was
+        still ''beta''. The iPhone 5 hasn''t any must have feature. The display is
+        tiny compared to very successful Android smartphones. The feature set is ok,
+        but nothing great, quite contrary the iPhone 5 is incompatible to iPhone <5
+        accesories, so why should you upgrade at all? And finally, iOS 6 is just a
+        minor upgrade.", "createdAt": "2012-09-12T21:14:43", "id": "648267369", "thread":
+        "841611279", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>The casing of the iPhone 5 is great, the overall look is ugly
+        in my opinion. It''s too tall and the top and bottom margins look even more
+        disturbing than on the iPhone 4S. But I like the the side and the back, it''s
+        sleek, simple and not glossy.</p>\n\n<p>The processor should be adequate and
+        competive to current high end Android Smartphones.</p>\n\n<p>But what''s really
+        changed between the iPhone 4S and iPhone 5? What''s a must have feature? Siri
+        was one, even if it was still ''beta''. The iPhone 5 hasn''t any must have
+        feature. The display is tiny compared to very successful Android smartphones.
+        The feature set is ok, but nothing great, quite contrary the iPhone 5 is incompatible
+        to iPhone &lt;5 accesories, so why should you upgrade at all? And finally,
+        iOS 6 is just a minor upgrade.</p>", "isSpam": false, "isHighlighted": false,
+        "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "thedailycaller",
+        "parent": 647925573, "author": {"name": "Alvinist", "url": "", "profileUrl":
+        "http://disqus.com/guest/8a4a6f137e57da488525e34cbca87a5b/", "emailHash":
+        "8a4a6f137e57da488525e34cbca87a5b", "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=8a4a6f137e57da488525e34cbca87a5b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=8a4a6f137e57da488525e34cbca87a5b"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8a4a6f137e57da488525e34cbca87a5b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8a4a6f137e57da488525e34cbca87a5b"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8a4a6f137e57da488525e34cbca87a5b",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=8a4a6f137e57da488525e34cbca87a5b"},
         "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "Enforce the laws that are there and crime will
-        go down , put the biggest Crime Lord in Jail - Holder and the rest of his
-        group - Obama to !", "createdAt": "2012-09-06T23:58:29", "id": "642561362",
-        "thread": "832406090", "numReports": 0, "likes": 0, "isEdited": false, "points":
-        0, "message": "<p>Enforce the laws that are there and crime will go down ,
-        put the biggest Crime Lord in Jail - Holder and the rest of his group - Obama
-        to !</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "bdn", "parent": null, "author": {"username":
-        "letstrythisagain", "about": "", "name": "letstrythisagain", "url": "", "joinedAt":
-        "2012-08-03T14:55:07", "rep": 1.257028, "profileUrl": "http://disqus.com/letstrythisagain/",
-        "emailHash": "02975714d4877cf61a1605c4cc54a797", "reputation": 1.257028, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "30012014", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=02975714d4877cf61a1605c4cc54a797",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=02975714d4877cf61a1605c4cc54a797"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=02975714d4877cf61a1605c4cc54a797",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=02975714d4877cf61a1605c4cc54a797"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=02975714d4877cf61a1605c4cc54a797",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=02975714d4877cf61a1605c4cc54a797"}},
+        "dislikes": 0, "raw_message": "I don''t see the issue. \u00a0If my insurance
+        can pay for old men to get viagra then people who don''t use contraception,
+        can have some of their insurance money pay for things they don''t personally
+        use as well. \u00a0That''s sort of how insurance works.\n\n\nIf your faith
+        tells you it''s wrong to use contraception, then don''t use it. \u00a0Problem
+        solved. \u00a0You can''t tell me I can''t use it, because your faith says
+        it''s wrong. \u00a0", "createdAt": "2012-09-12T21:14:43", "id": "648267367",
+        "thread": "841345251", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>I don''t see the issue. \u00a0If my insurance can pay for
+        old men to get viagra then people who don''t use contraception, can have some
+        of their insurance money pay for things they don''t personally use as well.
+        \u00a0That''s sort of how insurance works.</p>\n\n<p>If your faith tells you
+        it''s wrong to use contraception, then don''t use it. \u00a0Problem solved.
+        \u00a0You can''t tell me I can''t use it, because your faith says it''s wrong.
+        \u00a0</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
+        true, "isFlagged": false, "forum": "wiredscience", "parent": 648067210, "author":
+        {"username": "kilauea", "about": " ", "name": "Claude G", "url": "http://volcans.blogs-de-voyage.fr",
+        "joinedAt": "2011-10-11T11:34:52", "rep": 1.3721239999999999, "profileUrl":
+        "http://disqus.com/kilauea/", "emailHash": "4df04f7712b72876280b9df70d9d05c1",
+        "reputation": 1.3721239999999999, "location": "Near Limoges (France)", "isPrimary":
+        true, "isAnonymous": false, "id": "17799561", "avatar": {"small": {"permalink":
+        "http://disqus.com/api/users/avatars/kilauea.jpg", "cache": "https://securecdn.disqus.com/uploads/users/1779/9561/avatar32.jpg?1318334229"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/kilauea.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1779/9561/avatar92.jpg?1318334229",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/kilauea.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1779/9561/avatar92.jpg?1318334229"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "So much of high school is drama, there is actually very little academic \u00a0learning.
-        \u00a0It''s time we become more progressive on how we educate our children.
-        \u00a0\u00a0", "createdAt": "2012-09-06T23:58:28", "id": "642561361", "thread":
-        "833756571", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>So much of high school is drama, there is actually very little
-        academic \u00a0learning. \u00a0It''s time we become more progressive on how
-        we educate our children. \u00a0\u00a0</p>", "isSpam": false, "isHighlighted":
+        "Boris, you have given a very comprehensive description of the events that
+        can be observed when lava enters the ocean, especially on Hawaii Big Island
+        I know quite well. I can add that when the littoral explosions are long enough
+        to build a cone, the activity at the cone may become strombolian. I happened
+        to observe it for several hours in 1996. I''ve got nice pictures of this.
+        It''s a pity we can no longer insert them in the comments.  ", "createdAt":
+        "2012-09-12T21:14:42", "id": "648267365", "thread": "841237739", "numReports":
+        0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>Boris, you have
+        given a very comprehensive description of the events that can be observed
+        when lava enters the ocean, especially on Hawaii Big Island I know quite well.
+        I can add that when the littoral explosions are long enough to build a cone,
+        the activity at the cone may become strombolian. I happened to observe it
+        for several hours in 1996. I''ve got nice pictures of this. It''s a pity we
+        can no longer insert them in the comments.  </p>", "isSpam": false, "isHighlighted":
         false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "seoulbeats", "parent": null, "author": {"username": "severely", "about":
-        "", "name": "severely", "url": "", "joinedAt": "2012-02-01T01:05:31", "rep":
-        1.4425699999999999, "profileUrl": "http://disqus.com/severely/", "emailHash":
-        "50a123396ead318fca0361e4bd91206c", "reputation": 1.4425699999999999, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "21803373", "avatar": {"small":
-        {"permalink": "https://securecdn.disqus.com/uploads/forums/97/269/avatar32.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/97/269/avatar32.jpg?1281549414"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/97/269/avatar92.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/97/269/avatar92.jpg?1281549414"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/97/269/avatar92.jpg?1281549414",
-        "cache": "https://securecdn.disqus.com/uploads/forums/97/269/avatar92.jpg?1281549414"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "I loved M-tiful''s June release \"All Right.\" He needs to release more music.
-        It''s killing me to only get one single from him only every now and again.",
-        "createdAt": "2012-09-06T23:58:28", "id": "642561360", "thread": "833296626",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>I
-        loved M-tiful''s June release \"All Right.\" He needs to release more music.
-        It''s killing me to only get one single from him only every now and again.</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "jaidefinichon", "parent": 642556092, "author":
-        {"username": "PseudoFacho", "about": "", "name": "PseudoFacho", "url": "",
-        "joinedAt": "2012-02-07T04:19:50", "rep": 3.4525059999999996, "profileUrl":
-        "http://disqus.com/PseudoFacho/", "emailHash": "b48a328be0bfe3ac8fef1e800068b666",
-        "reputation": 3.4525059999999996, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "22072706", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/PseudoFacho.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2207/2706/avatar32.jpg?1332728521"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/PseudoFacho.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2207/2706/avatar92.jpg?1332728521",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/PseudoFacho.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2207/2706/avatar92.jpg?1332728521"}}},
-        "media": [{"forum": "jaidefinichon", "thread": "833706581", "location": "http://mediacdn.disqus.com/uploads/mediaembed/images/338/6683/original.jpg",
-        "post": "642561359", "thumbnailURL": "http://media.disqus.com/uploads//mediaembed/images/338/6683/cached75.jpg",
-        "type": "5", "metadata": {"create_method": "preview", "thumbnail": "/mediaembed/images/338/6683/cached75.jpg"}}],
-        "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message": "te
-        tengo tan picao que me respondes hasta los comentarios de arriba XDDDDD\n\npd:
-        llore!", "createdAt": "2012-09-06T23:58:28", "id": "642561359", "thread":
-        "833706581", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>te tengo tan picao que me respondes hasta los comentarios de
-        arriba XDDDDD</p>\n\n<p>pd: llore!</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "telegraphuk", "parent": 642441975, "author": {"username": "douglas_jardine",
-        "about": "", "name": "douglas_jardine", "url": "", "joinedAt": "2012-02-08T04:16:25",
-        "rep": 1.5345309999999999, "profileUrl": "http://disqus.com/douglas_jardine/",
-        "emailHash": "19c76cdbfce85404c476ae7bac4ee452", "reputation": 1.5345309999999999,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "22121883",
-        "avatar": {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=19c76cdbfce85404c476ae7bac4ee452",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=19c76cdbfce85404c476ae7bac4ee452"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=19c76cdbfce85404c476ae7bac4ee452",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=19c76cdbfce85404c476ae7bac4ee452"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=19c76cdbfce85404c476ae7bac4ee452",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=19c76cdbfce85404c476ae7bac4ee452"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "talking of whining, the term \"Brit\" originated in America, where, do to
-        the chronic idiocy of the local population, they do not grasp that someone
-        who lives in Britain is a Briton, because they cannot deal with things that
-        sound roughly the same; it is confusing to them.\nso they shortened one word,
-        Briton, to help them round this problem.\nthen they ordered another hot dog.",
-        "createdAt": "2012-09-06T23:58:28", "id": "642561358", "thread": "831669668",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>talking
-        of whining, the term \"Brit\" originated in America, where, do to the chronic
-        idiocy of the local population, they do not grasp that someone who lives in
-        Britain is a Briton, because they cannot deal with things that sound roughly
-        the same; it is confusing to them.<br>so they shortened one word, Briton,
-        to help them round this problem.<br>then they ordered another hot dog.</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "thedailycaller", "parent": 642256112,
-        "author": {"username": "facebook-100003874947998", "about": "", "name": "Richard
-        Smith", "url": "http://www.facebook.com/profile.php?id=100003874947998", "joinedAt":
-        "2012-07-30T17:41:48", "rep": 1.3969510000000001, "profileUrl": "http://disqus.com/facebook-100003874947998/",
-        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.3969510000000001,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "29811791",
-        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/facebook-100003874947998.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2981/1791/avatar32.jpg?1346455371"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-100003874947998.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2981/1791/avatar92.jpg?1346455371",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-100003874947998.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/2981/1791/avatar92.jpg?1346455371"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "I loved Southwest in the earlier 70''s when I worked out of the Big \"D.\"\u00a0
-        They were an intra- state carrier with stewardesses that were model material.\u00a0
-        Their baggage tickets were orange hearts that said \"Love Airlines,\" and
-        were headquartered/operated out of Love Field in Dallas.\u00a0 Their ticket
-        price (being a Texas airline and non-regulated) were half the price of anyone
-        elses.\u00a0 The gals wore white knee boots, orange hot pants with a white
-        garrison belt\u00a0and white tops and served free Coors beer.\u00a0 The pilots
-        always\u00a0left the cockpit door open\u00a0and often joked about Braniff''s
-        727''s\u00a0and called them jelly beans for all the different colors.\u00a0
-        Soutwest flew 737''s back then.\u00a0 (they only had four of them)\u00a0\u00a0
-        It was a shame they had to move to DFW, they had Love Field to themselves
-        and were never signatory to the DFW commitment.\nDFW was about 40 miles away
-        from Love Field which was on the westside of Dallas in the city limits.",
-        "createdAt": "2012-09-06T23:58:28", "id": "642561357", "thread": "833477349",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>I
-        loved Southwest in the earlier 70''s when I worked out of the Big \"D.\"\u00a0
-        They were an intra- state carrier with stewardesses that were model material.\u00a0
-        Their baggage tickets were orange hearts that said \"Love Airlines,\" and
-        were headquartered/operated out of Love Field in Dallas.\u00a0 Their ticket
-        price (being a Texas airline and non-regulated) were half the price of anyone
-        elses.\u00a0 The gals wore white knee boots, orange hot pants with a white
-        garrison belt\u00a0and white tops and served free Coors beer.\u00a0 The pilots
-        always\u00a0left the cockpit door open\u00a0and often joked about Braniff''s
-        727''s\u00a0and called them jelly beans for all the different colors.\u00a0
-        Soutwest flew 737''s back then.\u00a0 (they only had four of them)\u00a0\u00a0
-        It was a shame they had to move to DFW, they had Love Field to themselves
-        and were never signatory to the DFW commitment.<br>DFW was about 40 miles
-        away from Love Field which was on the westside of Dallas in the city limits.</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "trscoop", "parent": null, "author": {"username":
-        "white531", "about": "", "name": "white531", "url": "", "joinedAt": "2012-02-04T01:28:18",
-        "rep": 1.704752, "profileUrl": "http://disqus.com/white531/", "emailHash":
-        "f5810e445271ef86308a6ff079e8e487", "reputation": 1.704752, "location": "",
-        "isPrimary": true, "isAnonymous": false, "id": "21957239", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f5810e445271ef86308a6ff079e8e487",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=f5810e445271ef86308a6ff079e8e487"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5810e445271ef86308a6ff079e8e487",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5810e445271ef86308a6ff079e8e487"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5810e445271ef86308a6ff079e8e487",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=f5810e445271ef86308a6ff079e8e487"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "I believe it is both entertaining and educational to watch this big celebration
-        in the enemy camp.  Some of these people are really funny.  For the ones who
-        are not funny, it is just very sobering to know how vitriolic their hatred
-        is for us.  Know your enemy folks.  You can be sure they all watched the Republican
-        Convention.", "createdAt": "2012-09-06T23:58:28", "id": "642561356", "thread":
-        "830964620", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
-        "message": "<p>I believe it is both entertaining and educational to watch
-        this big celebration in the enemy camp.  Some of these people are really funny.  For
-        the ones who are not funny, it is just very sobering to know how vitriolic
-        their hatred is for us.  Know your enemy folks.  You can be sure they all
-        watched the Republican Convention.</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "forummovimento5stelle", "parent": 642560448, "author": {"name": "Geronimo",
-        "url": "", "profileUrl": "http://disqus.com/guest/4c0f80e09e4f078ff3dc9154109380b3/",
-        "emailHash": "4c0f80e09e4f078ff3dc9154109380b3", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=4c0f80e09e4f078ff3dc9154109380b3"},
+        "showbizspy", "parent": 648262042, "author": {"name": "jilly", "url": "",
+        "profileUrl": "http://disqus.com/guest/37b3fb5a46f48e37d9df5fb68402ede7/",
+        "emailHash": "37b3fb5a46f48e37d9df5fb68402ede7", "avatar": {"small": {"permalink":
+        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=37b3fb5a46f48e37d9df5fb68402ede7"},
         "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "http://www.beppegrillo.it/listeciviche/liste/lucca/2012/08/cedolino-compensi-attivita-consiliare-giu-lug-2012.html",
-        "createdAt": "2012-09-06T23:58:28", "id": "642561355", "thread": "833809375",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p><a
-        href=\"http://www.beppegrillo.it/listeciviche/liste/lucca/2012/08/cedolino-compensi-attivita-consiliare-giu-lug-2012.html\"
-        rel=\"nofollow\">http://www.beppegrillo.it/list...</a></p>", "isSpam": false,
-        "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "machorrasunidas5", "parent": 642560876, "author": {"name":
-        "SUERTE", "url": "", "profileUrl": "http://disqus.com/guest/0e2a438ce38df1abcd0d9583a1eb83b1/",
-        "emailHash": "0e2a438ce38df1abcd0d9583a1eb83b1", "avatar": {"small": {"permalink":
-        "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=0e2a438ce38df1abcd0d9583a1eb83b1"},
-        "isAnonymous": true}, "media": [], "isDeleted": false, "isApproved": true,
-        "dislikes": 0, "raw_message": "LE LAMIAS LAS PATAS AL PENDEJO ADMN O NO???",
-        "createdAt": "2012-09-06T23:58:27", "id": "642561354", "thread": "833838339",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>LE
-        LAMIAS LAS PATAS AL PENDEJO ADMN O NO???</p>", "isSpam": false, "isHighlighted":
-        false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged": false, "forum":
-        "concafe", "parent": 642507291, "author": {"username": "twitter-202047723",
-        "about": "", "name": "Jes\u00fas Alejandro", "url": "http://twitter.com/jazh29",
-        "joinedAt": "2011-03-10T13:47:18", "rep": 1.247968, "profileUrl": "http://disqus.com/twitter-202047723/",
-        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.247968, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "8000972", "avatar": {"small":
-        {"permalink": "http://disqus.com/api/users/avatars/twitter-202047723.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/800/972/avatar32.jpg?1346346038"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/twitter-202047723.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/800/972/avatar92.jpg?1346346038",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/twitter-202047723.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/800/972/avatar92.jpg?1346346038"}}},
+        "dislikes": 0, "raw_message": "Brad still has feelings for her, I truly believe
+        that.  I think he even appreciates her more now that he''s stuck with bitch,
+        don''t you think?", "createdAt": "2012-09-12T21:14:42", "id": "648267364",
+        "thread": "841036748", "numReports": 0, "likes": 0, "isEdited": false, "points":
+        0, "message": "<p>Brad still has feelings for her, I truly believe that.  I
+        think he even appreciates her more now that he''s stuck with bitch, don''t
+        you think?</p>", "isSpam": false, "isHighlighted": false, "userScore": 0},
+        {"isJuliaFlagged": true, "isFlagged": false, "forum": "mlbam", "parent": 648259728,
+        "author": {"username": "mlbam-2786bbac74e11e8ba98216a6fa5f6c1b", "about":
+        "", "name": "Tony_Rangers", "url": "http://mlb.mlb.com/mlb/community/profile/index.jsp?ipid=39771804",
+        "joinedAt": "2012-05-09T02:21:39", "rep": 1.6821660000000001, "profileUrl":
+        "http://disqus.com/mlbam-2786bbac74e11e8ba98216a6fa5f6c1b/", "emailHash":
+        "82a9f27020f72a6ebf5883ca74fb4764", "reputation": 1.6821660000000001, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "25885208", "avatar": {"small":
+        {"permalink": "http://disqus.com/api/users/avatars/mlbam-2786bbac74e11e8ba98216a6fa5f6c1b.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2588/5208/avatar32.jpg?1347482665"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/mlbam-2786bbac74e11e8ba98216a6fa5f6c1b.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2588/5208/avatar92.jpg?1347482665",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/mlbam-2786bbac74e11e8ba98216a6fa5f6c1b.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/2588/5208/avatar92.jpg?1347482665"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Muy buena pregunta, me pregunto lo mismo, esperemos que no porque es malisimo,
-        incluso peor que el samsung kies.", "createdAt": "2012-09-06T23:58:27", "id":
-        "642561352", "thread": "832480160", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Muy buena pregunta, me pregunto lo mismo,
-        esperemos que no porque es malisimo, incluso peor que el samsung kies.</p>",
+        "A''s will come to Arlington for 4 games very soon. Their pitching is very
+        good in Oakland because of their stadium. In Arlington there will be a lot
+        of fly balls and I don''t think A''s hitters are the once hitting them. \nA''s
+        are leged mainly because of their young and rookie pitchers. There will be
+        a alot of tape on those rookie pitchers by next year and they won''t suprise
+        anybody.", "createdAt": "2012-09-12T21:14:42", "id": "648267359", "thread":
+        "840609882", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>A''s will come to Arlington for 4 games very soon. Their pitching
+        is very good in Oakland because of their stadium. In Arlington there will
+        be a lot of fly balls and I don''t think A''s hitters are the once hitting
+        them. <br>A''s are leged mainly because of their young and rookie pitchers.
+        There will be a alot of tape on those rookie pitchers by next year and they
+        won''t suprise anybody.</p>", "isSpam": false, "isHighlighted": false, "userScore":
+        0}, {"isJuliaFlagged": true, "isFlagged": false, "forum": "tv2no", "parent":
+        null, "author": {"username": "facebook-1683333082", "about": "", "name": "Carsten
+        Philip Vedvik", "url": "http://www.facebook.com/Carsten.Philip.Vedvik", "joinedAt":
+        "2010-10-21T12:39:53", "rep": 1.2491669999999999, "profileUrl": "http://disqus.com/facebook-1683333082/",
+        "emailHash": "d41d8cd98f00b204e9800998ecf8427e", "reputation": 1.2491669999999999,
+        "location": "", "isPrimary": true, "isAnonymous": false, "id": "4932461",
+        "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/facebook-1683333082.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/493/2461/avatar32.jpg?1347484384"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/facebook-1683333082.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/493/2461/avatar92.jpg?1347484384",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/facebook-1683333082.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/493/2461/avatar92.jpg?1347484384"}}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "Marcus er et beist! Wow! En mann for Norge.", "createdAt": "2012-09-12T21:14:42",
+        "id": "648267358", "thread": "710935279", "numReports": 0, "likes": 0, "isEdited":
+        false, "points": 0, "message": "<p>Marcus er et beist! Wow! En mann for Norge.</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged":
-        true, "isFlagged": false, "forum": "thedailycaller", "parent": null, "author":
-        {"username": "Pucker", "about": "", "name": "Pucker", "url": "", "joinedAt":
-        "2009-05-16T13:24:08", "rep": 1.4437450000000001, "profileUrl": "http://disqus.com/Pucker/",
-        "emailHash": "11cb30b92adb5a4c99d12f6f6dc976de", "reputation": 1.4437450000000001,
-        "location": "", "isPrimary": true, "isAnonymous": false, "id": "328804", "avatar":
-        {"small": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1346962668%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=11cb30b92adb5a4c99d12f6f6dc976de"}},
+        true, "isFlagged": false, "forum": "allkpop", "parent": null, "author": {"username":
+        "6th-2c99ff6dcac314f12f172d891726bd6d", "about": "", "name": "sujuwhosthat",
+        "url": "", "joinedAt": "2011-09-17T21:17:27", "rep": 1.7602739999999999, "profileUrl":
+        "http://disqus.com/6th-2c99ff6dcac314f12f172d891726bd6d/", "emailHash": "4d5374d9edf38e92af955f273811b0f5",
+        "reputation": 1.7602739999999999, "location": "", "isPrimary": true, "isAnonymous":
+        false, "id": "16904241", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/6th-2c99ff6dcac314f12f172d891726bd6d.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1690/4241/avatar32.jpg?1347484176"},
+        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/6th-2c99ff6dcac314f12f172d891726bd6d.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1690/4241/avatar92.jpg?1347484176",
+        "large": {"permalink": "http://disqus.com/api/users/avatars/6th-2c99ff6dcac314f12f172d891726bd6d.jpg",
+        "cache": "https://securecdn.disqus.com/uploads/users/1690/4241/avatar92.jpg?1347484176"}}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "This is mostly a poor reflection on brain dead, rabbit hole, right wing media
-        than anything else.\u00a0\u00a0\u00a0 When you rely on echo chambers, this
-        hateful speech gets rewarded....and is made acceptable.\u00a0\u00a0 So, these
-        angry, mad and sadly pathetic words are all the people can say.\u00a0 \n\nDiscussion,
-        debate, and discourse have gone out the window in the Republican party ---
-        it is in lockstep and taking the country right over the edge with it.\u00a0\u00a0
-        The moderates are all but gone.\u00a0\u00a0\u00a0 The party''s only voice
-        is Rush Limbaugh.....a smacked out druggie who spends all day talking to himself.\n\nAnother
-        factor is just plain old intelligence.\u00a0\u00a0 Studies show that Republicans
-        generally have less education, and markedly lower intelligence levels -- when
-        compared across the same economic classes. \u00a0 Others have shown they have
-        less empathy - a reflection of basic moral values, etc.\u00a0 \u00a0\u00a0
-        So....they just aren''t articulate enough to come up with anything more than
-        ''buffoon'', etc, in many cases.\u00a0\u00a0 That''s why the base, when polled,
-        is more prone to show off its ignorance.\n\nDon''t get me wrong -- all sides
-        have bad apples, but there are good reasons why hate/anger/vile is so common
-        in the Republican base of supporters.", "createdAt": "2012-09-06T23:58:27",
-        "id": "642561351", "thread": "832804204", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>This is mostly a poor reflection on brain
-        dead, rabbit hole, right wing media than anything else.\u00a0\u00a0\u00a0
-        When you rely on echo chambers, this hateful speech gets rewarded....and is
-        made acceptable.\u00a0\u00a0 So, these angry, mad and sadly pathetic words
-        are all the people can say.\u00a0 </p>\n\n<p>Discussion, debate, and discourse
-        have gone out the window in the Republican party --- it is in lockstep and
-        taking the country right over the edge with it.\u00a0\u00a0 The moderates
-        are all but gone.\u00a0\u00a0\u00a0 The party''s only voice is Rush Limbaugh.....a
-        smacked out druggie who spends all day talking to himself.</p>\n\n<p>Another
-        factor is just plain old intelligence.\u00a0\u00a0 Studies show that Republicans
-        generally have less education, and markedly lower intelligence levels -- when
-        compared across the same economic classes. \u00a0 Others have shown they have
-        less empathy - a reflection of basic moral values, etc.\u00a0 \u00a0\u00a0
-        So....they just aren''t articulate enough to come up with anything more than
-        ''buffoon'', etc, in many cases.\u00a0\u00a0 That''s why the base, when polled,
-        is more prone to show off its ignorance.</p>\n\n<p>Don''t get me wrong --
-        all sides have bad apples, but there are good reasons why hate/anger/vile
-        is so common in the Republican base of supporters.</p>", "isSpam": false,
-        "isHighlighted": false, "userScore": 0}, {"isJuliaFlagged": true, "isFlagged":
-        false, "forum": "worldstar", "parent": null, "author": {"username": "HesuntonAdjjriane",
-        "about": "Click the link and enter your email for your chance at $1000!",
-        "name": "Win $1000!", "url": "http://ow.ly/dwDZN", "joinedAt": "2012-08-24T21:44:09",
-        "rep": -25.299907999999999, "profileUrl": "http://disqus.com/HesuntonAdjjriane/",
-        "emailHash": "d7a27341c6a4d45dc08e44bfdcc5fc80", "reputation": -25.299907999999999,
-        "location": "<<< click to enter the contest!", "isPrimary": true, "isAnonymous":
-        false, "id": "31098611", "avatar": {"small": {"permalink": "http://disqus.com/api/users/avatars/HesuntonAdjjriane.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3109/8611/avatar32.jpg?1345846341"},
-        "isCustom": false, "permalink": "http://disqus.com/api/users/avatars/HesuntonAdjjriane.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3109/8611/avatar92.jpg?1345846341",
-        "large": {"permalink": "http://disqus.com/api/users/avatars/HesuntonAdjjriane.jpg",
-        "cache": "https://securecdn.disqus.com/uploads/users/3109/8611/avatar92.jpg?1345846341"}}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "Hit the cash and enter your email to win $1000!", "createdAt": "2012-09-06T23:58:27",
-        "id": "642561350", "thread": "832719471", "numReports": 0, "likes": 0, "isEdited":
-        false, "points": 0, "message": "<p>Hit the cash and enter your email to win
-        $1000!</p>", "isSpam": false, "isHighlighted": false, "userScore": 0}]}'
+        "hearing him sing Love again always brings tears to my eyes. Kyuhyun SUJU
+        wouldnt be the same without ur angelic voice. We thank God for letting you
+        come back to us", "createdAt": "2012-09-12T21:14:42", "id": "648267357", "thread":
+        "841531490", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "message": "<p>hearing him sing Love again always brings tears to my eyes.
+        Kyuhyun SUJU wouldnt be the same without ur angelic voice. We thank God for
+        letting you come back to us</p>", "isSpam": false, "isHighlighted": false,
+        "userScore": 0}]}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 23:58:42 GMT
+  recorded_at: Wed, 12 Sep 2012 21:15:15 GMT
 recorded_with: VCR 2.2.4

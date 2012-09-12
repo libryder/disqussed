@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: message=&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
+      string: message=&api_secret=<SECRET_KEY>&remote_auth=e30%3D%20f819fed4262b792a959dc604591243642d7f1a70%201347483484
     headers: {}
   response:
     status:
@@ -13,27 +13,22 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Thu, 06 Sep 2012 23:58:38 GMT
+      - Wed, 12 Sep 2012 20:58:05 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
-      x-user:
-      - loginas:None:31698126
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
-      set-cookie:
-      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
-        Domain=.disqus.com; Max-Age=2592000; Path=/
-      content-length:
-      - '63'
       connection:
       - close
+      transfer-encoding:
+      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
       string: ! '{"code": 2, "response": "Missing required argument: ''message''"}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 23:58:38 GMT
+  recorded_at: Wed, 12 Sep 2012 20:58:05 GMT
 recorded_with: VCR 2.2.4

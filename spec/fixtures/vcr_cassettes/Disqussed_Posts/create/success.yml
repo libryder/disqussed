@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=stipple&title=1346975920.0050108&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
+      string: forum=stipple-development&title=1347483486.323545&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -13,17 +13,17 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 23:58:40 GMT
+      - Wed, 12 Sep 2012 20:58:06 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
       x-user:
-      - loginas:None:31698126
+      - loginas:None:24478449
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
       set-cookie:
-      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+      - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347396968/images/noavatar32.png|1";
         Domain=.disqus.com; Max-Age=2592000; Path=/
       connection:
       - close
@@ -33,20 +33,20 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://stipple.disqus.com/13469759200050108/latest.rss",
-        "reactions": 0, "author": "31698126", "forum": "stipple", "title": "1346975920.0050108",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-06T23:58:40",
-        "slug": "13469759200050108", "isClosed": false, "posts": 0, "userSubscription":
-        false, "link": null, "likes": 0, "message": "", "category": "1642062", "id":
-        "833853676", "isDeleted": false}}'
+      string: ! '{"code": 0, "response": {"feed": "http://stipple-development.disqus.com/1347483486323545/latest.rss",
+        "reactions": 0, "author": "24478449", "forum": "stipple-development", "title":
+        "1347483486.323545", "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt":
+        "2012-09-12T20:58:06", "slug": "1347483486323545", "isClosed": false, "posts":
+        0, "userSubscription": false, "link": null, "likes": 0, "message": "", "category":
+        "1748258", "ipAddress": "208.80.69.2", "id": "841673101", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 23:58:40 GMT
+  recorded_at: Wed, 12 Sep 2012 20:58:06 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=833853676&message=test&api_key=<API_KEY>&access_token=<ACCESS_TOKEN>
+      string: thread=841673101&message=test&api_secret=<SECRET_KEY>&remote_auth=eyJ1c2VybmFtZSI6IlRlc3RlciIsImlkIjoiMSIsImVtYWlsIjoickByLmNvbSJ9%204cd1f526cd30d8d80541bb78f33a6093c45c751e%201347483486
     headers: {}
   response:
     status:
@@ -54,17 +54,17 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Thu, 06 Sep 2012 23:58:41 GMT
+      - Wed, 12 Sep 2012 20:58:07 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
       x-user:
-      - loginas:None:31698126
+      - loginas:None:32045129
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
       set-cookie:
-      - disqusauth="1|mcarey_stipple|0|1|0||31698126|http%3A//mediacdn.disqus.com/1346962668/images/noavatar32.png|1";
+      - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347396968/images/noavatar32.png|0";
         Domain=.disqus.com; Max-Age=2592000; Path=/
       connection:
       - close
@@ -75,21 +75,22 @@ http_interactions:
     body:
       encoding: US-ASCII
       string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
-        "forum": "stipple", "parent": null, "author": {"username": "mcarey_stipple",
-        "about": "", "name": "mcarey_stipple", "url": "", "joinedAt": "2012-09-06T00:11:31",
-        "rep": 1.238397, "isFollowing": false, "isFollowedBy": false, "profileUrl":
-        "http://disqus.com/mcarey_stipple/", "emailHash": "30e6e7a8c7576776e10714f85dbb4aa9",
-        "reputation": 1.238397, "location": "", "isPrimary": true, "isAnonymous":
-        false, "id": "31698126", "avatar": {"small": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar32.jpg?1344752308"},
-        "large": {"permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"},
-        "permalink": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308",
-        "cache": "https://securecdn.disqus.com/uploads/forums/161/1830/avatar92.jpg?1344752308"}},
+        "forum": "stipple-development", "parent": null, "author": {"username": "stipple-c4ca4238a0b923820dcc509a6f75849b",
+        "about": "", "name": "Tester", "url": "", "joinedAt": "2012-09-12T18:08:50",
+        "rep": 1.2597989999999999, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "http://disqus.com/stipple-c4ca4238a0b923820dcc509a6f75849b/", "emailHash":
+        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.2597989999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
+        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347396968%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test", "createdAt": "2012-09-06T23:58:41", "id": "642561479", "thread": "833853676",
+        "test", "createdAt": "2012-09-12T20:58:07", "id": "648249959", "thread": "841673101",
         "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
         "isSpam": false, "isHighlighted": false, "userScore": 0}}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 23:58:41 GMT
+  recorded_at: Wed, 12 Sep 2012 20:58:08 GMT
 recorded_with: VCR 2.2.4

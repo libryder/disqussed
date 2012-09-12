@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=808&message=no%20privileges&api_key=<API_KEY>
+      string: thread=808&message=no%20privileges&api_secret=<SECRET_KEY>&remote_auth=e30%3D%2062606b8c78008747832424d01f9e00daac11199c%201347483485
     headers: {}
   response:
     status:
@@ -13,23 +13,23 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Thu, 06 Sep 2012 23:59:39 GMT
+      - Wed, 12 Sep 2012 20:58:05 GMT
       server:
       - Apache
       vary:
       - Cookie,Accept-Encoding
       p3p:
       - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      content-length:
+      - '97'
       connection:
       - close
-      transfer-encoding:
-      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 12, "response": "This application cannot create posts on
-        the chosen forum"}'
+      string: ! '{"code": 2, "response": "You must authenticate the user or provide
+        author_name and author_email"}'
     http_version: '1.1'
-  recorded_at: Thu, 06 Sep 2012 23:59:39 GMT
+  recorded_at: Wed, 12 Sep 2012 20:58:05 GMT
 recorded_with: VCR 2.2.4
