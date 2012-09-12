@@ -1,6 +1,6 @@
 module Disqussed
   class Posts
-    @@endpoint = 'posts'
+    ENDPOINT = 'posts'
 
     class << self
       def create(message = nil, opts = {}, user = {})
@@ -8,7 +8,7 @@ module Disqussed
 
         opts.slice(:api_key, :access_token, :thread, :author_email, :author_name, :message)
 
-        Disqussed::Api.request('post', @@endpoint, 'create', opts, false, user)
+        Disqussed::Api.request('post', ENDPOINT, 'create', opts, false, user)
       end
 
       def list(opts = {})
@@ -16,7 +16,7 @@ module Disqussed
           :related, :limit, :offset, :include, :order
         )
 
-        Disqussed::Api.request('get', @@endpoint, 'list', opts, false)
+        Disqussed::Api.request('get', ENDPOINT, 'list', opts, false)
       end
     end
   end

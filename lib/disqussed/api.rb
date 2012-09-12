@@ -1,12 +1,10 @@
 require 'httparty'
-#require 'openssl'
-#require 'base64'
 require 'digest/sha1'
 
 module Disqussed
   class Api
-    @@root = 'https://disqus.com/api'
-    @@api_version = '3.0'
+    ROOT = 'https://disqus.com/api'
+    API_VERSION = '3.0'
 
     class << self
       def request(method, endpoint, action, opts = {}, authenticate_as_self = false, user = {})
@@ -30,9 +28,9 @@ module Disqussed
         end
 
         if method === "post"
-          HTTParty.post([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :body => opts })
+          HTTParty.post([ROOT, API_VERSION, endpoint ,action + '.json?'].join('/'), { :body => opts })
         elsif method === "get"
-          HTTParty.get([@@root, @@api_version, endpoint ,action + '.json?'].join('/'), { :query => opts })
+          HTTParty.get([ROOT, API_VERSION, endpoint ,action + '.json?'].join('/'), { :query => opts })
         end
       end
 

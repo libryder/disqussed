@@ -8,11 +8,13 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Disqus V3 API Wrapper}
   gem.homepage      = ""
 
-  gem.add_development_dependency "httparty"
+  gem.add_dependency "httparty"
+  gem.add_dependency "multi_json"
+  gem.add_dependency "active_support"
+
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "vcr"
   gem.add_development_dependency "fakeweb"
-  gem.add_development_dependency "multi_json"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
