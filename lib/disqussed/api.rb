@@ -19,7 +19,7 @@ module Disqussed
             opts[:access_token] ||= Disqussed::defaults[:access_token]
           end
         elsif Disqussed::defaults[:sso]
-          user.slice(:id, :username, :email, :avatar, :url)
+          user.slice!(:id, :username, :email, :avatar, :url)
 
           opts.delete :api_key
           opts[:api_secret] = Disqussed::defaults[:secret_key]

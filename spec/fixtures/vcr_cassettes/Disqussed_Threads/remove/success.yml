@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=<FORUM_NAME>&title=1347489048.943722&api_secret=<SECRET_KEY>
+      string: forum=<FORUM_NAME>&title=1347495664.131862&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:49 GMT
+      - Thu, 13 Sep 2012 00:21:04 GMT
       server:
       - Apache
       vary:
@@ -33,20 +33,20 @@ http_interactions:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/1347489048943722/latest.rss",
-        "reactions": 0, "author": "24478449", "forum": "<FORUM_NAME>", "title": "1347489048.943722",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-12T22:30:49",
-        "slug": "1347489048943722", "isClosed": false, "posts": 0, "userSubscription":
+      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/1347495664131862/latest.rss",
+        "reactions": 0, "author": "24478449", "forum": "<FORUM_NAME>", "title": "1347495664.131862",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-13T00:21:04",
+        "slug": "1347495664131862", "isClosed": false, "posts": 0, "userSubscription":
         false, "link": null, "likes": 0, "message": "", "category": "1748258", "ipAddress":
-        "208.80.69.2", "id": "841751166", "isDeleted": false}}'
+        "208.80.69.2", "id": "841827017", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:49 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:04 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/threads/remove.json?
     body:
       encoding: US-ASCII
-      string: thread=841751166&api_secret=<SECRET_KEY>
+      string: thread=841827017&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -54,7 +54,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:49 GMT
+      - Thu, 13 Sep 2012 00:21:05 GMT
       server:
       - Apache
       vary:
@@ -66,15 +66,15 @@ http_interactions:
       set-cookie:
       - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|1";
         Domain=.disqus.com; Max-Age=2592000; Path=/
+      content-length:
+      - '27'
       connection:
       - close
-      transfer-encoding:
-      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
       string: ! '{"code": 0, "response": []}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:50 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:05 GMT
 recorded_with: VCR 2.2.4

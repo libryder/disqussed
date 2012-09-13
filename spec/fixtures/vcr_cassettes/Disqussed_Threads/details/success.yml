@@ -5,7 +5,7 @@ http_interactions:
     uri: https://disqus.com/api/3.0/threads/create.json?
     body:
       encoding: US-ASCII
-      string: forum=<FORUM_NAME>&title=1347489050.0055401&api_secret=<SECRET_KEY>
+      string: forum=<FORUM_NAME>&title=1347495665.155689&api_secret=<SECRET_KEY>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:50 GMT
+      - Thu, 13 Sep 2012 00:21:05 GMT
       server:
       - Apache
       vary:
@@ -25,28 +25,28 @@ http_interactions:
       set-cookie:
       - disqusauth="1|Stipple|0|1|0||24478449|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|1";
         Domain=.disqus.com; Max-Age=2592000; Path=/
+      content-length:
+      - '505'
       connection:
       - close
-      transfer-encoding:
-      - chunked
       content-type:
       - application/json
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/13474890500055401/latest.rss",
-        "reactions": 0, "author": "24478449", "forum": "<FORUM_NAME>", "title": "1347489050.0055401",
-        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-12T22:30:50",
-        "slug": "13474890500055401", "isClosed": false, "posts": 0, "userSubscription":
+      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/1347495665155689/latest.rss",
+        "reactions": 0, "author": "24478449", "forum": "<FORUM_NAME>", "title": "1347495665.155689",
+        "userScore": 0, "identifiers": [], "dislikes": 0, "createdAt": "2012-09-13T00:21:05",
+        "slug": "1347495665155689", "isClosed": false, "posts": 0, "userSubscription":
         false, "link": null, "likes": 0, "message": "", "category": "1748258", "ipAddress":
-        "208.80.69.2", "id": "841751180", "isDeleted": false}}'
+        "208.80.69.2", "id": "841827030", "isDeleted": false}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:50 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:05 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=841751180&message=test&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
+      string: thread=841827030&message=test&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
     headers: {}
   response:
     status:
@@ -54,7 +54,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:51 GMT
+      - Thu, 13 Sep 2012 00:21:06 GMT
       server:
       - Apache
       vary:
@@ -67,7 +67,7 @@ http_interactions:
       - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|0";
         Domain=.disqus.com; Max-Age=2592000; Path=/
       content-length:
-      - '1986'
+      - '2008'
       connection:
       - close
       content-type:
@@ -77,9 +77,61 @@ http_interactions:
       string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
         "forum": "<FORUM_NAME>", "parent": null, "author": {"username": "stipple-c4ca4238a0b923820dcc509a6f75849b",
         "about": "", "name": "Tester", "url": "", "joinedAt": "2012-09-12T18:08:50",
-        "rep": 1.26681, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "rep": 1.2701309999999999, "isFollowing": false, "isFollowedBy": false, "profileUrl":
         "http://disqus.com/stipple-c4ca4238a0b923820dcc509a6f75849b/", "emailHash":
-        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.26681, "location": "",
+        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.2701309999999999, "location":
+        "", "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
+        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
+        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
+        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
+        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"}},
+        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
+        "test", "createdAt": "2012-09-13T00:21:06", "id": "648452969", "thread": "841827030",
+        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
+        "isSpam": false, "isHighlighted": false, "userScore": 0}}'
+    http_version: '1.1'
+  recorded_at: Thu, 13 Sep 2012 00:21:06 GMT
+- request:
+    method: post
+    uri: https://disqus.com/api/3.0/posts/create.json?
+    body:
+      encoding: US-ASCII
+      string: thread=841827030&message=test1&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 13 Sep 2012 00:21:07 GMT
+      server:
+      - Apache
+      vary:
+      - Cookie,Accept-Encoding
+      x-user:
+      - loginas:None:32045129
+      p3p:
+      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
+      set-cookie:
+      - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|0";
+        Domain=.disqus.com; Max-Age=2592000; Path=/
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
+        "forum": "<FORUM_NAME>", "parent": null, "author": {"username": "stipple-c4ca4238a0b923820dcc509a6f75849b",
+        "about": "", "name": "Tester", "url": "", "joinedAt": "2012-09-12T18:08:50",
+        "rep": 1.2705, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "http://disqus.com/stipple-c4ca4238a0b923820dcc509a6f75849b/", "emailHash":
+        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.2705, "location": "",
         "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
         {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f",
         "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
@@ -88,70 +140,18 @@ http_interactions:
         "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
         "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test", "createdAt": "2012-09-12T22:30:51", "id": "648346785", "thread": "841751180",
-        "numReports": 0, "likes": 0, "isEdited": false, "points": 0, "message": "<p>test</p>",
-        "isSpam": false, "isHighlighted": false, "userScore": 0}}'
-    http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:51 GMT
-- request:
-    method: post
-    uri: https://disqus.com/api/3.0/posts/create.json?
-    body:
-      encoding: US-ASCII
-      string: thread=841751180&message=test1&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
-    headers: {}
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      date:
-      - Wed, 12 Sep 2012 22:30:52 GMT
-      server:
-      - Apache
-      vary:
-      - Cookie,Accept-Encoding
-      x-user:
-      - loginas:None:32045129
-      p3p:
-      - CP="DSP IDC CUR ADM DELi STP NAV COM UNI INT PHY DEM"
-      set-cookie:
-      - disqusauth="1|stipple-c4ca4238a0b923820dcc509a6f75849b|0|0|0||32045129|http%3A//mediacdn.disqus.com/1347480546/images/noavatar32.png|0";
-        Domain=.disqus.com; Max-Age=2592000; Path=/
-      connection:
-      - close
-      transfer-encoding:
-      - chunked
-      content-type:
-      - application/json
-    body:
-      encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
-        "forum": "<FORUM_NAME>", "parent": null, "author": {"username": "stipple-c4ca4238a0b923820dcc509a6f75849b",
-        "about": "", "name": "Tester", "url": "", "joinedAt": "2012-09-12T18:08:50",
-        "rep": 1.2671789999999998, "isFollowing": false, "isFollowedBy": false, "profileUrl":
-        "http://disqus.com/stipple-c4ca4238a0b923820dcc509a6f75849b/", "emailHash":
-        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.2671789999999998, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
-        {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
-        "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
-        "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
-        "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"}},
-        "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test1", "createdAt": "2012-09-12T22:30:52", "id": "648346803", "thread":
-        "841751180", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "test1", "createdAt": "2012-09-13T00:21:07", "id": "648452982", "thread":
+        "841827030", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
         "message": "<p>test1</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:52 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:07 GMT
 - request:
     method: post
     uri: https://disqus.com/api/3.0/posts/create.json?
     body:
       encoding: US-ASCII
-      string: thread=841751180&message=test2&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
+      string: thread=841827030&message=test2&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
     headers: {}
   response:
     status:
@@ -159,7 +159,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:53 GMT
+      - Thu, 13 Sep 2012 00:21:08 GMT
       server:
       - Apache
       vary:
@@ -182,10 +182,10 @@ http_interactions:
       string: ! '{"code": 0, "response": {"isJuliaFlagged": true, "isFlagged": false,
         "forum": "<FORUM_NAME>", "parent": null, "author": {"username": "stipple-c4ca4238a0b923820dcc509a6f75849b",
         "about": "", "name": "Tester", "url": "", "joinedAt": "2012-09-12T18:08:50",
-        "rep": 1.2675479999999999, "isFollowing": false, "isFollowedBy": false, "profileUrl":
+        "rep": 1.270869, "isFollowing": false, "isFollowedBy": false, "profileUrl":
         "http://disqus.com/stipple-c4ca4238a0b923820dcc509a6f75849b/", "emailHash":
-        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.2675479999999999, "location":
-        "", "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
+        "604a2592fdc946151a05706ed0d9978f", "reputation": 1.270869, "location": "",
+        "isPrimary": true, "isAnonymous": false, "id": "32045129", "avatar": {"small":
         {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f",
         "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar32.png&size=32&gravatar_id=604a2592fdc946151a05706ed0d9978f"},
         "large": {"permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
@@ -193,15 +193,15 @@ http_interactions:
         "permalink": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f",
         "cache": "http://www.gravatar.com/avatar.php?default=http%3A%2F%2Fmediacdn.disqus.com%2F1347480546%2Fimages%2Fnoavatar92.png&size=92&gravatar_id=604a2592fdc946151a05706ed0d9978f"}},
         "media": [], "isDeleted": false, "isApproved": true, "dislikes": 0, "raw_message":
-        "test2", "createdAt": "2012-09-12T22:30:53", "id": "648346822", "thread":
-        "841751180", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
+        "test2", "createdAt": "2012-09-13T00:21:08", "id": "648452997", "thread":
+        "841827030", "numReports": 0, "likes": 0, "isEdited": false, "points": 0,
         "message": "<p>test2</p>", "isSpam": false, "isHighlighted": false, "userScore":
         0}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:53 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:08 GMT
 - request:
     method: get
-    uri: https://disqus.com/api/3.0/threads/details.json?&thread=841751180&api_secret=<SECRET_KEY>
+    uri: https://disqus.com/api/3.0/threads/details.json?&thread=841827030&api_secret=<SECRET_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -224,9 +224,9 @@ http_interactions:
       transfer-encoding:
       - chunked
       date:
-      - Wed, 12 Sep 2012 22:30:53 GMT
+      - Thu, 13 Sep 2012 00:21:08 GMT
       x-varnish:
-      - '499561574'
+      - '527517901'
       age:
       - '0'
       via:
@@ -235,13 +235,13 @@ http_interactions:
       - close
     body:
       encoding: US-ASCII
-      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/13474890500055401/latest.rss",
+      string: ! '{"code": 0, "response": {"feed": "http://<FORUM_NAME>.disqus.com/1347495665155689/latest.rss",
         "reactions": 0, "canModerate": true, "identifiers": [], "dislikes": 0, "likes":
-        0, "message": "", "id": "841751180", "createdAt": "2012-09-12T22:30:50", "category":
+        0, "message": "", "id": "841827030", "createdAt": "2012-09-13T00:21:05", "category":
         "1748258", "author": "24478449", "userScore": 0, "isDeleted": false, "isClosed":
-        false, "link": null, "slug": "13474890500055401", "forum": "<FORUM_NAME>",
-        "title": "1347489050.0055401", "posts": 3, "userSubscription": false, "canPost":
+        false, "link": null, "slug": "1347495665155689", "forum": "<FORUM_NAME>",
+        "title": "1347495665.155689", "posts": 3, "userSubscription": false, "canPost":
         true, "ipAddress": "208.80.69.2"}}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:53 GMT
+  recorded_at: Thu, 13 Sep 2012 00:21:08 GMT
 recorded_with: VCR 2.2.4

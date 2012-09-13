@@ -4,28 +4,28 @@ module Disqussed
 
     class << self
       def create(forum = nil, title = nil, opts = {})
-        opts['forum'] = forum ? forum : Disqussed::defaults[:forum]
-        opts['title'] = title
+        opts[:forum] = forum ? forum : Disqussed::defaults[:forum]
+        opts[:title] = title
 
-        opts.slice(:api_key, :access_token, :forum, :title)
+        opts.slice!(:api_key, :access_token, :forum, :title)
 
         Disqussed::Api.request('post', ENDPOINT, 'create', opts, true)
       end
 
       def details(thread = nil)
         opts = {}
-        opts['thread'] = thread
+        opts[:thread] = thread
 
-        opts.slice(:api_key, :access_token, :thread)
+        opts.slice!(:api_key, :access_token, :thread)
 
         Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
       end
 
       def post_count(thread = nil)
         opts = {}
-        opts['thread'] = thread
+        opts[:thread] = thread
 
-        opts.slice(:api_key, :access_token, :thread)
+        opts.slice!(:api_key, :access_token, :thread)
 
         details = Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
 
@@ -34,9 +34,9 @@ module Disqussed
 
       def remove(thread = nil)
         opts = {}
-        opts['thread'] = thread
+        opts[:thread] = thread
 
-        opts.slice(:api_key, :access_token, :thread)
+        opts.slice!(:api_key, :access_token, :thread)
 
         Disqussed::Api.request('post', ENDPOINT, 'remove', opts, true)
       end

@@ -13,7 +13,7 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Wed, 12 Sep 2012 22:30:33 GMT
+      - Thu, 13 Sep 2012 00:20:53 GMT
       server:
       - Apache
       vary:
@@ -31,5 +31,5 @@ http_interactions:
       string: ! '{"code": 2, "response": "You must authenticate the user or provide
         author_name and author_email"}'
     http_version: '1.1'
-  recorded_at: Wed, 12 Sep 2012 22:30:34 GMT
+  recorded_at: Thu, 13 Sep 2012 00:20:53 GMT
 recorded_with: VCR 2.2.4
