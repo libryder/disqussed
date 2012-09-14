@@ -10,7 +10,8 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:post)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :body => { :api_key => Disqussed::defaults[:api_key] })
+              :body => { :api_key => Disqussed::defaults[:api_key],
+                         :api_secret => Disqussed::defaults[:secret_key] })
 
       Disqussed::Api.request('post', 'endpoint', 'action')
     end
@@ -19,7 +20,8 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:post)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :body => { :api_key => "google" })
+              :body => { :api_key => "google",
+                         :api_secret => Disqussed::defaults[:secret_key] })
 
       Disqussed::Api.request('post', 'endpoint', 'action', { :api_key => "google" })
     end
@@ -28,7 +30,9 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:post)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :body => { :api_key => Disqussed::defaults[:api_key], :pants => "none" })
+              :body => { :api_key => Disqussed::defaults[:api_key],
+                         :api_secret => Disqussed::defaults[:secret_key],
+                         :pants => "none" })
 
       Disqussed::Api.request('post', 'endpoint', 'action', { :pants => "none" })
     end
@@ -38,6 +42,7 @@ describe Disqussed::Api do
         .should_receive(:post)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :body => { :api_key => Disqussed::defaults[:api_key],
+                         :api_secret => Disqussed::defaults[:secret_key],
                          :access_token => Disqussed::defaults[:access_token] })
 
       Disqussed::Api.request('post', 'endpoint', 'action', {}, true)
@@ -49,7 +54,8 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:get)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :query => { :api_key => Disqussed::defaults[:api_key] })
+              :query => { :api_key => Disqussed::defaults[:api_key],
+                          :api_secret => Disqussed::defaults[:secret_key] })
 
       Disqussed::Api.request('get', 'endpoint', 'action')
     end
@@ -58,7 +64,8 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:get)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :query => { :api_key => "google" })
+              :query => { :api_key => "google",
+                          :api_secret => Disqussed::defaults[:secret_key] })
 
       Disqussed::Api.request('get', 'endpoint', 'action', { :api_key => "google" })
     end
@@ -67,7 +74,9 @@ describe Disqussed::Api do
       HTTParty
         .should_receive(:get)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :query => { :api_key => Disqussed::defaults[:api_key], :pants => "none" })
+              :query => { :api_key => Disqussed::defaults[:api_key],
+                          :api_secret => Disqussed::defaults[:secret_key],
+                          :pants => "none" })
 
       Disqussed::Api.request('get', 'endpoint', 'action', { :pants => "none" })
     end
@@ -77,7 +86,8 @@ describe Disqussed::Api do
         .should_receive(:get)
         .with("https://disqus.com/api/3.0/endpoint/action.json?",
               :query => { :api_key => Disqussed::defaults[:api_key],
-                         :access_token => Disqussed::defaults[:access_token] })
+                          :api_secret => Disqussed::defaults[:secret_key],
+                          :access_token => Disqussed::defaults[:access_token] })
 
       Disqussed::Api.request('get', 'endpoint', 'action', {}, true)
     end
