@@ -17,18 +17,18 @@ VCR.configure do |c|
   #c.filter_sensitive_data('<FORUM_NAME>') { Disqussed::defaults[:forum] }
 
   # For post requests
-  c.filter_sensitive_data('<AUTH_S3>') do |interaction|
-    params = CGI::parse(interaction.request.body)
-
-    CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
-  end
+  #c.filter_sensitive_data('<AUTH_S3>') do |interaction|
+  #  params = CGI::parse(interaction.request.body)
+  #
+  #  CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
+  #end
 
   # For get requests
-  c.filter_sensitive_data('<AUTH_S3>') do |interaction|
-    params = CGI::parse(interaction.request.uri)
-
-    CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
-  end
+  #c.filter_sensitive_data('<AUTH_S3>') do |interaction|
+  #  params = CGI::parse(interaction.request.uri)
+  #
+  #  CGI::escape(params["remote_auth"].first).gsub('+', '%20') unless params["remote_auth"].first.nil?
+  #end
 
   c.allow_http_connections_when_no_cassette = false
 end
