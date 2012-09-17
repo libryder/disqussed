@@ -6,13 +6,13 @@ module Disqussed
       def create(message = nil, opts = {}, user = {})
         opts[:message] = message
 
-        opts.slice!(:api_key, :access_token, :thread, :author_email, :author_name, :message, :forum)
+        opts.slice!(:thread, :author_email, :author_name, :message, :forum)
 
         Disqussed::Api.request('post', ENDPOINT, 'create', opts, false, user)
       end
 
       def list(opts = {})
-        opts.slice!(:api_key, :access_token, :category, :thread, :forum, :since,
+        opts.slice!(:category, :thread, :forum, :since,
           :related, :limit, :offset, :include, :order
         )
 

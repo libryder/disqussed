@@ -8,17 +8,18 @@ module Disqussed
 
     class << self
       def request(method, endpoint, action, opts = {}, authenticate_as_self = false, user = {})
-        opts[:api_key] ||= Disqussed::defaults[:api_key]
+        throw "Missing API Key" if Disqussed::defaults[:api_key].nil?
+
+        opts[:api_key] = Disqussed::defaults[:api_key]
         opts[:api_secret] = Disqussed::defaults[:secret_key]
 
-        throw "Missing API Key" if opts[:api_key].nil?
-
         if authenticate_as_self
-          opts[:access_token] ||= Disqussed::defaults[:access_token]
+          opts[:access_token] = Disqussed::defaults[:access_token]
         elsif Disqussed::defaults[:sso]
+          throw "Missing API Secret" if Disqussed::defaults[:secret_key].nil?
+
           user.slice!(:id, :username, :email, :avatar, :url)
 
-          opts[:api_secret] = Disqussed::defaults[:secret_key]
           opts[:remote_auth] = remote_auth_s3(user)
         end
 

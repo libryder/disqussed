@@ -7,7 +7,7 @@ module Disqussed
         opts[:forum] = forum ? forum : Disqussed::defaults[:forum]
         opts[:title] = title
 
-        opts.slice!(:api_key, :access_token, :forum, :title)
+        opts.slice!(:forum, :title)
 
         Disqussed::Api.request('post', ENDPOINT, 'create', opts, true)
       end
@@ -16,7 +16,7 @@ module Disqussed
         opts = {}
         opts[:thread] = thread
 
-        opts.slice!(:api_key, :access_token, :thread)
+        opts.slice!(:thread)
 
         Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
       end
@@ -25,7 +25,7 @@ module Disqussed
         opts = {}
         opts[:thread] = thread
 
-        opts.slice!(:api_key, :access_token, :thread)
+        opts.slice!(:thread)
 
         details = Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
 
@@ -36,7 +36,7 @@ module Disqussed
         opts = {}
         opts[:thread] = thread
 
-        opts.slice!(:api_key, :access_token, :thread)
+        opts.slice!(:thread)
 
         Disqussed::Api.request('post', ENDPOINT, 'remove', opts, true)
       end

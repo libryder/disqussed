@@ -16,16 +16,6 @@ describe Disqussed::Api do
       Disqussed::Api.request('post', 'endpoint', 'action')
     end
 
-    it "overrides the api_key" do
-      HTTParty
-        .should_receive(:post)
-        .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :body => { :api_key => "google",
-                         :api_secret => Disqussed::defaults[:secret_key] })
-
-      Disqussed::Api.request('post', 'endpoint', 'action', { :api_key => "google" })
-    end
-
     it "passes on options" do
       HTTParty
         .should_receive(:post)
@@ -58,16 +48,6 @@ describe Disqussed::Api do
                           :api_secret => Disqussed::defaults[:secret_key] })
 
       Disqussed::Api.request('get', 'endpoint', 'action')
-    end
-
-    it "overrides the api_key" do
-      HTTParty
-        .should_receive(:get)
-        .with("https://disqus.com/api/3.0/endpoint/action.json?",
-              :query => { :api_key => "google",
-                          :api_secret => Disqussed::defaults[:secret_key] })
-
-      Disqussed::Api.request('get', 'endpoint', 'action', { :api_key => "google" })
     end
 
     it "passes on options" do
@@ -104,7 +84,7 @@ describe Disqussed::Api do
       encoded = "eyJpZCI6MTIzNCwidXNlcm5hbWUiOiJzaGxhcHB5IiwiZW1haWwiOiJ0ZXN0QHN0aXBwbGUtdGVzdC5jb20iLCJhdmF0YXIiOiJsaW5raWZpZWQiLCJ1cmwiOiJmYW5rcyJ9"
       sha1 = "8c36a31c0082948701b89668ef1cef8ca982ea5f"
 
-      Disqussed::Api.remote_auth_s3(data).should == "#{encoded} #{sha1} #{@unix_timestamp}"
+      Disqussed::Api.remote_auth_s3(data).should == "#{encoded} #{sha1} #@unix_timestamp"
     end
   end
 end
