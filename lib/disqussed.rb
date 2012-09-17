@@ -10,8 +10,7 @@ module Disqussed
     :secret_key => "", # only required if sso is set to true
     :forum => "",
     :access_token => "",
-    :sso => false,
-    :developer => false
+    :sso => false
   }
 
   def self.defaults
