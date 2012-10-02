@@ -7,7 +7,7 @@ module Disqussed
         opts[:forum] = forum ? forum : Disqussed::defaults[:forum]
         opts[:title] = title
 
-        opts.slice!(:forum, :title)
+        opts.slice!(:forum, :title, :identifier, :slug)
 
         Disqussed::Api.request('post', ENDPOINT, 'create', opts, true)
       end
@@ -18,6 +18,15 @@ module Disqussed
 
         opts.slice!(:thread)
 
+        Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
+      end
+
+      def get_thread_id_by_ident(identifier, opts = {})
+        opts[:forum] = opts[:forum] ? opts[:forum] : Disqussed::defaults[:forum]
+
+        opts.slice!(:forum)
+
+        opts["thread:ident"] = identifier
         Disqussed::Api.request('get', ENDPOINT, 'details', opts, true)
       end
 
@@ -40,6 +49,16 @@ module Disqussed
 
         Disqussed::Api.request('post', ENDPOINT, 'remove', opts, true)
       end
+
+      def remove_thread_by_ident(identifier, opts = {})
+        opts[:forum] = opts[:forum] ? opts[:forum] : Disqussed::defaults[:forum]
+
+        opts.slice!(:forum)
+
+        opts["thread:ident"] = identifier
+        Disqussed::Api.request('post', ENDPOINT, 'remove', opts, true)
+      end
+
     end
   end
 end

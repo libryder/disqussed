@@ -4,7 +4,8 @@ describe Disqussed::Threads do
   before :each do
     Disqussed::defaults[:sso] = true
 
-    @user = { :username => "Tester", :id => "1", :email => "r@r.com" }
+    @user = { :username => "Tester", :id => "1", :email => "test_account1@stipple.com" }
+    @user2 = { :username => "Tester 2", :id => "2", :email => "test_account2@stipple.com" }
   end
 
   describe "create" do
@@ -31,9 +32,7 @@ describe Disqussed::Threads do
 
       before :each do
         @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f)
-        Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
-        Disqussed::Posts.create("test1", { :thread => @thread['response']['id'] }, @user)
-        Disqussed::Posts.create("test2", { :thread => @thread['response']['id'] }, @user)
+        Disqussed::Posts.create("test1", { :thread => @thread['response']['id'] }, @user2)
 
         @details = Disqussed::Threads.details(@thread['response']['id'])
       end
@@ -43,10 +42,36 @@ describe Disqussed::Threads do
       end
 
       it "returns a count of the posts" do
-        @details["response"]["posts"].should == 3
+        @details["response"]["posts"].should == 1
       end
     end
   end
+
+  #describe "get_thread_id_by_ident" do
+  #  context "success"do
+  #    use_vcr_cassette
+  #
+  #    before :each do
+  #      @ident = SecureRandom.hex(10)
+  #
+  #      @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f, {:identifier => @ident })
+  #
+  #      @id = Disqussed::Threads.get_thread_id_by_ident(@ident)
+  #    end
+  #
+  #    after :each do
+  #      @thread = Disqussed::Threads.remove_thread_by_ident(@ident)
+  #    end
+  #
+  #    it "returns with a 200 HTTP Status code" do
+  #      @id.code.should == 200
+  #    end
+  #
+  #    it "returns the id" do
+  #      @id["response"]["id"].should == @thread["response"]["id"]
+  #    end
+  #  end
+  #end
 
   describe "post_count" do
     context "success" do
@@ -55,14 +80,12 @@ describe Disqussed::Threads do
       before :each do
         @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f)
         Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
-        Disqussed::Posts.create("test1", { :thread => @thread['response']['id'] }, @user)
-        Disqussed::Posts.create("test2", { :thread => @thread['response']['id'] }, @user)
-        Disqussed::Posts.create("test3", { :thread => @thread['response']['id'] }, @user)
       end
 
       it "returns a count of the posts" do
         @count = Disqussed::Threads.post_count(@thread['response']['id'])
-        @count.should == 4
+
+        @count.should == 1
       end
     end
   end
@@ -82,4 +105,19 @@ describe Disqussed::Threads do
     end
   end
 
+  #describe "remove_thread_by_ident" do
+  #  context "success"do
+  #    use_vcr_cassette
+  #
+  #    before :each do
+  #      ident = "Test-Photo"
+  #      @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f, {:identifier => ident })
+  #      @thread = Disqussed::Threads.remove_thread_by_ident(ident)
+  #    end
+  #
+  #    it "returns with a 200 HTTP Status code" do
+  #      @thread.code.should == 200
+  #    end
+  #  end
+  #end
 end

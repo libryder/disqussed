@@ -2,10 +2,10 @@
 http_interactions:
 - request:
     method: post
-    uri: https://disqus.com/api/3.0/posts/create.json?
+    uri: https://disqus.com/api/3.0/posts/create.json
     body:
       encoding: US-ASCII
-      string: thread=808&message=no%20privileges&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
+      string: thread=808&message=no%20privileges&api_key=<API_KEY>&api_secret=<SECRET_KEY>&remote_auth=<AUTH_S3>
     headers: {}
   response:
     status:
@@ -13,7 +13,7 @@ http_interactions:
       message: BAD REQUEST
     headers:
       date:
-      - Thu, 13 Sep 2012 00:20:53 GMT
+      - Tue, 02 Oct 2012 22:22:22 GMT
       server:
       - Apache
       vary:
@@ -31,5 +31,5 @@ http_interactions:
       string: ! '{"code": 2, "response": "You must authenticate the user or provide
         author_name and author_email"}'
     http_version: '1.1'
-  recorded_at: Thu, 13 Sep 2012 00:20:53 GMT
-recorded_with: VCR 2.2.4
+  recorded_at: Tue, 02 Oct 2012 22:22:22 GMT
+recorded_with: VCR 2.2.5

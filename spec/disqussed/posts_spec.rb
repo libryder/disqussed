@@ -4,7 +4,8 @@ describe Disqussed::Posts do
   before :each do
     Disqussed::defaults[:sso] = true
 
-    @user = { :username => "Tester", :id => "1", :email => "r@r.com" }
+    @user = { :username => "Tester", :id => "1", :email => "test_account1@stipple.com" }
+    @user2 = { :username => "Tester 2", :id => "2", :email => "test_account2@stipple.com" }
   end
 
   describe "create" do
@@ -63,7 +64,7 @@ describe Disqussed::Posts do
 
       before :each do
         @thread = Disqussed::Threads.create(nil, Time.now.to_f)
-        @resp = Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
+        @resp = Disqussed::Posts.create(SecureRandom.hex(10), { :thread => @thread['response']['id'] }, @user)
       end
 
       it "returns with a 200 HTTP Status code" do
@@ -96,7 +97,7 @@ describe Disqussed::Posts do
         before :each do
           @thread = Disqussed::Threads.create(Disqussed::defaults[:forum], Time.now.to_f)
           Disqussed::Posts.create("test", { :thread => @thread['response']['id'] }, @user)
-          Disqussed::Posts.create("test 2", { :thread => @thread['response']['id'] }, @user)
+          Disqussed::Posts.create("test 2", { :thread => @thread['response']['id'] }, @user2)
           @resp = Disqussed::Posts.list({:forum => Disqussed::defaults[:forum], :thread => @thread['response']['id']})
         end
 

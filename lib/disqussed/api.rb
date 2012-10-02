@@ -24,15 +24,15 @@ module Disqussed
         end
 
         if method === "post"
-          HTTParty.post([ROOT, API_VERSION, endpoint ,action + '.json?'].join('/'), { :body => opts })
+          HTTParty.post([ROOT, API_VERSION, endpoint, action + '.json'].join('/'), { :body => opts })
         elsif method === "get"
-          HTTParty.get([ROOT, API_VERSION, endpoint ,action + '.json?'].join('/'), { :query => opts })
+          HTTParty.get([ROOT, API_VERSION, endpoint, action + '.json'].join('/'), { :query => opts })
         end
       end
 
       def remote_auth_s3(data)
         digest = OpenSSL::Digest::Digest.new('sha1')
-        data = Base64.strict_encode64(MultiJson.dump(data))
+        data = Base64.urlsafe_encode64(MultiJson.dump(data))
         timestamp = Time.now.to_i
 
         sha1 = OpenSSL::HMAC.hexdigest(digest, Disqussed::defaults[:secret_key], "#{data} #{timestamp}")
