@@ -1,4 +1,4 @@
-# Disqussed
+# Disqussed - NO LONGER MAINTAINED
 
 A simple wrapper around the Disqus V3 API.
 
